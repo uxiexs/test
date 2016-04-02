@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>button(普通按钮)</title>
+</head>
+<script type="text/javascript">
+    function mess(){
+        var d = new Date();
+        var t = d.getFullYear()+'年'+ (d.getMonth()+1)+'月'+ d.getDate()+'日'+ d.getHours()+'时'+ d.getMinutes()+'分'+d.getSeconds()+'秒';
+        var mess = '现在时间是：';
+        alert(mess+t);
+    }
+</script>
+<body>
+<form action="go.php" name="my_form" method="post">
+    <input type="button" name="normal" id="normal" value="点击这里" onclick="mess()"/>
+</form>
+</body>
+</html>

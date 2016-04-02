@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post与get</title>
+</head>
+<body>
+<form action="go.php" name="my_form" method="post"></form>
+<form action="go.php" name="my_form" method="get"></form>
+<ul>
+    <li><em>表单按提交方式的不同，可以有post和get两种</em></li>
+    <li><em>用get方法提交的表单，提交的数据被附加到URL上，作为URL的一部分发送到服务器端。这种方式类似于采用URL方式实现互动
+            而post方式则是将表单中的信息作为一个数据块发送到服务器端，这种方式不依赖于URL。</em></li>
+    <li><em>在实际应用时，两者的区别也是很明显的。由于get方法提交的数据是被附加到URL上发送的，所以在浏览器的地址栏中将会显示出用户
+            所输入数据作为参数附加在URL后面。而post不依赖于URL，所以使用POST方法传送数据时，地址栏只会显示表单action所指向的URL，而不会显示用户输入的数据</em></li>
+    <li><em>鉴于以上二者的不同，所以出于安全考虑，通常表单都采用post方式提交。而get提交则在某些特殊场合如模拟地址栏数据等情况下才使用</em></li>
+</ul>
+</body>
+</html>

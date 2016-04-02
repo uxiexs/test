@@ -23,7 +23,7 @@ class Time
     //获取时间
     protected function _getTime(){
         $t = date('Y-m-d H:i:s',time());
-        echo '当前系统时间为：'.$t;
+        echo '当前系统时间：'.$t;
     }
 }
 new Time();

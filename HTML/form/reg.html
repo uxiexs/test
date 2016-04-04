@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+</head>
+<script type="text/javascript">
+    function check(f){
+        if(f.user.value == ""){
+            alert("请输入用户名称！");
+            f.user.focus();
+            return false;
+        }
+        if(f.pass.value == ""){
+            alert("请输入用户密码！");
+            f.pass.focus();
+            return false;
+        }
+        if(f.pass.value != f.pass2.value){
+            alert("两次密码输入不一致！");
+            f.pass2.focus();
+            return false;
+        }
+        if(f.age.value == ""){
+            alert("请输入年龄");
+            f.age.focus();
+            return false;
+        }
+        if(f.mail.value == ""){
+            alert("请输入电子邮箱！");
+            f.mail.focus();
+            return false;
+        }
+    }
+</script>
+<body>
+<H3>用户注册</H3>
+<table border="1" cellspacing="0" cellpadding="1" bordercolordark="#ffffff" bordercolorlight="#009900" width="400">
+    <form action="deal.php" method="post" ONSUBMIT="return check(this)">
+    <tr>
+        <td colspan="2" align="center" bgcolor="#ffooff">输入相应内容</td>
+    </tr>
+    <tr>
+        <td align="right" width="30%">用户名：</td>
+        <td width="70%"><input type="text" name="user" id="user"></td>
+    </tr>
+    <tr>
+        <td align="right">密码：</td>
+        <td><input type="password" name="pass" id="pass"></td>
+    </tr>
+    <tr>
+        <td align="right">重复密码：</td>
+        <td><input type="password" name="pass2" id="pass2"></td>
+    </tr>
+    <tr>
+        <td align="right">年龄：</td>
+        <td><input type="text" name="age" id="age"></td>
+    </tr>
+    <tr>
+        <td align="right">性别：</td>
+        <td>
+            <input type="radio" value="男" name="sex" checked>男
+            <input type="radio" value="女" name="sex">女
+        </td>
+    </tr>
+    <tr>
+        <td align="right">电子信箱：</td>
+        <td><input type="text" name="mail" id="mail"></td>
+    </tr>
+    <tr>
+        <td align="right">QQ号码：</td>
+        <td><input type="text" name="QQ" id="QQ"></td>
+    </tr>
+    <tr>
+        <td align="right">学历：</td>
+        <td>
+            <select name="degree" id="degree" size="1">
+                <option value="博士生">博士生</option>
+                <option value="研究生">研究生</option>
+                <option value="大学">大学</option>
+                <option value="中学">中学</option>
+                <option value="小学">小学</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td align="right">业务爱好：</td>
+        <td>
+            <input type="checkbox" value="游戏" name="fav[]">游戏
+            <input type="checkbox" value="音乐" name="fav[]">音乐
+            <input type="checkbox" value="电影" name="fav[]">电影
+            <input type="checkbox" value="吃饭" name="fav[]">吃饭<br />
+            <input type="checkbox" value="睡觉" name="fav[]">睡觉
+            <input type="checkbox" value="发呆" name="fav[]">发呆
+            <input type="checkbox" value="裸奔" name="fav[]">裸奔
+            <input type="checkbox" value="旅游" name="fav[]">旅游<br />
+            <input type="checkbox" value="赛车" name="fav[]">赛车
+            <input type="checkbox" value="游泳" name="fav[]">游泳
+            <input type="checkbox" value="长跑" name="fav[]">长跑
+            <input type="checkbox" value="跳伞" name="fav[]">跳伞
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="提交"><input type="reset" value="重置">
+        </td>
+    </tr>
+    </form>
+</table>
+<ul>
+    <li><em>代码解析：以上代码通过表单构建了用户注册的前台页面，由于以上代码并没有使用PHP内容，所以可以将其保存为静态HTML页面</em></li>
+</ul>
+</body>
+</html>

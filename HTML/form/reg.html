@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>用户注册</title>
 </head>
+<script type="text/javascript" src="../../js/jquery-1.12.3.js"></script>
 <script type="text/javascript">
     function check(f){
         if(f.user.value == ""){
@@ -32,11 +34,13 @@
             return false;
         }
     }
+
 </script>
 <body>
 <H3>用户注册</H3>
+<form action="../../php/deal.php" method="post">
 <table border="1" cellspacing="0" cellpadding="1" bordercolordark="#ffffff" bordercolorlight="#009900" width="400">
-    <form action="deal.php" method="post" ONSUBMIT="return check(this)">
+
     <tr>
         <td colspan="2" align="center" bgcolor="#ffooff">输入相应内容</td>
     </tr>
@@ -105,10 +109,10 @@
             <input type="submit" value="提交"><input type="reset" value="重置">
         </td>
     </tr>
-    </form>
 </table>
-<ul>
-    <li><em>代码解析：以上代码通过表单构建了用户注册的前台页面，由于以上代码并没有使用PHP内容，所以可以将其保存为静态HTML页面</em></li>
-</ul>
+</form>
+<!--<ul>-->
+    <!--<li><em>代码解析：以上代码通过表单构建了用户注册的前台页面，由于以上代码并没有使用PHP内容，所以可以将其保存为静态HTML页面</em></li>-->
+<!--</ul>-->
 </body>
 </html>

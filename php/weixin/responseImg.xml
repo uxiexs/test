@@ -1,0 +1,17 @@
+<xml>
+    <ToUserName><![CDATA[<?php  echo $FromUserName ?>]]></ToUserName>
+    <FromUserName><![CDATA[<?php echo $ToUserName ?>]]></FromUserName>
+    <CreateTime><?php echo $time ?></CreateTime>
+    <MsgType><![CDATA[news]]></MsgType>
+    <ArticleCount><?php echo count($rows) ?></ArticleCount>
+    <Articles>
+         <?php  foreach($rows as $row): ?>
+        <item>
+            <Title><![CDATA[<?php echo $row['name'].'['.$row['address'].']' ?>]]></Title>
+            <Description><![CDATA[<?php echo $row['address'] ?>]]></Description>
+            <PicUrl><![CDATA[http://api.map.baidu.com/panorama/v2?ak=9Z8fX6rd9De8PgXAUYCyHc56&mcode=666666&width=512&height=256&location=<?php echo $row['y'].','.$row['x']?>&fov=180]]></PicUrl>
+            <Url><![CDATA[http://api.map.baidu.com/place/detail?uid=<?php echo $row['uid'] ?>&output=html]]></Url>
+        </item>
+            <?php  endForeach; ?>
+    </Articles>
+</xml>

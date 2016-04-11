@@ -1,0 +1,1 @@
+select * from location where username  = 'ozNuTv9bwS6Tr-dzOvscAnjBD_Jw' limit 1

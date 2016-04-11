@@ -1,0 +1,7 @@
+<xml><ToUserName><![CDATA[gh_dc3988beec1b]]></ToUserName>
+<FromUserName><![CDATA[ozNuTv9bwS6Tr-dzOvscAnjBD_Jw]]></FromUserName>
+<CreateTime>1460363223</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[酒店]]></Content>
+<MsgId>6272212283470095958</MsgId>
+</xml>

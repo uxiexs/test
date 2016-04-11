@@ -28,8 +28,8 @@
             //>>4.如果是文本信息,需要查找该用户的位置,   如果查找到位置, 就需要进行搜索(到百度).   如果没有找到,就提示一个文本信息,告知用户请先输入位置
             $sql = "select * from location where username  = '$FromUserName' limit 1";
             file_put_contents('./sql.txt',$sql);  //
-            $db = initDB();
-            $row = $db->fetchRow($sql);
+            $db = initDB(); //初始化数据库
+            $row = $db->fetchRow($sql); //执
             if($row){
                  //>>5.查询该位置附近的 关键字信息
                 $content = $simpleXML->Content;  //得到xml中的文本内容. 需要到百度中搜索
@@ -37,13 +37,30 @@
                 $url = "http://api.map.baidu.com/place/v2/search?ak=9Z8fX6rd9De8PgXAUYCyHc56&output=xml&query={$content}&page_size=10&page_num=0&scope=1&location={$row['x']},{$row['y']}&radius=2000";
                 $baiduSimpleXML = simplexml_load_file($url);
                 $rows = array();
-                foreach($baiduSimpleXML->results->result as $result){
+                /**
+                <PlaceSearchResponse>
+                <status>0</status>
+                <message>ok</message>
+                <total>18</total>
+                <results>
+                <result>
+                <name>正宗常德津市牛肉粉</name>
+                <location>
+                <lat>28.206676</lat>
+                <lng>112.931192</lng>
+                </location>
+                <address>长沙市岳麓区</address>
+                <detail>1</detail>
+                <uid>8bb4ecac9e653cab14b54bdc</uid>
+                </result>
+                 */
+                foreach($baiduSimpleXML->results->result as $item){
                     $row = array();
-                    $row['name'] = $result->name;
-                    $row['address'] = $result->address;
-                    $row['uid'] = $result->uid;
-                    $row['x'] = $result->location->lat;
-                    $row['y'] = $result->location->lng;
+                    $row['name'] = $item->name;
+                    $row['address'] = $item->address;
+                    $row['uid'] = $item->uid;
+                    $row['x'] = $item->location->lat;
+                    $row['y'] = $item->location->lng;
                     $rows[] = $row;
                 }
                 $time = time();

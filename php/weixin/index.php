@@ -33,7 +33,7 @@
             if($row){
                  //>>5.查询该位置附近的 关键字信息
                 $content = $simpleXML->Content;  //得到xml中的文本内容. 需要到百度中搜索
-                $content  = urlencode($content);
+                $content  = urlencode($content); //urlencode ---  URL编码字符串将所有非字母字元的字符串除了-_.之外，以百分比符号(%)后跟随二个迷惑的数字的方式表示，而空白则会被编码成正的(+)符号。
                 $url = "http://api.map.baidu.com/place/v2/search?ak=9Z8fX6rd9De8PgXAUYCyHc56&output=xml&query={$content}&page_size=10&page_num=0&scope=1&location={$row['x']},{$row['y']}&radius=2000";
                 $baiduSimpleXML = simplexml_load_file($url);
                 $rows = array();
@@ -54,13 +54,13 @@
                 <uid>8bb4ecac9e653cab14b54bdc</uid>
                 </result>
                  */
-                foreach($baiduSimpleXML->results->result as $item){
-                    $row = array();
-                    $row['name'] = $item->name;
-                    $row['address'] = $item->address;
-                    $row['uid'] = $item->uid;
-                    $row['x'] = $item->location->lat;
-                    $row['y'] = $item->location->lng;
+                foreach($baiduSimpleXML->results->result as $item){ //从XML中遍历的数据
+                    $row = array();                  //申明一个数组 用于存放XML中遍历的数据
+                    $row['name'] = $item->name;      //poi名称
+                    $row['address'] = $item->address;//poi地址信息
+                    $row['uid'] = $item->uid;        //poi的唯一标示
+                    $row['x'] = $item->location->lat;//纬度值
+                    $row['y'] = $item->location->lng;//经度值
                     $rows[] = $row;
                 }
                 $time = time();

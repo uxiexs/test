@@ -9,27 +9,27 @@
 <script type="text/javascript">
     function check(f){
         if(f.user.value == ""){
-            alert("请输入用户名称！");
+            $('#tip').text('请输入用户名').css('color','red');
             f.user.focus();
             return false;
         }
         if(f.pass.value == ""){
-            alert("请输入用户密码！");
+            $('#tip').text('请输入用户密码').css('color','red');
             f.pass.focus();
             return false;
         }
         if(f.pass.value != f.pass2.value){
-            alert("两次密码输入不一致！");
+            $('#tip').text('两次密码输入不一致').css('color','red');
             f.pass2.focus();
             return false;
         }
         if(f.age.value == ""){
-            alert("请输入年龄");
+            $('#tip').text('请输入年龄').css('color','red');
             f.age.focus();
             return false;
         }
         if(f.mail.value == ""){
-            alert("请输入电子邮箱！");
+            $('#tip').text('请输入邮箱').css('color','red');
             f.mail.focus();
             return false;
         }
@@ -37,8 +37,9 @@
 
 </script>
 <body>
-<H3>用户注册</H3>
-<form action="../../php/deal.php" method="post">
+<H3 >用户注册</H3>
+<H5 id="tip" style="height: 10px"></H5>
+<form action="../../php/back.php" method="post" onsubmit="return check(this)">
 <table border="1" cellspacing="0" cellpadding="1" bordercolordark="#ffffff" bordercolorlight="#009900" width="400">
 
     <tr>
@@ -105,14 +106,19 @@
         </td>
     </tr>
     <tr>
+        <td>其它事项</td>
+        <td><textarea name="other" id="other" cols="30" rows="5"></textarea></td>
+    </tr>
+    <tr>
         <td colspan="2" align="center">
+            <input type="hidden" name="hide" value="恭喜你发现了一颗彩蛋">
             <input type="submit" value="提交"><input type="reset" value="重置">
         </td>
     </tr>
 </table>
 </form>
-<!--<ul>-->
-    <!--<li><em>代码解析：以上代码通过表单构建了用户注册的前台页面，由于以上代码并没有使用PHP内容，所以可以将其保存为静态HTML页面</em></li>-->
-<!--</ul>-->
+<ul>
+    <li><em>代码解析：以上代码通过表单构建了用户注册的前台页面，由于以上代码并没有使用PHP内容，所以可以将其保存为静态HTML页面</em></li>
+</ul>
 </body>
 </html>

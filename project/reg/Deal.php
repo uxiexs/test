@@ -35,7 +35,6 @@ class Deal
             /*设置数据库编码*/
             mysqli_set_charset($connect, 'utf8');
             /*接收表单传递来的数据*/
-            var_dump($_POST);
             $user = $_POST['user'];
             $pass = $_POST['pass'];
             $age = $_POST['age'];
@@ -57,6 +56,7 @@ class Deal
             $row = mysqli_fetch_row($search_res);
             if ($row[0] > 0) {
                 $this->tip[] = '存在同名用户,请重新输入用户名';
+                return false;
             } else {
                 /*当没有同名用户时,执行操作*/
                 $sql = "insert into `user_data`(`name`,`password`,`age`,`sex`,`mail`,`qq`,`degree`,`fav`)values('$user','$pass',$age,'$sex','$mail','$qq','$degree','$fav_z')";

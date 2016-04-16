@@ -63,11 +63,16 @@ class Deal
                 $res = mysqli_query($connect, $sql);
                 if ($res) {
                     $this->tip[] = '注册成功';
-                } else {
+                }
+                else {
                     $this->tip[] = '注册失败' . '<br />' . '错误代码:' . mysqli_errno($connect) . '<br />' . '错误信息:' . mysqli_error($connect) . '<p />';
                     return false;
                 }
             }
+        }
+        else{
+            $this->tip[] = '没有任何提交内容';
+            return false;
         }
     }
 }

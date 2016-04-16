@@ -14,6 +14,9 @@ for ($i = 0; $i < $num; $i++) {
     echo $tip_data[$i];     //输出提示信息
 }
 echo '<p />'."点击<a href='reg.html'>此处</a>返回上一页";
+var_dump($_SERVER);
+echo '======================='.'<br / >';
+var_dump($GLOBALS);
 
 class Deal
 {

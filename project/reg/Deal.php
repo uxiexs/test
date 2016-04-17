@@ -6,12 +6,11 @@
  * Date: 2016/4/15
  * Time: 23:20
  */
-$obj = new Deal;     //实例化建表类
-$tip_data = $obj->tip;      //提示信息(数组)
-$num = count($tip_data);    //获取数组长度
-/*遍历提示信息数组*/
-for ($i = 0; $i < $num; $i++) {
-    echo"<ul><li><em>". $tip_data[$i]."</em></li></ul>";     //输出提示信息
+$obj = new Deal;                                         //实例化建表类
+$tip_data = $obj->tip;                                   //提示信息(数组)
+$len = count($tip_data);                                 //获取数组长度
+for ($i = 0; $i < $len; $i++) {                          //遍历提示信息(数组)
+    echo"<ul><li><em>". $tip_data[$i]."</em></li></ul>"; //输出提示信息
 }
 
 class Deal
@@ -23,6 +22,7 @@ class Deal
 
         if ($_POST) {
             header("Content-type: text/html; charset=utf-8");
+
             /*连接数据库*/
             $connect = mysqli_connect('127.0.0.1', 'root', "", 'test');
             if (mysqli_connect_errno()) {
@@ -31,8 +31,10 @@ class Deal
             } else {
                 $this->tip[] = '连接本地数据库成功' . '<p />';
             }
+
             /*设置数据库编码*/
             mysqli_set_charset($connect, 'utf8');
+
             /*接收表单传递来的数据*/
             $user = $_POST['user'];
             $pass = $_POST['pass'];
@@ -44,20 +46,23 @@ class Deal
             $fav = $_POST['fav'];
             $len = count($fav);
             $fav_z = "";
+
             /*遍历爱好*/
             for ($i = 0; $i < $len; $i++) {
                 $fav_z = $fav_z . $fav[$i];
                 if ($i < $len - 1) $fav_z = $fav_z . ',';
             }
+
             /*检测是否有同名用户*/
             $search_sql = "select count(*) from user_data where name = '$user'";
             $search_res = mysqli_query($connect, $search_sql);
             $row = mysqli_fetch_row($search_res);
             if ($row[0] > 0) {
-                $this->tip[] = '存在同名用户,请重新输入用户名';
+                $this->tip[] = '注意:数据插入失败!&nbsp;原因:数据表中已有该用户名,请重新输入用户名!';
                 return false;
-            } else {
-                /*当没有同名用户时,执行操作*/
+            }
+            /*当没有同名用户时,执行操作*/
+            else {
                 $sql = "insert into `user_data`(`name`,`password`,`age`,`sex`,`mail`,`qq`,`degree`,`fav`)values('$user','$pass',$age,'$sex','$mail','$qq','$degree','$fav_z')";
                 $res = mysqli_query($connect, $sql);
                 if ($res) {
@@ -70,7 +75,7 @@ class Deal
             }
         }
         else{
-            $this->tip[] = '没有任何提交内容';
+            $this->tip[] = '没有任何提交内容!';
             return false;
         }
     }

@@ -33,6 +33,10 @@
             f.mail.focus();
             return false;
         }
+        if($('.fav').is(':checked')==false){
+            $('#tip').text('兴趣不能为空').css('color','red');
+            return false;
+        }
     }
 
 </script>
@@ -82,27 +86,27 @@
             <select name="degree" id="degree" size="1">
                 <option value="博士生">博士生</option>
                 <option value="研究生">研究生</option>
-                <option value="大学">大学</option>
+                <option value="大学" selected>大学</option>
                 <option value="中学">中学</option>
                 <option value="小学">小学</option>
             </select>
         </td>
     </tr>
     <tr>
-        <td align="right">业务爱好：</td>
+        <td align="right">兴趣：</td>
         <td>
-            <input type="checkbox" value="游戏" name="fav[]">游戏
-            <input type="checkbox" value="音乐" name="fav[]">音乐
-            <input type="checkbox" value="电影" name="fav[]">电影
-            <input type="checkbox" value="吃饭" name="fav[]">吃饭<br />
-            <input type="checkbox" value="睡觉" name="fav[]">睡觉
-            <input type="checkbox" value="发呆" name="fav[]">发呆
-            <input type="checkbox" value="裸奔" name="fav[]">裸奔
-            <input type="checkbox" value="旅游" name="fav[]">旅游<br />
-            <input type="checkbox" value="赛车" name="fav[]">赛车
-            <input type="checkbox" value="游泳" name="fav[]">游泳
-            <input type="checkbox" value="长跑" name="fav[]">长跑
-            <input type="checkbox" value="跳伞" name="fav[]">跳伞
+            <input type="checkbox" value="游戏" name="fav[]" class="fav">游戏
+            <input type="checkbox" value="音乐" name="fav[]" class="fav">音乐
+            <input type="checkbox" value="电影" name="fav[]" class="fav">电影
+            <input type="checkbox" value="吃饭" name="fav[]" class="fav">吃饭<br />
+            <input type="checkbox" value="睡觉" name="fav[]" class="fav">睡觉
+            <input type="checkbox" value="发呆" name="fav[]" class="fav">发呆
+            <input type="checkbox" value="裸奔" name="fav[]" class="fav">裸奔
+            <input type="checkbox" value="旅游" name="fav[]" class="fav">旅游<br />
+            <input type="checkbox" value="赛车" name="fav[]" class="fav">赛车
+            <input type="checkbox" value="游泳" name="fav[]" class="fav">游泳
+            <input type="checkbox" value="长跑" name="fav[]" class="fav">长跑
+            <input type="checkbox" value="跳伞" name="fav[]" class="fav">跳伞
         </td>
     </tr>
     <tr>

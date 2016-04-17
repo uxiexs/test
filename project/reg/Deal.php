@@ -11,7 +11,7 @@ $tip_data = $obj->tip;      //提示信息(数组)
 $num = count($tip_data);    //获取数组长度
 /*遍历提示信息数组*/
 for ($i = 0; $i < $num; $i++) {
-    echo $tip_data[$i];     //输出提示信息
+    echo"<ul><li><em>". $tip_data[$i]."</em></li></ul>";     //输出提示信息
 }
 
 class Deal
@@ -77,6 +77,6 @@ class Deal
 }
 ?>
 <ul>
+    <li><em>运行过程:注册前台页面reg.html中填入适当的内容,点击提交按钮将把内容提交到后台Deal.PHP</em></li>
     <li><em><?php echo '<p />'."点击<a href='reg.html'>此处</a>返回上一页"; ?></em></li>
-    <li><em>注册前台页面reg.html中填入适当的内容,单机提交按钮将把内容提交到后台Deal.PHP</em></li>
 </ul>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+</head>
+<script src="../../js/jquery-1.12.3.js"></script>
+<script type="text/javascript">
+    function check(f) {
+        if (f.user.value == "") {
+            $('#tip').text('用户名不能为空').css('color', 'red');
+            f.user.focus;
+            return false;
+        }
+        if (f.pass.value == "") {
+            $('#tip').text('密码不能为空').css('color', 'red');
+            f.pass.focus;
+            return false;
+        }
+    }
+</script>
+<body>
+<H3>用户登录</H3>
+<H5 STYLE="height: 20px;" id="tip"></H5>
+<table border="1" cellspacing="0" cellpadding="1" bordercolordark="#ffffff" bordercolorlight="#009900" width="400">
+    <form action="go.php" method="post" onsubmit="return check(this)">
+        <tr>
+            <td colspan="2" align="center" bgcolor="#9999ff">输入登录内容</td>
+        </tr>
+        <tr>
+            <td align="right" width="30%">用户名:</td>
+            <td width="70%"><input type="text" id="user" name="user"></td>
+        </tr>
+        <tr>
+            <td align="right">密&nbsp;&nbsp;码:</td>
+            <td><input type="password" id="pass" name="pass"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="登录"><input type="reset" value="重置">
+            </td>
+        </tr>
+    </form>
+</table>
+<ul>
+    <li><em>显示出了用户登录的前台模块执行结果.由于还没有创建后台,所以并不能完成真正的登录.</em></li>
+</ul>
+</body>
+</html>

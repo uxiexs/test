@@ -13,7 +13,6 @@ $num = count($tip_data);    //获取数组长度
 for ($i = 0; $i < $num; $i++) {
     echo $tip_data[$i];     //输出提示信息
 }
-echo '<p />'."点击<a href='reg.html'>此处</a>返回上一页";
 
 class Deal
 {
@@ -76,3 +75,8 @@ class Deal
         }
     }
 }
+?>
+<ul>
+    <li><em><?php echo '<p />'."点击<a href='reg.html'>此处</a>返回上一页"; ?></em></li>
+    <li><em>注册前台页面reg.html中填入适当的内容,单机提交按钮将把内容提交到后台Deal.PHP</em></li>
+</ul>

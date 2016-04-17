@@ -7,6 +7,7 @@
 </head>
 <script type="text/javascript" src="../../js/jquery-1.12.3.js"></script>
 <script type="text/javascript">
+    /*检测表单*/
     function check(f){
         if(f.user.value == ""){
             $('#tip').text('请输入用户名').css('color','red');
@@ -38,7 +39,10 @@
             return false;
         }
     }
-
+    $(function(){
+        /*设置学历默认选项*/
+        $("#degree option[value='小学']").attr("selected", true);
+    })
 </script>
 <body>
 <H3>用户注册</H3>
@@ -86,7 +90,7 @@
             <select name="degree" id="degree" size="1">
                 <option value="博士生">博士生</option>
                 <option value="研究生">研究生</option>
-                <option value="大学" selected>大学</option>
+                <option value="大学">大学</option>
                 <option value="中学">中学</option>
                 <option value="小学">小学</option>
             </select>

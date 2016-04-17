@@ -89,6 +89,7 @@ class Deal
 
 ?>
 <ul>
+    <li><em><?php echo '<p />' . "点击<a href='login.html'>此处</a>登录"; ?></em></li>
     <li><em>运行过程:注册前台页面reg.html中填入适当的内容,点击提交按钮将把内容提交到后台Deal.PHP</em></li>
     <li><em><?php echo '<p />' . "点击<a href='reg.html'>此处</a>返回上一页"; ?></em></li>
 </ul>

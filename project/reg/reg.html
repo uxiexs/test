@@ -8,125 +8,130 @@
 <script type="text/javascript" src="../../js/jquery-1.12.3.js"></script>
 <script type="text/javascript">
     /*检测表单*/
-    function check(f){
-        if(f.user.value == ""){
-            $('#tip').text('请输入用户名').css('color','red');
+    function check(f) {
+        if (f.user.value == "") {
+            $('#tip').text('请输入用户名').css('color', 'red');
             f.user.focus();
             return false;
         }
-        if(f.pass.value == ""){
-            $('#tip').text('请输入用户密码').css('color','red');
+        if (f.pass.value == "") {
+            $('#tip').text('请输入用户密码').css('color', 'red');
             f.pass.focus();
             return false;
         }
-        if(f.pass.value != f.pass2.value){
-            $('#tip').text('两次密码输入不一致').css('color','red');
+        if (f.pass.value != f.pass2.value) {
+            $('#tip').text('两次密码输入不一致').css('color', 'red');
             f.pass2.focus();
             return false;
         }
-        if(f.age.value == ""){
-            $('#tip').text('请输入年龄').css('color','red');
+        if (f.age.value == "") {
+            $('#tip').text('请输入年龄').css('color', 'red');
             f.age.focus();
             return false;
         }
-        if(f.mail.value == ""){
-            $('#tip').text('请输入邮箱').css('color','red');
+        if (f.mail.value == "") {
+            $('#tip').text('请输入邮箱').css('color', 'red');
             f.mail.focus();
             return false;
         }
-        if($('.fav').is(':checked')==false){
-            $('#tip').text('兴趣不能为空').css('color','red');
+        if ($('.fav').is(':checked') == false) {
+            $('#tip').text('兴趣不能为空').css('color', 'red');
             return false;
         }
     }
-    $(function(){
-        /*设置学历默认选项*/
+    $(function () {
+        /*设置默认学历*/
         $("#degree option[value='小学']").attr("selected", true);
+        /*设置默认性别*/
+        $("#sex input[value='男']").attr("checked", true);
+        $("input").css('color','#999');
     })
 </script>
 <body>
 <H3>用户注册</H3>
 <H5 id="tip" style="height: 10px"></H5>
 <form action="deal.php" method="post" onsubmit="return check(this)">
-<table border="1" cellspacing="0" cellpadding="1" bordercolordark="#ffffff" bordercolorlight="#009900" width="400">
+    <table border="1" cellspacing="0" cellpadding="1" bordercolordark="#ffffff" bordercolorlight="#009900" width="400">
 
-    <tr>
-        <td colspan="2" align="center" bgcolor="#ffooff">输入相应内容</td>
-    </tr>
-    <tr>
-        <td align="right" width="30%">用户名：</td>
-        <td width="70%"><input type="text" name="user" id="user"></td>
-    </tr>
-    <tr>
-        <td align="right">密码：</td>
-        <td><input type="password" name="pass" id="pass"></td>
-    </tr>
-    <tr>
-        <td align="right">重复密码：</td>
-        <td><input type="password" name="pass2" id="pass2"></td>
-    </tr>
-    <tr>
-        <td align="right">年龄：</td>
-        <td><input type="text" name="age" id="age"></td>
-    </tr>
-    <tr>
-        <td align="right">性别：</td>
-        <td>
-            <input type="radio" value="男" name="sex" checked>男
-            <input type="radio" value="女" name="sex">女
-        </td>
-    </tr>
-    <tr>
-        <td align="right">电子信箱：</td>
-        <td><input type="text" name="mail" id="mail"></td>
-    </tr>
-    <tr>
-        <td align="right">QQ号码：</td>
-        <td><input type="text" name="QQ" id="QQ"></td>
-    </tr>
-    <tr>
-        <td align="right">学历：</td>
-        <td>
-            <select name="degree" id="degree" size="1">
-                <option value="博士生">博士生</option>
-                <option value="研究生">研究生</option>
-                <option value="大学">大学</option>
-                <option value="中学">中学</option>
-                <option value="小学">小学</option>
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td align="right">兴趣：</td>
-        <td>
-            <input type="checkbox" value="游戏" name="fav[]" class="fav">游戏
-            <input type="checkbox" value="音乐" name="fav[]" class="fav">音乐
-            <input type="checkbox" value="电影" name="fav[]" class="fav">电影
-            <input type="checkbox" value="吃饭" name="fav[]" class="fav">吃饭<br />
-            <input type="checkbox" value="睡觉" name="fav[]" class="fav">睡觉
-            <input type="checkbox" value="发呆" name="fav[]" class="fav">发呆
-            <input type="checkbox" value="裸奔" name="fav[]" class="fav">裸奔
-            <input type="checkbox" value="旅游" name="fav[]" class="fav">旅游<br />
-            <input type="checkbox" value="赛车" name="fav[]" class="fav">赛车
-            <input type="checkbox" value="游泳" name="fav[]" class="fav">游泳
-            <input type="checkbox" value="长跑" name="fav[]" class="fav">长跑
-            <input type="checkbox" value="跳伞" name="fav[]" class="fav">跳伞
-        </td>
-    </tr>
-    <tr>
-        <td align="right">其它事项：</td>
-        <td><textarea name="other" id="other" cols="30" rows="5"></textarea></td>
-    </tr>
-    <tr>
-        <td colspan="2" align="center">
-            <input type="hidden" name="hide" value="恭喜你发现了一颗彩蛋">
-            <input type="submit" value="提交"><input type="reset" value="重置">
-        </td>
-    </tr>
-</table>
+        <tr>
+            <td colspan="2" align="center" bgcolor="#ffooff">输入相应内容</td>
+        </tr>
+        <tr>
+            <td align="right" width="30%">用户名：</td>
+            <td width="70%"><input type="text" name="user" id="user" value="请输入用户名" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999"></td>
+        </tr>
+        <tr>
+            <td align="right">密码：</td>
+            <td><input type="password" name="pass" id="pass"></td>
+        </tr>
+        <tr>
+            <td align="right">重复密码：</td>
+            <td><input type="password" name="pass2" id="pass2"></td>
+        </tr>
+        <tr>
+            <td align="right">年龄：</td>
+            <td><input type="text" name="age" id="age" value="请输入年龄" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999"></td>
+        </tr>
+        <tr>
+            <td align="right">性别：</td>
+            <td id="sex">
+                <input type="radio" value="男" name="sex">男
+                <input type="radio" value="女" name="sex">女
+            </td>
+        </tr>
+        <tr>
+            <td align="right">电子信箱：</td>
+            <td><input type="text" name="mail" id="mail" value="请输入电子邮箱" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999"></td>
+        </tr>
+        <tr>
+            <td align="right">QQ号码：</td>
+            <td><input type="text" name="QQ" id="QQ" value="请输入QQ号码" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999"></td>
+        </tr>
+        <tr>
+            <td align="right">学历：</td>
+            <td>
+                <select name="degree" id="degree" size="1">
+                    <option value="博士生">博士生</option>
+                    <option value="研究生">研究生</option>
+                    <option value="大学">大学</option>
+                    <option value="中学">中学</option>
+                    <option value="小学">小学</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">兴趣：</td>
+            <td>
+                <input type="checkbox" value="游戏" name="fav[]" class="fav">游戏
+                <input type="checkbox" value="音乐" name="fav[]" class="fav">音乐
+                <input type="checkbox" value="电影" name="fav[]" class="fav">电影
+                <input type="checkbox" value="吃饭" name="fav[]" class="fav">吃饭<br/>
+                <input type="checkbox" value="睡觉" name="fav[]" class="fav">睡觉
+                <input type="checkbox" value="发呆" name="fav[]" class="fav">发呆
+                <input type="checkbox" value="裸奔" name="fav[]" class="fav">裸奔
+                <input type="checkbox" value="旅游" name="fav[]" class="fav">旅游<br/>
+                <input type="checkbox" value="赛车" name="fav[]" class="fav">赛车
+                <input type="checkbox" value="游泳" name="fav[]" class="fav">游泳
+                <input type="checkbox" value="长跑" name="fav[]" class="fav">长跑
+                <input type="checkbox" value="跳伞" name="fav[]" class="fav">跳伞
+            </td>
+        </tr>
+        <tr>
+            <td align="right">其它事项：</td>
+            <td><textarea name="other" id="other" cols="30" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="hidden" name="hide" value="恭喜你发现了一颗彩蛋">
+                <input type="submit" value="提交"><input type="reset" value="重置">
+            </td>
+        </tr>
+    </table>
 </form>
 <ul>
-    <p><li><em>代码解析：以上代码通过表单构建了用户注册的前台页面，由于以上代码并没有使用PHP内容，所以可以将其保存为静态HTML页面</em></li></p>
+    <p>
+    <li><em>代码解析：以上代码通过表单构建了用户注册的前台页面，由于以上代码并没有使用PHP内容，所以可以将其保存为静态HTML页面</em></li>
+    </p>
 </ul>
 </body>
 </html>

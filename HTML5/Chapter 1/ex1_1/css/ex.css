@@ -1,0 +1,10 @@
+/*网页背景色*/
+body{
+    background-color: #dddddd;
+}
+#canvas{
+    margin:10px;               /*外边距*/
+    padding:10px;              /*内边距*/
+    background:#ffffff;        /*背景色*/
+    border:thin inset #aaaaaa; /*边框设置*/
+}

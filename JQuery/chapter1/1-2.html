@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery的链式写法</title>
+    <script language="javascript" type="text/javascript" src="../../js/jquery-1.12.3.js"></script>
+    <style type="text/css">
+        .divFrame{width: 260px;border: solid 1px #666;font-size: 10pt}
+        .divTitle{background-color: #eeeeee;padding: 5px}
+        .divContent{padding: 5px;display: none}
+        .divCurrColor{background-color: red}
+    </style>
+    <script type="text/javascript">
+        $(function(){
+            $('.divTitle').click(function(){
+                $(this).addClass('divCurrColor').next(".divContent").css('display','block');
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="divFrame">
+    <div class="divTitle">主题</div>
+    <div class="divContent">
+        <a href="#">链接一</a><br />
+        <a href="#">链接二</a><br />
+        <a href="#">链接三</a>
+    </div>
+</div>
+<ul>
+    <li><em>代码功能说明:当用户单击Class名为"divTitle"的元素时,自身增加名称为"divCurrColor"的样式;同时,将接下来的Class名称为"divContent"元素显示出来,可以看出两个功能的实现通过"."符号链接在一起</em></li>
+    <li><em>事件操作链接式书写:在编写页面某元素事件时,jquery程序可以使用链接式的方式编写该元素的所有事件</em></li>
+</ul>
+</body>
+</html>

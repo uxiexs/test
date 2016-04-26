@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一个简单的jQuery应用</title>
+    <script language="javascript" type="text/javascript" src="../../js/jquery-1.12.3.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            alert('您好,欢迎来到jQuery世界');
+        })
+    </script>
+</head>
+<body>
+<ul>
+    <li><em>$(document).ready与window.onload,在功能上可以互换,但它们之间又有许多区别:
+    执行时间不同:$(document).ready在页面框架下载完毕后就执行,而window.onload必须在页面全部加载完毕才能执行,前者执行效率高于后者
+    执行数量不同:$(document).ready可以重复写多个,每次执行结果不同,window.onload尽管可以执行多个,但仅输出最后一个的执行结果
+    $(document).ready(function(){})可简写承$(function(){})</em></li>
+    <li><em>在jQuery程序中,使用最多的莫过于"$"美元符了,无论是页面元素的选择,功能函数的前缀,都必须使用该符号,可以说它是jQuery程序的标志</em></li>
+</ul>
+</body>
+</html>

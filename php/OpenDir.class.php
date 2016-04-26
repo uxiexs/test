@@ -8,7 +8,7 @@
 
 namespace test\php;
 
-$dir_name = 'location'; //目录名
+$dir_name = 'weixin'; //目录名
 $obj = new OpenDir($dir_name); //实例化
 $tip_data = $obj->tip; //提示信息
 $len = count($tip_data); //提示信息长度

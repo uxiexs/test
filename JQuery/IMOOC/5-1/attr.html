@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用attr()方法控制元素的属性</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/attr.css">
+</head>
+<body>
+<h3>attr()方法设置元素属性</h3>
+<a href="http://127.0.0.1" id="a1" target="_blank">点我就变</a>
+<div>我改变后的地址是：<span id="tip"></span></div>
+
+<script type="text/javascript">
+    $("#a1").attr("href", "http://www.imooc.com");
+    var $url = $("#a1").attr("href");
+    $("#tip").html($url);
+</script>
+<ul>
+    <li><em>attr()方法的作用是设置或者返回元素的属性，其中attr(属性名)格式是获取元素属性名的值，attr(属性名，属性值)格式则是设置元素属性名的值。</em></li>
+</ul>
+</body>
+</html>

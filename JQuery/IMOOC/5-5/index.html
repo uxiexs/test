@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用append()方法向元素内追加内容</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>append()方法追加内容</h3>
+
+<script type="text/javascript">
+    function rethtml() {
+        var $html;
+        $html = "<div id='test' title='hi'>我是调用函数创建的</div>";
+        return $html;
+    }
+    $("body"). append(rethtml());
+</script>
+<ul>
+    <li><em>使用append()方法在body元素中追加了一些HTML 元素标记，因此追加后，这些元素标记直接生成对应的元素和属性显示在页面中。</em></li>
+</ul>
+</body>
+</html>

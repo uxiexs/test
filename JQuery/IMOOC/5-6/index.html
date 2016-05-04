@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用appendTo()方法向被选元素内插入内容</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>appendTo()方法插入内容</h3>
+<div>
+    <span class="green">小乌龟</span>
+</div>
+
+<script type="text/javascript">
+    var $html = "<span class='red'>小青蛙</span>";
+    $($html).appendTo($("div"));
+</script>
+<ul>
+    <li><em>使用appendTo()方法将类别名为“red”的span元素插入到div元素的尾部，相当于追加的效果。</em></li>
+</ul>
+</body>
+</html>

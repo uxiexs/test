@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>包裹元素和内容</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>使用wrapInner()方法包裹元素</h3>
+<span class="red" title='hi'>我的身体有点歪</span>
+
+<script type="text/javascript">
+    $(".red").wrapInner("<em></em>");
+</script>
+<ul>
+    <li><em>调用wrapInner()方法将页面中的span元素内的文字字体变成斜体。</em></li>
+</ul>
+</body>
+</html>

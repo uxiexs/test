@@ -251,7 +251,7 @@
 //   .lubo_box li img{ width: 100%; height: 368px;}
 
 //   /*圆点*/
-//   .cir_box{ overflow: hidden; position: absolute; z-index: 100;}
+//   .cir_box{ overflow: hidden; position: absolute; z-css: 100;}
 //   .cir_box li{ float: left; width: 30px; height: 5px; margin:0 5px; cursor: pointer; background: #fff; opacity: 0.8;filter:alpha(opacity=80);}
 //   .cir_on{ background: #000 !important;}
 

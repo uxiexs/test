@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hover()方法切换事件</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>hover()方法切换事件</h3>
+<div class="con">别走！你就是土豪</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(".con").hover(
+                function () {
+                    $(this).addClass("orange");
+                },
+                function () {
+                    $(this).removeClass("orange")
+                })
+    });
+</script>
+<ul>
+    <li><em>调用hover方法实现元素背景色的切换</em></li>
+</ul>
+</body>
+</html>

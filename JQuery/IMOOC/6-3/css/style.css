@@ -1,0 +1,12 @@
+.con
+{
+    width: 160px;
+    border: solid 1px #ccc;
+    padding:8px;
+    text-align:center;
+}
+.orange
+{
+    background-color: Orange;
+    color:White;
+}

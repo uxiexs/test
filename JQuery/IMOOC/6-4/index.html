@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用toggle()方法绑定多个函数</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>toggle()方法绑定多个函数</h3>
+<input id="btntest" type="button" value="点一下我"/>
+<div class="con">我是动态显示的</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btntest").bind("click", function () {
+            $(".con").toggle()
+        })
+    });
+</script>
+<ul>
+    <li><em>使用toggle()方法，当每次点击div元素时，显示不同内容</em></li>
+    <li><em>toggle()无参数方法 的功能为切换显示和隐藏</em></li>
+</ul>
+</body>
+</html>

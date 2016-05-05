@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>替换内容</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>使用replaceAll()方法替换元素内容</h3>
+<span class="green" title="hi">我是屌丝</span>
+
+<script type="text/javascript">
+    var $html = "<span class='red' title='hi'>我是土豪</span>";
+    $($html).replaceAll(".green");
+</script>
+<ul>
+    <li><em>调用replaceAll()方法将页面中的span元素替换为指定的HTML格式的字符内容。</em></li>
+</ul>
+</body>
+</html>

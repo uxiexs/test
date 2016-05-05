@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bind()方法绑定事件</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+</head>
+<body>
+<h3>bind()方法绑多个事件</h3>
+<input id="btntest" type="button" value="点击或移出就不可用了" />
+
+<script type="text/javascript">
+    $(function () {
+        $("#btntest").bind("mouseout click",function () {
+            $(this).attr("disabled", "true");
+        })
+    });
+</script>
+<ul>
+    <li><em>使用bind()方法绑定单击(click)和鼠标移出(mouseout)这两个事件，触发这两个事件中，按钮将变为不可用。</em></li>
+</ul>
+</body>
+</html>

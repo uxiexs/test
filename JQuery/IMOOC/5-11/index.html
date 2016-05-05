@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用each()方法遍历元素</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>使用each()方法遍历元素</h3>
+<span class="green">香蕉</span>
+<span class="green">桃子</span>
+<span class="green">葡萄</span>
+<span class="green">荔枝</span><br /><br /><br />
+<script type="text/javascript">
+    $("span").each(function (index) {
+        if (index == 1) {
+            $(this).attr("class", "red");
+        }
+    });
+</script>
+<ul>
+    <li><em>通过each()遍历方法，改变第2个元素span元素的背景色。</em></li>
+</ul>
+</body>
+</html>

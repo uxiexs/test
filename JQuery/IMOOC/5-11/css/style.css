@@ -1,0 +1,19 @@
+span
+{
+    color: White;
+    padding: 8px;
+    margin: 15px;
+    float: left;
+}
+.green
+{
+    background-color: Green;
+}
+.red
+{
+    background-color: Red;
+}
+.tip{
+    color: black;
+    float: left;
+}

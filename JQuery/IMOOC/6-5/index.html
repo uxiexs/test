@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>unbind()移除绑定的事件</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>unbind()移除绑定的事件</h3>
+<input id="btntest" type="button" value="移除事件" />
+<div class="divFrame">土豪，咱们交个朋友吧</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(".divFrame").bind("click",
+                function () {
+                    $(this).removeClass("backcolor").addClass("color");
+                }).bind("dblclick", function () {
+            $(this).removeClass("color").addClass("backcolor");
+        })
+        $("#btntest").bind("click", function () {
+            $(".divFrame").unbind();
+            $(this).attr("disabled", "true");
+        });
+    });
+</script>
+<ul>
+    <li><em>使用unbind()方法移除已绑定的全部事件。</em></li>
+    <li><em>如果没有规定参数，unbind() 方法会删除指定元素的所有事件处理程序。</em></li>
+</ul>
+</body>
+</html>

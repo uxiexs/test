@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>页面载入时触发ready()事件</h3>
+<div id="tip"></div>
+<input id="btntest" type="button" value="点下我"/>
+
+<script type="text/javascript">
+    $(function() {
+        $("#btntest").bind("click", function () {
+        $("#tip").html("我被点击了！");
+    });
+    });
+</script>
+<ul>
+    <li><em>在ready()事件中绑定一个按钮的单击事件</em></li>
+</ul>
+</body>
+</html>

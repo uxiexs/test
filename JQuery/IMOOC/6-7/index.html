@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>trigger()手动触发事件</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<h3>trigger()手动触发事件</h3>
+<div id="dv">土豪，咱们交个朋友吧</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("div").bind("change-color", function () {
+            $(this).addClass("color");
+        });
+        $("#dv").trigger("change-color");
+    });
+</script>
+<ul>
+    <li><em>调用trigger()方法手动触发一个绑定在div元素中的自定义事件。</em></li>
+</ul>
+</body>
+</html>

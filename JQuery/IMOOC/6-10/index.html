@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>on()方法绑定事件</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+</head>
+<body>
+<h3>live()方法绑多个事件</h3>
+
+<script type="text/javascript">
+    $(function () {
+        $("body").append("<input id='btntest' type='button' value='点击或移出就不可用了' />");
+        $("#btntest").on("click mouseout", function () {
+            $(this).attr("disabled", "true");
+        });
+    });
+</script>
+<ul>
+    <li><em>使用on()方法绑定按钮元素的click和mouseout两个事件，在这两个事件中，按钮将设置为不可用状态。</em></li>
+</ul>
+</body>
+</html>

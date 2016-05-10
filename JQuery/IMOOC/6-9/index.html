@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉列表的change事件</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>下拉列表的change事件</h3>
+<select id="seltest">
+    <option value="葡萄">葡萄</option>
+    <option value="苹果">苹果</option>
+    <option value="荔枝">荔枝</option>
+    <option value="香焦">香焦</option>
+</select>
+
+<script type="text/javascript">
+    $(function () {
+        $("select").on("change", function () {
+            if ($(this).val() == "苹果")
+                $(this).css("background-color", "red");
+            else
+                $(this).css("background-color", "green");
+        }
+        )
+    })
+    ;
+</script>
+<ul>
+    <li><em>，使用bind()方法change事件，在该事件中，根据所选择项的不同，改变下拉列表框的背景色。</em></li>
+</ul>
+</body>
+</html>

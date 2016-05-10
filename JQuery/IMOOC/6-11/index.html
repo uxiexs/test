@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用show()和hide()方法显示和隐藏元素</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>使用show()和hide()方法显示和隐藏元素</h3>
+<div>
+    <h4>我喜欢吃的水果</h4>
+    <ul class="fruit">
+        <li>苹果</li>
+        <li>甘桔</li>
+        <li>梨</li>
+    </ul>
+    <input id="hidval" class="hid" type="hidden" value="0"/>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("h4").bind("click", function () {
+            if ($(".hid").val() == 0) {
+                $(".fruit").show();
+                $("#hidval").val(1);
+            } else {
+                $(".fruit").hide();
+                $("#hidval").val(0);
+            }
+        });
+    });
+</script>
+<ul>
+    <li><em>调用show()或hide()方法显示或隐藏正文。</em></li>
+</ul>
+</body>
+</html>

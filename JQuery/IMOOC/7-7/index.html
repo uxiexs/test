@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用fadeTo()方法设置淡入淡出效果的不透明度</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>使用fadeTo()方法设置淡入淡出效果的不透明度</h3>
+<span class="red"></span><span class="orange"></span><span class="blue"></span>
+
+<script type="text/javascript">
+    $(function () {
+        $("span").each(function (index) {
+            switch (index) {
+                case 0:
+                    $(this).fadeTo(600, 0.2)
+                    break;
+                case 1:
+                    $(this).fadeTo(600, 0.4)
+                    break;
+                case 2:
+                    $(this).fadeTo(600, 0.6)
+                    break;
+            }
+        });
+    });
+</script>
+
+
+<br /> <br /><br /> <br />
+<em>调用fadeTo()方法分别设置三个span元素的不透明度。</em>
+</body>
+</html>

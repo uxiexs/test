@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用fadeIn()与fadeOut()方法实现元素淡入淡出的效果</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>使用fadeIn()与fadeOut()方法实现元素淡入淡出的效果</h3>
+<div>
+    <h4>我喜欢吃的水果</h4>
+    <ul>
+        <li>苹果</li>
+        <li>甘桔</li>
+        <li>梨</li>
+    </ul>
+    <input id="hidval" type="hidden" value="0"/>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("h4").bind("click", function () {
+            if ($("#hidval").val() == 0) {
+                $("ul").fadeIn(800, function () {
+                    $("#hidval").val(1);
+                })
+            } else {
+                $("ul").fadeOut(800, function () {
+                    $("#hidval").val(0);
+                })
+            }
+        })
+    });
+</script>
+<li><em>调用fadeIn()和fadeOut()方法实现“标题”下“内容”元素的淡入淡出效果。</em></li>
+</body>
+</html>

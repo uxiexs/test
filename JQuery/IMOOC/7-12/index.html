@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery动画特效</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div><span></span></div>
+<br/><br/><br/><br/><br/>
+<input type="button" class="leftMove" value="左移">
+<input type="button" class="rightMove" value="右移">
+<script type="text/javascript">
+    $(function () {
+        $('.leftMove').click(function () {
+            if ($("span").position().left >= 50) {
+                $("span").animate({
+                    left: "-=50px"
+
+                });
+            }
+        });
+        $(".rightMove").click(function () {
+            if (($("span").position().left >= 0)&&($("span").position().left<=1150)) {
+                $("span").animate({
+                    left: '+=50px'
+                });
+            }
+        });
+    })
+</script>
+</body>
+</html>

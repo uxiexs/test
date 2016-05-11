@@ -1,0 +1,16 @@
+div
+{
+    margin: 10px 0px;
+}
+span
+{
+    position:absolute;
+    left: 10px;
+    width:80px;
+    height:80px;
+    border: solid 1px #ccc;
+    margin: 0px 8px;
+    background-color: Red;
+    color:White;
+    vertical-align:middle
+}

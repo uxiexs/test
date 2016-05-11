@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>制作移动位置的动画</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>制作移动位置的动画</h3>
+<span></span>
+<div id="tip"></div>
+
+<script type="text/javascript">
+    $(function () {
+        $("span").animate({
+            left: "+=100px"
+        }, 3000, function () {
+            $(this).animate({
+                height: '+=30px',
+                width: '+=30px'
+            }, 3000, function () {
+                $("#tip").html("执行完成!");
+            });
+        });
+    });
+</script>
+<br /><br /><br /><br /><br /><br />
+<ul>
+    <li><em>调用animate()方法移动并放大span元素。</em></li>
+</ul>
+</body>
+</html>

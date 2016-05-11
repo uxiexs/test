@@ -1,0 +1,11 @@
+span
+{
+    position:absolute;
+    width:80px;
+    height:80px;
+    border: solid 1px #ccc;
+    margin: 0px 8px;
+    background-color: Red;
+    color:White;
+    vertical-align:middle
+}

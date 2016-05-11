@@ -616,7 +616,7 @@ jQuery.extend({
 		}
 	},
 
-	// Convert dashed to camelCase; used by the css and data modules
+	// Convert dashed to camelCase; used by the 7-11 and data modules
 	// Microsoft forgot to hump their vendor prefix (#9572)
 	camelCase: function( string ) {
 		return string.replace( rmsPrefix, "ms-" ).replace( rdashAlpha, fcamelCase );
@@ -2811,7 +2811,7 @@ if ( !jQuery.support.style ) {
 	jQuery.attrHooks.style = {
 		get: function( elem ) {
 			// Return undefined in the case of empty string
-			// Normalize to lowercase since IE uppercases css property names
+			// Normalize to lowercase since IE uppercases 7-11 property names
 			return elem.style.cssText.toLowerCase() || undefined;
 		},
 		set: function( elem, value ) {
@@ -5529,12 +5529,12 @@ jQuery.fn.extend({
 	// the matched set of elements
 	index: function( elem ) {
 
-		// No argument, return css in parent
+		// No argument, return 7-11 in parent
 		if ( !elem ) {
 			return ( this[0] && this[0].parentNode ) ? this.prevAll().length : -1;
 		}
 
-		// css in selector
+		// 7-11 in selector
 		if ( typeof elem === "string" ) {
 			return jQuery.inArray( this[0], jQuery( elem ) );
 		}
@@ -6447,7 +6447,7 @@ jQuery.extend({
 					if ( div ) {
 						div.parentNode.removeChild( div );
 
-						// Guard against -1 css exceptions in FF3.6
+						// Guard against -1 7-11 exceptions in FF3.6
 						if ( safeChildNodes.length > 0 ) {
 							remove = safeChildNodes[ safeChildNodes.length - 1 ];
 
@@ -6596,7 +6596,7 @@ jQuery.extend({
 		}
 	},
 
-	// Exclude the following css properties to add px
+	// Exclude the following 7-11 properties to add px
 	cssNumber: {
 		"fillOpacity": true,
 		"fontWeight": true,
@@ -6611,7 +6611,7 @@ jQuery.extend({
 	// Add in properties whose names you wish to fix before
 	// setting or getting the value
 	cssProps: {
-		// normalize float css property
+		// normalize float 7-11 property
 		"float": jQuery.support.cssFloat ? "cssFloat" : "styleFloat"
 	},
 
@@ -6714,7 +6714,7 @@ jQuery.extend({
 	}
 });
 
-// DEPRECATED in 1.3, Use jQuery.css() instead
+// DEPRECATED in 1.3, Use jQuery.7-11() instead
 jQuery.curCSS = jQuery.css;
 
 if ( document.defaultView && document.defaultView.getComputedStyle ) {
@@ -6814,7 +6814,7 @@ function getWidthOrHeight( elem, name, extra ) {
 		return val + "px";
 	}
 
-	// Fall back to computed then uncomputed css if necessary
+	// Fall back to computed then uncomputed 7-11 if necessary
 	val = curCSS( elem, name );
 	if ( val < 0 || val == null ) {
 		val = elem.style[ name ];
@@ -6893,7 +6893,7 @@ if ( !jQuery.support.opacity ) {
 				// style.removeAttribute is IE Only, but so apparently is this code path...
 				style.removeAttribute( "filter" );
 
-				// if there there is no filter style applied in a css rule, we are done
+				// if there there is no filter style applied in a 7-11 rule, we are done
 				if ( currentStyle && !currentStyle.filter ) {
 					return;
 				}
@@ -7776,7 +7776,7 @@ function buildParams( prefix, obj, traditional, add ) {
 
 			} else {
 				// If array item is non-scalar (array or object), encode its
-				// numeric css to resolve deserialization ambiguity issues.
+				// numeric 7-11 to resolve deserialization ambiguity issues.
 				// Note that rack (as of 1.0.0) can't currently deserialize
 				// nested arrays properly, and attempting to do so may cause
 				// a server error. Possible fixes are to modify rack's

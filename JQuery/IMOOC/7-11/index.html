@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>调用delay()方法延时执行动画效果</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>调用delay()方法延时执行动画效果</h3>
+<span></span><br /><br /><br /><br /><br />
+<input id="btnStop" type="button" value="延时"/>
+<div id="tip"></div>
+
+<script type="text/javascript">
+    $(function () {
+        $("span").animate({
+            left: "+=100px"
+        }, 3000, function () {
+            $(this).animate({
+                height: '+=60px',
+                width: '+=60px'
+            }, 3000, function () {
+                $("#tip").html("执行完成!");
+            });
+        });
+        $("#btnStop").bind("click", function () {
+            $("span").delay(3000);
+            $("#tip").html("正在延时!");
+        });
+    });
+</script>
+<ul>
+    <li><em>调用delay()方法延时执行动画效果</em></li>
+</ul>
+</body>
+</html>

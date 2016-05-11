@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>how()和hide()方法动画方式显示和隐藏元素</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>show()和hide()方法动画方式显示和隐藏元素</h3>
+<div>
+    <h4>我喜欢吃的水果</h4>
+    <ul>
+        <li>苹果</li>
+        <li>甘桔</li>
+        <li>梨</li>
+    </ul>
+    <input id="hidval" type="hidden" value="0"/>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("h4").bind("click", function () {
+            if ($("#hidval").val() == 0) {
+                $("ul").show(200, function () {
+                    $("#hidval").val(1);
+                })
+            } else {
+                $("ul").hide(200, function () {
+                    $("#hidval").val(0);
+                })
+            }
+        })
+    });
+</script>
+    <li><em>以动画的效果显示或隐藏正文元素，并在方法的回调函数中，设置控制显示或隐藏状态的“hidval”元素值。</em></li>
+</body>
+</html>

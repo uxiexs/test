@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用slideUp()和slideDown()方法的滑动效果</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>toggle()方法的动画切换效果</h3>
+    <h3>使用slideUp()和slideDown()方法的滑动效果</h3>
+    <div>
+        <h4>我喜欢吃的水果</h4>
+        <ul>
+            <li>苹果</li>
+            <li>甘桔</li>
+            <li>梨</li>
+        </ul>
+        <input id="hidval" type="hidden" value="0"/>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            $("h4").bind("click", function () {
+                if ($("#hidval").val() == 0) {
+                    $("ul").slideUp(300, function () {
+                        $("#hidval").val(1);
+                    })
+                }
+                else {
+                    $("ul").slideDown(300, function () {
+                        $("#hidval").val(0);
+                    })
+                }
+            })
+        })
+        ;
+    </script>
+<ol>
+    <li><em>调用slideUp()和slideDown()方法实现指定“内容”元素的滑动显示效果</em></li>
+</ol>
+</body>
+</html>

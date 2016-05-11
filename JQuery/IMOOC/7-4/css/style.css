@@ -1,0 +1,22 @@
+div
+{
+    margin: 10px 0px;
+    border: solid 1px #ccc;
+    width: 280px;
+}
+ul
+{
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+}
+li
+{
+    margin: 3px;
+}
+h4
+{
+    background-color: #eee;
+    padding: 5px;
+    margin: 0px;
+}

@@ -8,13 +8,19 @@
         .divFrame{width: 260px;border: solid 1px #666;font-size: 10pt}
         .divTitle{background-color: #eeeeee;padding: 5px}
         .divContent{padding: 5px;display: none}
-        .divCurrColor{background-color: red}
     </style>
     <script type="text/javascript">
         $(function(){
-            $('.divTitle').click(function(){
+            /*鼠标覆盖在divTitle上时，触发事件，增加divCurrColor,显示divContent*/
+            $('.divTitle').on("mouseover",function(){
                 $(this).addClass('divCurrColor').next(".divContent").css('display','block');
+                $(".divCurrColor").css("background-color",'red');
             });
+            /*鼠标离开divTitle时，触发事件，隐藏divContent,修改divTitle背景色*/
+            $('.divTitle').on("mouseleave",function(){
+                $(".divContent").css("display",'none');
+                $(".divCurrColor").css("background-color",'#eeeeee');
+            })
         });
     </script>
 </head>

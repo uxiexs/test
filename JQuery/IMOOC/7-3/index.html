@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h3>toggle()方法的动画切换效果</h3>
+<div>
+    <h4>
+        <span class="fl">我喜欢吃的水果</span>
+        <span class="fr" id="spnTip">显示</span>
+    </h4>
+    <ul>
+        <li>苹果</li>
+        <li>甘桔</li>
+        <li>梨</li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var $spn = $("#spnTip");
+        $(".fr").bind("click", function () {
+            $("ul").toggle(200,function() {
+                $spn.html() == "隐藏" ? $spn.html("显示") : $spn.html("隐藏");
+        })
+    });
+    })
+    ;
+</script>
+<li><em>+调用toggle()方法实现“内容”部分的动画显示和隐藏之间的切换。</em></li>
+</body>
+</html>

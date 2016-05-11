@@ -1,0 +1,9 @@
+span
+{
+    float: left;
+    border: solid 1px #ccc;
+    margin: 0px 8px;
+    background-color: Blue;
+    color:White;
+    vertical-align:middle
+}

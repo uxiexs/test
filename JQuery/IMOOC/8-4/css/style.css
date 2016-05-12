@@ -1,0 +1,39 @@
+#divtest
+{
+    width: 282px;
+}
+#divtest .title
+{
+    padding: 8px;
+    background-color:blue;
+    color:#fff;
+    height: 23px;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: bold;
+}
+ul
+{
+    float: left;
+    width: 280px;
+    padding: 5px 0px;
+    margin: 0px;
+    font-size: 14px;
+    list-style-type: none;
+}
+ul li
+{
+    float: left;
+    width: 280px;
+    height: 23px;
+    line-height: 23px;
+    padding: 3px 8px;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"  >
+    <title>使用get()方法以GET方式从服务器获取数据</title>
+    <script type="text/javascript" src="../../../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<div id="divtest">
+    <div class="title">
+        <span class="fl">我的个人资料</span>
+                <span class="fr">
+                    <input id="btnShow" type="button" value="加载"/>
+                </span>
+    </div>
+    <ul></ul>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btnShow").bind("click", function () {
+            var $this = $(this);
+            $.get("http://www.imooc.com/data/info_f.php",function(data) {
+                $this.attr("disabled", "true");
+            $("ul").append("<li>我的名字叫：" + data.name + "</li>");
+            $("ul").append("<li>男朋友对我说：" + data.say + "</li>");
+        },
+            "json"
+            );
+    })
+    })
+    ;
+</script>
+<li><em>$.get()方法，请求服务器中 http://www.imooc.com/data/info_f.php 文件中的数据，并将返回的内容显示在页面中。</em></li>
+</body>
+</html>

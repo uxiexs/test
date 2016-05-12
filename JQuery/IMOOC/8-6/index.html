@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用serialize()方法序列化表单元素值</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="divtest">
+    <div class="title">
+        <span class="fl">我的个人资料</span>
+                <span class="fr">
+                    <input id="btnAction" type="button" value="序列化"/>
+                </span>
+    </div>
+    <form action="">
+        <ul>
+            <li>姓名：<input name="Text1" type="text" size="12"/></li>
+            <li>
+                <select name="Select1">
+                    <option value="0">男</option>
+                    <option value="1">女</option>
+                </select>
+            </li>
+            <li><input name="Checkbox1" type="checkbox"/>资料是否可见</li>
+            <li id="litest"></li>
+        </ul>
+    </form><br /><br /><br /><br /><br /><br /><br />
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btnAction").bind("click", function () {
+            $("#litest").html($("form").serialize());
+        })
+    })
+</script>
+<ul>
+    <li><em>调用serialize()将表单中的元素值进行序列化，并将序列化后的字符串内容显示在页面元素中。</em></li>
+</ul>
+</body>
+</html>

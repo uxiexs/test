@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用getJSON()方法异步加载JSON格式数据</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="divtest">
+    <div class="title">
+        <span class="fl">我最喜欢的一项运动</span>
+                <span class="fr">
+                    <input id="btnShow" type="button" value="加载"/>
+                </span>
+    </div>
+    <ul></ul>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btnShow").bind("click", function () {
+            var $this = $(this);
+            $.getJSON("./data/sport.json",function(data) {
+                $this.attr("disabled", "true");
+            $.each(data, function (index, sport) {
+                if (index == 2)
+                    $("ul").append("<li>" + sport["name"] + "</li>");
+            });
+
+        });
+    })
+    })
+    ;
+</script>
+</body>
+</html>

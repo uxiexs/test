@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="divtest">
+    <div class="title">
+        <span class="fl">我最喜欢的运动</span>
+                <span class="fr">
+                    <input id="btnShow" type="button" value="加载"/>
+                </span>
+    </div>
+    <ul></ul><br /><br />
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btnShow").bind("click", function () {
+            var $this = $(this);
+            $.getScript("./data/sport_f.js",function() {
+                $this.attr("disabled", "true");
+        });
+    })
+    })
+    ;
+</script>
+<li><em>调用getScript()加载并执行服务器中JavaScript格式的文件。</em></li>
+</body>
+</html>

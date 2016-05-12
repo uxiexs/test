@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="divtest">
+    <div class="title">
+        <span class="fl">检测数字是否大于0</span>
+        <span class="fr"><input id="btnCheck" type="button" value="检测" /></span>
+    </div>
+    <ul>
+        <li>请求输入一个数字 <input id="txtNumber" type="text" size="12" /></li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btnCheck").bind("click", function () {
+            $.post("http://www.imooc.com/data/check_f.php",{
+                        num:$("#txtNumber").val()
+                    },
+                    function (data) {
+                        $("ul").append("<li>你输入的<b>  "
+                                + $("#txtNumber").val() + " </b>是<b> "
+                                + data + " </b></li>");
+                    });
+        })
+    });
+</script>
+</body>
+</html>

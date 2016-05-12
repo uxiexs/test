@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用ajax()方法加载服务器数据</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="divtest">
+    <div class="title">
+        <span class="fl">检测数字的奇偶性</span>
+                <span class="fr">
+                    <input id="btnCheck" type="button" value="检测"/>
+                </span>
+    </div>
+    <ul>
+        <li>请求输入一个数字
+            <input id="txtNumber" type="text" size="12"/>
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btnCheck").bind("click", function () {
+            $.ajax({
+                url: "http://www.imooc.com/data/check.php",
+                data: {num: $("#txtNumber").val()},
+                method: "POST",
+                dataType: "text",
+                success: function (data) {
+                    $("ul").append("<li>你输入的<b>  "
+                            + $("#txtNumber").val() + " </b>是<b> "
+                            + data + " </b></li>");
+                }
+            })
+            ;
+        })
+    });
+</script>
+<ul>
+    <li><em>$.ajax()方法中的配置对象，检测输入值的奇偶性，并将检测后的结果显示在页面中。请使用POST方式发送请求。</em></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用ajaxSetup()方法设置全局Ajax默认选项</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div id="divtest">
+    <div class="title">
+        <span class="fl">奇偶性和是否大于0</span>
+                <span class="fr">
+                    <input id="btnShow_1" type="button" value="验证1"/>
+                    <input id="btnShow_2" type="button" value="验证2"/>
+                </span>
+    </div>
+    <ul>
+        <li>请求输入一个数字
+            <input id="txtNumber" type="text" size="12"/>
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $.ajaxSetup({
+            url: "http://www.imooc.com/data/check.php",
+            dataType: "text",
+            method: "POST",
+            success: function (data) {
+                $("ul").append("<li>你输入的<b>  "
+                        + $("#txtNumber").val() + " </b>是<b> "
+                        + data + " </b></li>");
+            }
+        });
+        $("#btnShow_1").bind("click", function () {
+            $.ajax({
+                data: {num: $("#txtNumber").val()},
+                url: "http://www.imooc.com/data/check.php"
+            });
+        })
+        $("#btnShow_2").bind("click", function () {
+            $.ajax({
+                data: {num: $("#txtNumber").val()},
+                url: "http://www.imooc.com/data/check_f.php"
+            });
+        })
+    });
+</script>
+<ul>
+    <li><em>使用ajaxSetup()方法设置Ajax请求时的全局性配置选项，完成检测输入数据奇偶性和是否大于0的检测。</em></li>
+</ul>
+</body>
+</html>

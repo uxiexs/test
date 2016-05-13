@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+</head>
+<body>
+<ul></ul>
+<script type="text/javascript">
+    //Data type for JSON
+    var data = [
+        {"name": "apple", "price": "$2", "produce": "ShangDong"},
+        {"name": "banana", "price": "$1", "produce": "ShangXi"},
+        {"name": "pear", "price": "$1", "produce": "HaiNan"}
+    ];
+    //script Index starts at zero at the end
+    $(function () {
+
+        $.each(data, function (index) {
+
+            $("ul").append("<li><em>" + "Product name:" + data[index].name + "&nbsp;Price:" + data[index].price + "&nbsp;Produce:" + data[index].produce + "</em></li>")
+        })
+    })
+</script>
+</body>
+</html>

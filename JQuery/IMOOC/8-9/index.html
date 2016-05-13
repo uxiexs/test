@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用ajaxStart()和ajaxStop()方法</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="divtest">
+    <div class="title">
+        <span class="fl">加载一段文字</span>
+                <span class="fr">
+                    <input id="btnShow" type="button" value="加载"/>
+                </span>
+    </div>
+    <ul>
+        <li id="divload"></li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        ? {
+            $(this
+        ).
+        html("正在请求数据...");
+    });
+    ? {
+        $(this
+    ).html("数据请求完成！");
+    })
+    ;
+    $("#btnShow").bind("click", function () {
+        var $this = $(this);
+        $.ajax({
+            url: "http://www.imooc.com/data/info_f.php",
+            dataType: "json",
+            success: function (data) {
+                $this.attr("disabled", "true");
+                $("ul").append("<li>我的名字叫：" + data.name + "</li>");
+                $("ul").append("<li>男朋友对我说：" + data.say + "</li>");
+            }
+        });
+    })
+    })
+    ;
+</script>
+</body>
+</html>

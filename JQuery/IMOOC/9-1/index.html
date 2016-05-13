@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="../../../js/jquery.validate.js"></script>
+    <script type="text/javascript" src="../../../js/jquery.validate.messages_cn.js"></script>
+</head>
+<body>
+<form id="frmV" method="get" action="#">
+    <div id="divtest">
+        <div class="title">
+            <span class="fl">表单验证插件</span>
+                    <span class="fr">
+                        <input id="btnSubmit" type="submit" value="提交"/>
+                    </span>
+        </div>
+        <div class="content">
+            <span class="fl">邮箱：</span><br/>
+            <input id="email" name="email" type="text"/><br/>
+            <span class="tip"></span>
+        </div>
+    </div>
+</form>
+
+<script type="text/javascript">
+    $(function () {
+        $("#frmV").validate(
+                {
+                    /*自定义验证规则*/
+                    rules: {
+                        email: {
+                            required: true,
+                            email: true
+                        }
+                    },
+                    /*错误提示位置*/
+                    errorPlacement: function (error, element) {
+                        error.appendTo(".tip");
+                    }
+                })
+    })
+</script>
+<ul>
+    <li><em>使用validate插件，完成对邮件格式的验证。</em></li>
+</ul>
+</body>
+</html>

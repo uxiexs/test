@@ -21,30 +21,30 @@
 
 <script type="text/javascript">
     $(function () {
-        ? {
-            $(this
-        ).
-        html("正在请求数据...");
-    });
-    ? {
-        $(this
-    ).html("数据请求完成！");
-    })
-    ;
-    $("#btnShow").bind("click", function () {
-        var $this = $(this);
-        $.ajax({
-            url: "http://www.imooc.com/data/info_f.php",
-            dataType: "json",
-            success: function (data) {
-                $this.attr("disabled", "true");
-                $("ul").append("<li>我的名字叫：" + data.name + "</li>");
-                $("ul").append("<li>男朋友对我说：" + data.say + "</li>");
-            }
+        $("#divload").ajaxStart(function () {
+            $(this).html("正在请求数据...");
         });
-    })
+        $("#divload").ajaxStop(function () {
+            $(this).html("数据请求完成！");
+        })
+        ;
+        $("#btnShow").bind("click", function () {
+            var $this = $(this);
+            $.ajax({
+                url: "http://www.imooc.com/data/info_f.php",
+                dataType: "json",
+                success: function (data) {
+                    $this.attr("disabled", "true");
+                    $("ul").append("<li>我的名字叫：" + data.name + "</li>");
+                    $("ul").append("<li>男朋友对我说：" + data.say + "</li>");
+                }
+            });
+        })
     })
     ;
 </script>
+<ul>
+    <li><em>调用ajaxStart()和ajaxStop()方法绑定元素，当发送Ajax请求和结束请求时，在元素中显示不同的文字内容。</em></li>
+</ul>
 </body>
 </html>

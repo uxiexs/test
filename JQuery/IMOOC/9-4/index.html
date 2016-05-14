@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片放大镜插件——jqzoom</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../../js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../js/jquery.jqzoom.js"></script>
+</head>
+<body>
+<div id="divtest">
+    <div class="title">
+        <span class="fl">图片放大镜</span>
+    </div>
+    <div class="content">
+        <a href="http://img.imooc.com/52e4aec90001924d06800599.jpg" id="jqzoom" title="小兔子乖乖">
+            <img src="http://img.imooc.com/52e4aee700012df702130212.jpg" alt=""/>
+        </a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#jqzoom").jqzoom({ //绑定图片放大插件jqzoom
+        zoomWidth: 123, //小图片所选区域的宽
+                zoomHeight: 123, //小图片所选区域的高
+                zoomType: 'reverse' //设置放大镜的类型
+    });
+    });
+</script>
+<ul>
+    <li><em>调用放大镜插件的jqzoom()方法，实现图片移动区域的放大镜效果</em></li>
+</ul>
+</body>
+</html>

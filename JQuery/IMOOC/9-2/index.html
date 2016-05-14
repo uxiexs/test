@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单插件</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="../../../js/jquery.form.js"></script>
+</head>
+<body>
+<form id="frmV" method="POST" action="#">
+    <div id="divtest">
+        <div class="title">
+            <span class="fl">个人信息页</span>
+                    <span class="fr">
+                        <input id="btnSubmit" type="submit" value="提交" />
+                    </span>
+        </div>
+        <div class="content">
+            <span class="fl">用户名：</span><br />
+            <input id="user" name="user" type="text" /><br />
+            <span class="fl">昵称：</span><br />
+            <input id="nick" name="nick" type="text" />
+            <div class="tip"></div>
+        </div>
+    </div>
+</form>
+
+<script type="text/javascript">
+    $(function () {
+        var options = {
+            url: "from.php",
+            target: ".tip"
+        };
+        $('#frmV').ajaxForm(options);
+    });
+</script>
+<ul>
+    <li><em>调用form表单插件向服务器发送数据，并接收返回信息。</em></li>
+</ul>
+</body>
+</html>

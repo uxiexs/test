@@ -1,0 +1,55 @@
+#divtest
+{
+    width: 282px;
+}
+#divtest .title
+{
+    padding: 8px;
+    background-color: Blue;
+    color: #fff;
+    height: 23px;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#divtest .content
+{
+    padding: 8px 0px;
+    background-color: #fff;
+    font-size: 13px;
+}
+#divtest .content .divPics ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#divtest .content .divPics ul li
+{
+    display: inline;
+}
+#divtest .content .divPics ul img
+{
+    border: 5px solid #444;
+    border-width: 5px;
+    width: 75px;
+    height: 75px;
+}
+#divtest .content .divPics ul a:hover img
+{
+    border: 5px solid #fff;
+    border-width: 5px;
+    color: #fff;
+}
+#divtest .content .divPics ul a:hover
+{
+    color: #fff;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}

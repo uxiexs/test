@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义对象级插件</title>
+    <script type="text/javascript" src="../../../js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../js/jquery.lifocuscolor.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="divtest">
+    <div class="title">
+        <span class="fl">对象级别的插件</span>
+    </div>
+    <div class="content">
+        <ul id="u1">
+            <li><span>橘子</span><span>水果</span></li>
+            <li><span>芹菜</span><span>蔬菜</span></li>
+            <li><span>香蕉</span><span>水果</span></li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("u1").focusColor("#ccc"); //调用自定义的插件
+    })
+</script>
+<ul>
+    <li><em>调用自定义插件改变u1元素中选中li选项的背景色。</em></li>
+</ul>
+</body>
+</html>

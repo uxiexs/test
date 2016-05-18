@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖曳排序插件</title>
+    <script type="text/javascript" src="../../../js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../js/jquery-ui-1.9.2.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div id="divtest">
+    <div class="title">
+        <span class="fl">我最喜欢的运动</span>
+    </div>
+    <div class="content">
+        <ul>
+            <li>1)足球</li>
+            <li>2)散步</li>
+            <li>3)篮球</li>
+            <li>4)乒乓球</li>
+            <li>5)骑自行车</li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("ul").sortable({
+                delay:1, //延时一秒后执行
+                opacity:0.5 //以透明度0.5拖动
+    })
+    });
+</script>
+</body>
+</html>

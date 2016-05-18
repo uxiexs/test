@@ -1,0 +1,23 @@
+body
+{
+    font-size: 62.5%;
+}
+#divtest
+{
+    width: 282px;
+}
+#divtest .content
+{
+    background-color: #eee;
+    padding: 8px;
+    height: 23px;
+    line-height: 23px;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}

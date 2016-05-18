@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="282eeec3-dba9-4db0-a6f2-204552d87fd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-bg_flat_10_000000_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-bg_glass_100_f6f6f6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-bg_glass_100_fdf5ce_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-icons_228ef1_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-icons_ef8c08_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-icons_ffd27a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/external/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/jquery-ui.structure.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/jquery-ui.structure.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/jquery-ui.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.11.4/jquery-ui.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/IMOOC/10-6/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/IMOOC/10-6/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JQuery/IMOOC/10-5/index.html" afterPath="$PROJECT_DIR$/JQuery/IMOOC/10-5/index.html" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,61 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-2/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.939394">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-3/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.939394">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-4/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.939394">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-5/index.html">
+        <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-6/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49289098">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-ui.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-5/css/jquery-ui.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.242424">
-              <caret line="232" column="150" selection-start-line="232" selection-start-column="116" selection-end-line="232" selection-end-column="154" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-3/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.848484">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.9241706">
+              <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -146,6 +73,8 @@
         <option value="$PROJECT_DIR$/JQuery/IMOOC/10-4/index.html" />
         <option value="$PROJECT_DIR$/JQuery/IMOOC/10-5/css/style.css" />
         <option value="$PROJECT_DIR$/JQuery/IMOOC/10-5/index.html" />
+        <option value="$PROJECT_DIR$/JQuery/IMOOC/10-6/css/style.css" />
+        <option value="$PROJECT_DIR$/JQuery/IMOOC/10-6/index.html" />
       </list>
     </option>
   </component>
@@ -259,7 +188,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="10-5" />
+              <option name="myItemId" value="10-6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JQuery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IMOOC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,9 +304,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25080386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25080386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -590,7 +545,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-3/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.848484">
+        <state vertical-scroll-proportion="0.8151659">
           <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
           <folding />
         </state>
@@ -638,16 +593,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-5/css/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.242424">
+        <state vertical-scroll-proportion="0.40047392">
           <caret line="232" column="150" selection-start-line="232" selection-start-column="116" selection-end-line="232" selection-end-column="154" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-6/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67772514">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-5/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49289098">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.15402843">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/10-6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9241706">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
           <folding />
         </state>
       </provider>

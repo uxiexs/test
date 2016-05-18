@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>右键菜单插件</title>
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="../../../js/jquery.contextmenu.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/jquery.contextmenu.css">
+</head>
+<body>
+<div id="divtest">
+    <div class="title"><span class="fl">点击右键</span></div>
+    <div class="content">
+        <input id="btnSubmit" type="button" value="提交" />
+        <div class="tip"></div>
+    </div>
+    <div class="contextMenu" id="sysMenu">
+        <ul>
+            <li id="Li3"><img src="http://img.imooc.com/52e4b34b0001bb6d00160016.jpg" alt="" />保存</li>
+            <li id="Li4"><img src="http://img.imooc.com/52e4b3680001424900160016.jpg" alt="" />退出</li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btnSubmit").contextMenu('sysMenu',
+        { bindings:
+        {
+            'Li3': function (Item) {
+                $(".tip").show().html("您点击了“保存”项");
+            },
+            'Li4': function (Item) {
+                $(".tip").show().html("您点击了“退出”项");
+            }
+        }
+        });
+    });
+</script>
+<ul>
+    <li><em>右键菜单插件与按钮相绑定，点击按钮右键时，弹出菜单。</em></li>
+</ul>
+</body>
+</html>

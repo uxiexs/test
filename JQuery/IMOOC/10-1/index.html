@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖曳插件</title>
+    <script type="text/javascript" src="../../../js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../js/jquery-ui-1.9.2.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="divtest">
+    <div id="x" class="drag">沿x轴拖拽</div>
+    <div id="y" class="drag">沿y轴拖拽</div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(".drag").draggable({containment:"parent"});
+    });
+</script>
+<ul>
+    <li><em>调用draggable插件的draggable()方法，分别使id号为“x”和“y”的div元素只能沿X轴和Y轴拖曳。</em></li>
+</ul>
+</body>
+</html>

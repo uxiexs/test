@@ -1,0 +1,15 @@
+#divtest
+{
+    width: 282px;
+    border: solid 1px #ccc;
+}
+.drag
+{
+    border: solid 1px #fff;
+    background-color: Blue;
+    color:#fff;
+    cursor: move;
+    width: 35px;
+    padding: 20px;
+    text-align: center;
+}

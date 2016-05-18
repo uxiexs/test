@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../../../js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../../../js/jquery-ui-1.11.4/jquery-ui.min.css">
+</head>
+<body>
+<div id="divtest">
+    <div class="title">
+        选择颜色值</div>
+    <div class="content">
+                <span id="spnColor" class="input fl">
+                    <input />
+                </span>
+        <span id="spnPrev" class="prev fr"></span>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        //定义变量
+        var intR = 0, intG = 0, intB = 0, strColor;
+        $("input").spinner({
+            //初始化插件
+            max: 10,
+            min: 0,
+            //设置微调按钮递增/递减事件
+            spin: function (event, ui) {
+                if (ui.value == 8)
+                    spnPrev.style.backgroundColor = "red";
+                else
+                    spnPrev.style.backgroundColor = "green";
+            },
+            //设置微调按钮值改变事件
+            change: function (event, ui) {
+                var intTmp = $(this).spinner("value");
+                if (intTmp < 0) $(this).spinner("value", 0);
+                if (intTmp > 10) $(this).spinner("value", 10);
+                if (intTmp == 8)
+                    spnPrev.style.backgroundColor = "red";
+                else
+                    spnPrev.style.backgroundColor = "green";
+            }
+        });
+    });
+</script>
+<ul>
+    <li><em>将输入文本框与微调插件相绑定，并调用插件的spinner()方法，动态改变div元素显示的背景色。</em></li>
+</ul>
+</body>
+</html>

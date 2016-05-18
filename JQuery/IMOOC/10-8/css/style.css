@@ -1,0 +1,39 @@
+#divtest
+{
+    font-size: 62.5%;
+    width: 382px;
+}
+#divtest .title
+{
+    padding: 8px;
+    background-color: Blue;
+    color: #fff;
+    height: 23px;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#divtest .content
+{
+    padding: 8px 0px;
+    background-color: #fff;
+    font-size: 13px;
+}
+#divtest .content .input
+{
+    width: 120px;
+}
+#divtest .content .prev
+{
+    width: 100px;
+    height: 70px;
+    border: solid 1px #ccc;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>面板折叠插件</title>
+    <script type="text/javascript" src="../../../js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../js/jquery-ui-1.9.2.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="divtest">
+    <div id="accordion">
+        <h3>
+            <a href="#">白富美</a></h3>
+        <p>咱们结婚吧!</p>
+        <h3>
+            <a href="#">土豪族</a></h3>
+        <p>咱们交个朋友吧!</p>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#accordion").accordion();
+    });
+</script>
+<ul>
+    <li><em>调用折叠面析插件的accordion()方法，实现页面中多个面板的折叠效果。</em></li>
+</ul>
+</body>
+</html>

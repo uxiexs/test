@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜单工具插件</title>
+    <script type="text/javascript" src="../../../js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../../../js/jquery-ui-1.11.4/jquery-ui.min.css">
+</head>
+<body>
+<ul id="menu">
+    <li><a href="#">小明一中</a>
+        <ul>
+            <li><a href="#">高中部</a>
+                <ul>
+                    <li><a href="#">高一(1)班</a></li>
+                    <li><a href="#">高一(2)班</a></li>
+                    <li><a href="#">高一(3)班</a>
+                        <ul>
+                            <li><a href="#">小胡</a></li>
+                            <li><a href="#">小李</a></li>
+                            <li><a href="#">小陈</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">初中部</a>
+                <ul>
+                    <li><a href="#">初一(1)班</a></li>
+                    <li><a href="#">初一(2)班</a></li>
+                    <li><a href="#">初一(3)班</a></li>
+                </ul>
+            </li>
+            <li><a href="#">教研部</a></li>
+        </ul>
+    </li>
+    <li class="ui-state-disabled"><a href="#">大明二中</a></li>
+</ul>
+
+<script type="text/javascript">
+    $(function () {
+        $("#menu").menu();
+    });
+</script>
+<ul>
+    <li><em>调用菜单插件的meun()方法，定义一个四层结构的导航式菜单。</em></li>
+</ul>
+</body>
+</html>

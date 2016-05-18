@@ -1,0 +1,50 @@
+#divtest
+{
+    width: 282px;
+}
+.box
+{
+    width: 280px;
+    border: solid 1px #eee;
+    margin: 10px 0px;
+}
+.box .title
+{
+    padding: 8px;
+    background-color: Blue;
+    color: #fff;
+    height: 23px;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.box .drag
+{
+    padding: 5px;
+    cursor: move;
+}
+.box .drag div
+{
+    border: solid 1px #fff;
+    background-color: red;
+    color:#fff;
+    cursor: move;
+    width: 35px;
+    padding: 20px;
+    text-align: center;
+}
+.box .cart
+{
+    padding: 5px;
+    cursor: move;
+}
+.box .cart div
+{
+    padding: 5px;
+    height: 55px;
+    text-align:center;
+}
+.focus
+{
+    background-color: #eee;
+}

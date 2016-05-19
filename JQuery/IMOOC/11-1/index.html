@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取浏览器的版本和类型</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="../../../js/jquery-1.12.3.js"></script>
+</head>
+<body>
+
+<table border="1">
+    <tr>
+        <th class="ie6">IE6</th>
+        <th class="ie">IE</th>
+        <th class="chrome">Chrome</th>
+        <th class="firefox">Firefox</th>
+        <th class="opera">Opera</th>
+        <th class="safari">Safari</th>
+    </tr>
+    <tr>
+        <td>Version</td>
+        <td class="ie">&nbsp;</td>
+        <td class="chrome">&nbsp;</td>
+        <td class="firefox">&nbsp;</td>
+        <td class="opera">&nbsp;</td>
+        <td class="safari">&nbsp;</td>
+    </tr>
+</table>
+<script type="text/javascript">
+    $(function () {
+        var Sys = {};
+        var ua = navigator.userAgent.toLowerCase();
+        var s;
+        (s = ua.match(/rv:([\d.]+)\) like gecko/)) ? Sys.ie = s[1] :
+                (s = ua.match(/msie ([\d.]+)/)) ? Sys.ie = s[1] :
+                        (s = ua.match(/firefox\/([\d.]+)/)) ? Sys.firefox = s[1] :
+                                (s = ua.match(/chrome\/([\d.]+)/)) ? Sys.chrome = s[1] :
+                                        (s = ua.match(/opera.([\d.]+)/)) ? Sys.opera = s[1] :
+                                                (s = ua.match(/version\/([\d.]+).*safari/)) ? Sys.safari = s[1] : 0;
+
+        if (Sys.ie) {
+            $(".ie").addClass("sel");
+            $("td.ie").html("&radic;&nbsp;" + Sys.ie);
+        }
+        if (Sys.firefox) {
+            $(".firefox").addClass("sel");
+            $("td.firefox").html("&radic;&nbsp;" + Sys.firefox);
+        }
+        if (Sys.chrome) {
+            $(".chrome").addClass("sel");
+            $("td.chrome").html("&radic;&nbsp;" + Sys.chrome);
+        }
+        if (Sys.opera) {
+            $(".opera").addClass("sel");
+            $("td.opera").html("&radic;&nbsp;" + Sys.opera);
+        }
+        if (Sys.safari) {
+            $(".safari").addClass("sel");
+            $("td.safari").html("&radic;&nbsp;" + Sys.safari);
+        }
+    });
+</script>
+</body>
+</html>

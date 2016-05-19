@@ -1,0 +1,38 @@
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    width: 70%;
+    border-color:#ffffff;
+}
+
+table th {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #FF9090;
+}
+
+table td {
+    color: #fff;
+    font-size: 16px;
+    background-color: #999;
+}
+
+table th, table td {
+    text-align: center;
+    padding: 5px;
+    line-height: 1.8;
+}
+
+.sel {
+    background: #060;
+}
+
+p {
+    width: 70%;
+    margin: 0 auto;
+    font: 16px Monaco, Menlo, Consolas, "Courier New", monospace, "microsoft yahei";
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>判断浏览器DEMO</title>
+<style>
+table{
+	margin:0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+table th{
+	font-size:16px;
+	font-weight:600;
+	color:#fff;
+	background-color:#FF9090;
+}
+table td{
+	color:#fff;
+	font-size:16px;
+	background-color:#999;
+}
+table th,table td{
+	text-align:center;
+	padding:5px;
+	line-height:1.8;
+}
+.sel{
+	background:#060;
+}
+p{
+	width:70%;
+	margin:0 auto;
+	font:16px Monaco, Menlo, Consolas, "Courier New", monospace,"microsoft yahei";
+}
+</style>
+</head>
+<body>
+
+
+<table width="70%" border="1" cellspacing="0" cellpadding="0" bordercolor="#ffffff">
+  <tr>
+    <th style="background-color:#999">Browser</th>
+    <th class="ie6">IE6</th>
+    <th class="ie">IE</th>
+    <th class="chrome">Chrome</th>
+    <th class="firefox">Firefox</th>
+    <th class="opera">Opera</th>
+    <th class="safari">Safari</th>
+  </tr>
+  <tr>
+    <td>Version</td>
+    <td class="ie6">&nbsp;</td>
+    <td class="ie">&nbsp;</td>
+    <td class="chrome">&nbsp;</td>
+    <td class="firefox">&nbsp;</td>
+    <td class="opera">&nbsp;</td>
+    <td class="safari">&nbsp;</td>
+  </tr>
+</table>
+<hr>
+<p>
+USE:
+</p>
+<p>&nbsp;</p>
+<p>
+$.browser.ie6()
+ //true or false</p>
+<p>$.browser.msie()
+//true or false</p>
+<p>$.browser.chrome()
+//true or false</p>
+<p>$.browser.moz()
+//true or false</p>
+<p>$.browser.safari()
+//true or false</p>
+<p>$.browser.opera()
+//true or false</p>
+<p>$.browser.version()
+//a value of integer or float</p>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="browser.jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+	var v = $.browser.version();
+	if($.browser.ie6()){
+		$(".ie6").addClass("sel");
+		$("td.ie6").html("&radic;&nbsp;"+v);
+	}
+	if($.browser.msie()){
+		$(".ie").addClass("sel");
+		$("td.ie").html("&radic;&nbsp;"+v);
+	}
+	if($.browser.chrome()){
+		$(".chrome").addClass("sel");
+		$("td.chrome").html("&radic;&nbsp;"+v);
+	}
+	if($.browser.moz()){
+		$(".firefox").addClass("sel");
+		$("td.firefox").html("&radic;&nbsp;"+v);
+	}
+	if($.browser.opera()){
+		$(".opera").addClass("sel");
+		$("td.opera").html("&radic;&nbsp;"+v);
+	}
+	if($.browser.safari()){
+		$(".safari").addClass("sel");
+		$("td.safari").html("&radic;&nbsp;"+v);
+	}
+})
+</script>
+</body>
+</html>

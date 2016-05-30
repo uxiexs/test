@@ -225,7 +225,9 @@
 				],
 				"refer": [
 					"main.html",
-					"reg.html"
+					"reg.html",
+					"forget_password.html",
+					"unlock.html"
 				],
 				"priority": 0
 			},
@@ -246,18 +248,29 @@
 				"priority": 0
 			},
 			"reg.html": {
-				"resources": [],
+				"resources": [
+					"js/app.js",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"css/style.css"
+				],
 				"refer": [
 					"login.html"
 				],
+				"priority": 0
+			},
+			"unlock.html": {
+				"resources": [
+					"js/mui.locker.js"
+				],
+				"refer": [],
 				"priority": 0
 			}
 		},
 		"idle": {
 			"resources": [
 				"js/service.js",
-				"unlock.html",
-				"forget_password.html",
 				"libs/easymob-webim-sdk/quickstart.md",
 				"images/user-photo.png",
 				"README.md",

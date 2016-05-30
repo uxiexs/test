@@ -17,7 +17,9 @@
 		],
 		"refer": [
 			"main.html",
-			"reg.html"
+			"reg.html",
+			"forget_password.html",
+			"unlock.html"
 		]
 	},
 	"setting.html": {
@@ -37,6 +39,18 @@
 	"reg.html": {
 		"refer": [
 			"login.html"
+		],
+		"resources": [
+			"js/app.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/style.css"
+		]
+	},
+	"unlock.html": {
+		"resources": [
+			"js/mui.locker.js"
 		]
 	}
 }

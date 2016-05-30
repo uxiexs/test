@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	F:\GitHub\test\JQuery\chapter1\1-1.html	/^<html lang="en">$/;"	function	line:2
+head	F:\GitHub\test\JQuery\chapter1\1-1.html	/^<head>$/;"	function	line:3
+meta	F:\GitHub\test\JQuery\chapter1\1-1.html	/^    <meta charset="UTF-8">$/;"	function	line:4
+title	F:\GitHub\test\JQuery\chapter1\1-1.html	/^    <title>第一个简单的jQuery应用<\/title>$/;"	function	line:5
+script	F:\GitHub\test\JQuery\chapter1\1-1.html	/^    <script language="javascript" type="text\/javascript" src="..\/..\/js\/jquery-1.12.3.js"><\/script>$/;"	function	line:6
+script	F:\GitHub\test\JQuery\chapter1\1-1.html	/^    <script type="text\/javascript">$/;"	function	line:7
+body	F:\GitHub\test\JQuery\chapter1\1-1.html	/^<body>$/;"	function	line:13
+ul	F:\GitHub\test\JQuery\chapter1\1-1.html	/^<ul>$/;"	function	line:14
+li	F:\GitHub\test\JQuery\chapter1\1-1.html	/^    <li><em>$(document).ready与window.onload,在功能上可以互换,但它们之间又有许多区别:$/;"	function	line:15
+li	F:\GitHub\test\JQuery\chapter1\1-1.html	/^    <li><em>在jQuery程序中,使用最多的莫过于"$"美元符了,无论是页面元素的选择,功能函数的前缀,都必须使用该符号,可以说它是jQuery程序的标志<\/em><\/li>$/;"	function	line:19

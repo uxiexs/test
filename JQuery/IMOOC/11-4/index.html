@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="../../../js/jquery-1.8.2.min.js"></script>
+</head>
+<body>
+<span class="content"></span>
+<script type="text/javascript">
+    $(function () {
+        var obj = "null";
+        var strTmp = "您定义了一个：";
+        if ($.isPlainObject(obj)) { //检测是否为原始对象
+            strTmp += "原始对象";
+        }
+        else {
+            strTmp += "非原始对象";
+        }
+        $(".content").html(strTmp);
+    });
+</script>
+<ul>
+    <li><em>$.isPlainObject()函数检测指定的obj对象是否为原始对象。</em></li>
+</ul>
+</body>
+</html>

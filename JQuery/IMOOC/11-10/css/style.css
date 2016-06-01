@@ -1,0 +1,6 @@
+/*css li 去掉点的样式*/
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

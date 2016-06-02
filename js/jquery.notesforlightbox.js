@@ -596,7 +596,7 @@
 			    if (innerdiv.length != 1) {
 			        innerdiv = $("<div class='progress'></div>");
 			        //			        div.append("<div class='text'>&nbsp;</div>");
-			        //			        $("<span class='text'>&nbsp;</span>").css("width", div.width()).appendTo(innerdiv);
+			        //			        $("<span class='text'>&nbsp;</span>").lib("width", div.width()).appendTo(innerdiv);
 			        div.append(innerdiv);
 			    }
 			    var width = Math.round(val / max * 100);
@@ -776,7 +776,7 @@
 
             if (transAmount != 100)
                 setOpacity(pixel, transAmount);
-            //$(pixel).css('opacity',transAmount/100);
+            //$(pixel).lib('opacity',transAmount/100);
             $(pixel).css({ top: inty + "px", left: intx + "px" });
             return pixel;
         };

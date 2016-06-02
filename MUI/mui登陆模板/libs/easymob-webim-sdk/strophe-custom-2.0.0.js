@@ -708,7 +708,7 @@ Strophe = {
 
 
     /** Constants: XHTML_IM Namespace
-     *  contains allowed tags, tag attributes, and css properties.
+     *  contains allowed tags, tag attributes, and lib properties.
      *  Used in the createHtml function to filter incoming html into the allowed XHTML-IM subset.
      *  See http://xmpp.org/extensions/xep-0071.html#profile-summary for the list of recommended
      *  allowed tags and their attributes.
@@ -1199,7 +1199,7 @@ Strophe = {
                                 value = value.cssText; // we're dealing with IE, need to get CSS out
                             }
                         }
-                        // filter out invalid css styles
+                        // filter out invalid lib styles
                         if(attribute == 'style') {
                             css = [];
                             cssAttrs = value.split(';');

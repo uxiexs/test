@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>在线聊天室</title>
+    <script src="../../../js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div id="main">
+    <div id="chatbox"></div>
+    <div id="contentbox">
+        <textarea id="input" rows="7" cols="20" placeholder="please enter something"></textarea>
+    </div>
+    <div id="sendbox">
+        <input type="text" id="thename" placeholder="please enter your name">
+        <input type="button" id="send" value="send"/>
+        <input type="button" id="reset" value="reset"/>
+    </div>
+    <div class="tp"><span id="tip"></span></div>
+</div>
+
+<script>
+    //clear the namebox and contentbox when focusage=getTime()+" "+$na
+    $(function () {
+
+//create event for button-send
+        $("#send").click(function () {
+            var $send = $("textarea").val();
+            var $name = $("#thename").val();
+            var $content = $("#input").val();
+            var $message = getTime() + " " + '<span id="pName">' + $name + '</span>' + " Say :" + "<br/>" + '<span id="pTxt">' + $content + '</span>' + "<br/>";
+            var $chat = $("#chatbox").html("信息读取中……") + $message;
+            //estimate the blank box
+            if ($send && $name != "") {
+                $.ajax({
+                    url: "",
+                    data: $chat,
+                    success: function (data) {
+                        $("#chatbox").html($message);
+                        $("textarea").val("").focus();
+                    }
+                })//when successed, the send button and the content in the content-box will be cleared and focused
+            }
+            else if ($send == "" && $name == "") {
+                $("#tip").html("Please enter your message and name!!!").css({
+                    'color': 'red',
+                    'font-style': 'italic',
+                    'font-weight': 'bolder',
+                    'font-size': 12
+                });
+                return false;
+            }
+            else if ($send == "") {
+                $("#tip").html("Please enter your message!!!").css({
+                    'color': 'red',
+                    'font-style': 'italic',
+                    'font-weight': 'bolder',
+                    'font-size': 12
+                });
+                return false;
+            } else if ($name == "") {
+                $("#tip").show().html("Please enter your name!!!").css({
+                    'color': 'red',
+                    'font-style': 'italic',
+                    'font-weight': 'bolder',
+                    'font-size': 12
+                });
+                return false;
+            }
+            $("#tip").ajaxStart(function () {
+                $(this).show().html("发送中..").css({
+                    'color': 'black',
+                    'font-style': 'italic',
+                    'font-weight': 'bolder',
+                    'font-size': 12
+                });
+            });
+            $("#tip").ajaxStop(function () {
+                $(this).html("发送成功!").css({
+                    'color': 'black',
+                    'font-style': 'italice',
+                    'font-weight': 'bolder',
+                    'font-size': 12
+                });
+            });
+        })
+//time counter
+        setTimeout(function () {
+            $("#tip").html("")
+        }, 100);
+
+//create event for button-reset
+        $("#reset").click(function () {
+            $("textarea").val("").focus();
+            $("#thename").val("");
+        })
+
+//get time
+        function getTime() {
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1;
+            var day = date.getDate();
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+            var time = year + '/' + month + '/' + day + '/' + ' ' + hours + ':' + minutes + ':' + seconds;
+            return time;
+        }
+    })
+</script>
+</body>
+</html>

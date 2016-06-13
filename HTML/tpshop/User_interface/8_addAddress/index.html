@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加/编辑收货地址</title>
+</head>
+<body>
+<form action="http://127.0.0.1/index.php?m=Api&c=User&a=addAddress" method="post">
+    <input type="text" name="user_id" placeholder="用户ID"><br />
+    <input type="text" name="consignee" placeholder="收货人"><br />
+    <input type="text" name="province" placeholder="省份"><br />
+    <input type="text" name="city" placeholder="城市"><br />
+    <input type="text" name="district" placeholder="地区"><br />
+    <input type="text" name="address" placeholder="详细地址"><br />
+    <input type="text" name="mobile" placeholder="手机"><br />
+    <input type="text" name="is_default" placeholder="是否默认地址(1为默认)"><br />
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

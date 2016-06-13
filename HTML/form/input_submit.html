@@ -5,9 +5,11 @@
     <title>提交按钮（submit）</title>
 </head>
 <body>
-<form action="go.php" name="my_form" method="post">
-    user:<input type="text" name="user" id="user" />
-    pass:<input type="text" name="pass" id="pass" />
+<form action="http://127.0.0.1/index.php?m=Api&c=User&a=password" name="my_form" method="post">
+    user:<input type="text" name="user_id" id="user_id" /><br />
+    oldpass:<input type="text" name="old_password" id="old_password" /><br />
+    newpass:<input type="text" name="new_password" id="new_password" /><br />
+    confrimpass:<input type="text" name="confirm_password" id="confirm_password" /><br />
     <input type="submit" value="提交">
 </form>
 <ul>

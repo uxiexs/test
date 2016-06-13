@@ -2287,7 +2287,7 @@ Strophe.Connection.prototype = {
      *
      *  This function is provided to allow Strophe to attach to BOSH
      *  sessions which have been created externally, perhaps by a Web
-     *  application.  This is often used to support auto-login type features
+     *  application.  This is often used to support auto-1_login type features
      *  without putting user credentials into the page.
      *
      *  Parameters:
@@ -4103,7 +4103,7 @@ Strophe.Bosh.prototype = {
      *
      *  This function is provided to allow Strophe to attach to BOSH
      *  sessions which have been created externally, perhaps by a Web
-     *  application.  This is often used to support auto-login type features
+     *  application.  This is often used to support auto-1_login type features
      *  without putting user credentials into the page.
      *
      *  Parameters:

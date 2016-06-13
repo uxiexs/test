@@ -52,7 +52,7 @@ class Go
         if($num>0){
             $this->tip[] = '成功登录!'.$user.'<p />';
         }else{
-            $this->tip[] = '输入的用户名或密码有误!'.'<p />'."点<a href=\"login.html\">这里</a>重新登录".'<p />'."如果还没有注册,点<a href=\"reg.html\">这里</a>进行注册";
+            $this->tip[] = '输入的用户名或密码有误!'.'<p />'."点<a href=\"1_login.html\">这里</a>重新登录".'<p />'."如果还没有注册,点<a href=\"3_reg.html\">这里</a>进行注册";
             return false;
         }
     }

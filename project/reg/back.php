@@ -30,7 +30,7 @@ if($_POST){
 }else{
     echo '没有任何提交内容!<p />';
 }
-echo "<a href='reg.html'>返回</a>";
+echo "<a href='3_reg.html'>返回</a>";
 ?>
 <ul>
     <li><em>该页面的作用是获取前面表单所提交的内容并显示</em></li>

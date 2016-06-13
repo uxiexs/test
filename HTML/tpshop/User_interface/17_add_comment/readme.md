@@ -1,3 +1,4 @@
+添加商品评论
 URL地址
 http://www.127.0.0.1/index.php?m=Api&c=User&a=add_comment
 请求方式

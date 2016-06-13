@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取订单列表</title>
+</head>
+<body>
+<form action="http://127.0.0.1/index.php?m=Api&c=User&a=getOrderList" method="post">
+    <input type="text" name="user_id" placeholder="用户ID"><br />
+    <input type="text" name="type" placeholder="订单状态"><br />
+    <!--WAITRECEIVE => 待收货 WAITCCOMMENT => 待评价 COMMENTED => 已评价 RETURNED => 已退货 不传递该参数默认查询所有订单数据-->
+    <input type="submit" value="提交">
+</form>
+</body>
+</body>
+</html>

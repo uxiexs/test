@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改用户密码</title>
+</head>
+<body>
+<form action="http://127.0.0.1/index.php?m=Api&c=User&a=password" method="post">
+    <input type="text"name="user_id" placeholder="用户ID"><br />
+    <input type="text"name="old_password" placeholder="原密码"><br />
+    <input type="text"name="new_password" placeholder="新密码"><br />
+    <input type="text"name="confirm_password" placeholder="重复新密码"><br />
+    <input type="submit"value="提交">
+</form>
+</body>
+</html>

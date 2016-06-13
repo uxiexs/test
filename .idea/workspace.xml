@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282eeec3-dba9-4db0-a6f2-204552d87fd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
@@ -30,31 +30,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/9_setDefaultAddress/index.html">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.5151515">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/index.html">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.12792128">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="18" />
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/readme.md">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.1335045">
-                <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.10012837">
+                <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -82,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JQuery/IMOOC/11-1/index.html" />
-        <option value="$PROJECT_DIR$/js/jquery.browser/browser.jquery.js" />
         <option value="$PROJECT_DIR$/JQuery/IMOOC/11-1/css/style.css" />
         <option value="$PROJECT_DIR$/JQuery/IMOOC/11-1/demo.html" />
         <option value="$PROJECT_DIR$/JQuery/IMOOC/11-1/browser.jquery.js" />
@@ -133,6 +131,8 @@
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/9_setDefaultAddress/readme.md" />
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/index.html" />
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/readme.md" />
+        <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/index.html" />
+        <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/readme.md" />
       </list>
     </option>
   </component>
@@ -240,7 +240,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="10_getCouponList" />
+              <option name="myItemId" value="11_getGoodsCollect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,20 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/jquery.browser/browser.jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JQuery/IMOOC/11-2/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angularjs/test/hello world.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -820,14 +806,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/9_setDefaultAddress/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5151515">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -842,10 +820,40 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/9_setDefaultAddress/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22386225">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5151515">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.10012837">
+            <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12792128">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="18" />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -5,11 +5,28 @@
     <title>用户登录</title>
 </head>
 <body>
-<div><img src="images/login.png" alt=""></div>
 <form action="http://127.0.0.1/index.php?m=Api&c=User&a=login" method="post">
-    <input type="text" name="username" id="username" placeholder="phone"><br />
-    <input type="text" name="password" id="password" placeholder="password"><br />
+    <input type="text" name="username" id="username" placeholder="手机号"><br />
+    <input type="text" name="password" id="password" placeholder="密码"><br />
+    <input type="text" name="unique_id" id="unique_id" placeholder="唯一标识"><br />
+    <input type="text" name="time" id="time" placeholder="当前时间戳"><br />
+    <input type="text" name="sign" id="sign" placeholder="签名"><br />
     <input type="submit" value="提交">
 </form>
+<ul>
+    <li><em>在用户登录时，即开始验证签名机制，验证通过，即可使用APP的功能，通过APP调用后台数据，验证不通过，即什么都不操作</em></li>
+    <li><em>以下为获取签名的代码示例</em></li>
+    <textarea name="" id="" cols="60" rows="20"><?php
+$unique_id = '123456';    //手机端唯一标识
+$username = '18670953667';//用户名
+$password = '870125xx';   //密码
+$api_secret_key = 'uxeix';//app 调用的签名秘钥
+$time = time();           //时间撮
+echo $time;
+echo '<p/>';
+echo md5($password.$unique_id.$username.$time.$api_secret_key); //加密
+?>
+    </textarea>
+</ul>
 </body>
 </html>

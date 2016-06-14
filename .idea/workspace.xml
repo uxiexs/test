@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282eeec3-dba9-4db0-a6f2-204552d87fd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
@@ -75,12 +75,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.1515152">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.12807882">
               <caret line="4" column="15" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/readme.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.33419022">
+                <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -144,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML5/tag/input/palceholder/lib/w3codecolor.js" />
-        <option value="$PROJECT_DIR$/HTML5/tag/input/palceholder/lib/w3.css" />
         <option value="$PROJECT_DIR$/HTML5/tag/input/palceholder/placeholder.html" />
         <option value="$PROJECT_DIR$/HTML/form/input_submit.html" />
         <option value="$PROJECT_DIR$/HTML/tpshop/login/login/index.html" />
@@ -195,6 +219,8 @@
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/21_return_goods_status/index.html" />
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/index.html" />
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/readme.md" />
+        <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/index.html" />
+        <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/readme.md" />
       </list>
     </option>
   </component>
@@ -301,33 +327,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="20_return_goods_info" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tpshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="19_return_goods_list" />
+              <option name="myItemId" value="22_return_goods" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,16 +486,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML5/tag/input/palceholder/images/stack_vertically.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5/tag/input/palceholder/images/stack_horizontally.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/Chapter 1/ex1_1/html/ex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -949,14 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/19_return_goods_list/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5151515">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -972,6 +954,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1515152">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/19_return_goods_list/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5151515">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/readme.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.33419022">
+            <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12807882">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="15" />

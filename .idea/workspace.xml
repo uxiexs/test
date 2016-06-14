@@ -5,7 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282eeec3-dba9-4db0-a6f2-204552d87fd6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/User_interface/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/2_goods_interface/1_goodsCategoryLis/images/show.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/2_goods_interface/2_goodsList/images/show.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/2_goods_interface/1_goodsCategoryLis/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/2_goods_interface/2_goodsList/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/10_getCouponList/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/10_getCouponList/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/11_getGoodsCollect/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/11_getGoodsCollect/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/12_getOrderList/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/12_getOrderList/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/12_getOrderList/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/12_getOrderList/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/13_getOrderDetail/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/13_getOrderDetail/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/13_getOrderDetail/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/13_getOrderDetail/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/14_cancelOrder/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/14_cancelOrder/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/14_cancelOrder/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/14_cancelOrder/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/15_send_sms_reg_code/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/15_send_sms_reg_code/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/15_send_sms_reg_code/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/15_send_sms_reg_code/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/16_orderConfirm/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/16_orderConfirm/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/16_orderConfirm/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/16_orderConfirm/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/17_add_comment/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/17_add_comment/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/17_add_comment/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/17_add_comment/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/18_account/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/18_account/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/18_account/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/18_account/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/19_return_goods_list/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/19_return_goods_list/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/19_return_goods_list/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/19_return_goods_list/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/getSign.php" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/1_login/getSign.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/images/login.png" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/1_login/images/login.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/1_login/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/1_login/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/20_return_goods_info/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/20_return_goods_info/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/21_return_goods_status/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/21_return_goods_status/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/21_return_goods_status/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/21_return_goods_status/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/22_return_goods/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/22_return_goods/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/23_Home/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/23_Home/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/23_Home/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/23_Home/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/2_thirdLogin/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/2_thirdLogin/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/2_thirdLogin/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/2_thirdLogin/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/3_reg/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/3_reg/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/3_reg/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/3_reg/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/4_userInfo/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/4_userInfo/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/4_userInfo/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/4_userInfo/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/5_updateUserInfo/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/5_updateUserInfo/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/5_updateUserInfo/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/5_updateUserInfo/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/6_password/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/6_password/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/6_password/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/6_password/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/7_getAddressList/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/7_getAddressList/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/7_getAddressList/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/7_getAddressList/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/8_addAddress/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/8_addAddress/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/8_addAddress/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/8_addAddress/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/9_setDefaultAddress/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/9_setDefaultAddress/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/9_setDefaultAddress/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/9_setDefaultAddress/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/User_interface/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/3_User_interface/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/1_sqlApi/css/style.css" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/1_sqlApi/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/1_sqlApi/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/1_sqlApi/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/1_sqlApi/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/1_sqlApi/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/2_allAddress/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/2_allAddress/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/2_allAddress/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/2_allAddress/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/3_getSign/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/3_getSign/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/4_getServerTime/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/4_getServerTime/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/4_getServerTime/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/4_getServerTime/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/5_getConfig/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/5_getConfig/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/5_getConfig/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/5_getConfig/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/6_getPluginConfig/index.html" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/6_getPluginConfig/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/6_getPluginConfig/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/6_getPluginConfig/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/HTML/tpshop/pulic_interface/readme.md" afterPath="$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/readme.md" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +94,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/3_getSign/index.html">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/3_getSign/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-7.090909">
               <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
@@ -38,7 +104,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/4_getServerTime/index.html">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/4_getServerTime/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-7.090909">
               <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
@@ -47,24 +113,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/readme.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/2_goods_interface/1_goodsCategoryLis/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.3030305">
+              <caret line="8" column="93" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="93" />
+              <folding />
+            </state>
           </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.76863754">
-                <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-                <folding />
-              </first_editor>
-              <second_editor />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/2_goods_interface/2_goodsList/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12807882">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/5_getConfig/readme.md">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/5_getConfig/readme.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
@@ -80,7 +150,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/index.html">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/1_login/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.7272725">
               <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
@@ -90,7 +160,7 @@
         </entry>
       </file>
       <file leaf-file-name="getSign.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/getSign.php">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/1_login/getSign.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.666667">
               <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="31" />
@@ -100,7 +170,7 @@
         </entry>
       </file>
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/readme.md">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/1_login/readme.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
@@ -116,7 +186,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/5_getConfig/index.html">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/5_getConfig/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.1515152">
               <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
@@ -126,27 +196,11 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/6_getPluginConfig/index.html">
+        <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/6_getPluginConfig/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.1515152">
               <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/6_getPluginConfig/readme.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.033419024">
-                <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -168,8 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/6_password/readme.md" />
-        <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/7_getAddressList/index.html" />
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/7_getAddressList/readme.md" />
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/8_addAddress/index.html" />
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/8_addAddress/readme.md" />
@@ -219,6 +271,8 @@
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/index.html" />
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/getSign.php" />
         <option value="$PROJECT_DIR$/HTML/tpshop/User_interface/readme.md" />
+        <option value="$PROJECT_DIR$/HTML/tpshop/2_goods_interface/1_goodsCategoryLis/index.html" />
+        <option value="$PROJECT_DIR$/HTML/tpshop/2_goods_interface/2_goodsList/index.html" />
       </list>
     </option>
   </component>
@@ -298,8 +352,30 @@
               <option name="myItemId" value="tpshop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="User_interface" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2_goods_interface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2_goodsList" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,6 +394,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2_goods_interface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2_goodsList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2_goods_interface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,19 +458,19 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GitHub\test\HTML\tpshop\login\images" />
-      <recent name="F:\GitHub\test\HTML\tpshop\login" />
-      <recent name="F:\GitHub\test\JQuery\IMOOC\11-1" />
-      <recent name="F:\GitHub\test\js" />
-      <recent name="F:\GitHub\test\JQuery\IMOOC\9-6\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\GitHub\test\HTML\tpshop\User_interface" />
       <recent name="F:\GitHub\test\HTML5\tag\input\palceholder\images" />
       <recent name="F:\GitHub\test\HTML5\tag\input\palceholder" />
       <recent name="F:\GitHub\test\JQuery\IMOOC\10-93" />
       <recent name="F:\GitHub\test\JQuery\IMOOC\10-8" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHub\test\HTML\tpshop\2_goods_interface\2_goodsList\images" />
+      <recent name="F:\GitHub\test\HTML\tpshop\2_goods_interface\1_goodsCategoryLis\images" />
+      <recent name="F:\GitHub\test\HTML\tpshop\login\images" />
+      <recent name="F:\GitHub\test\HTML\tpshop\login" />
+      <recent name="F:\GitHub\test\JQuery\IMOOC\11-1" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -477,46 +587,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/7_getAddressList/readme.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.267009">
-            <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/8_addAddress/readme.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/9_setDefaultAddress/readme.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.36713734">
-            <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/10_getCouponList/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -529,14 +600,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/9_setDefaultAddress/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/9_setDefaultAddress/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22386225">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/11_getGoodsCollect/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -549,14 +620,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/10_getCouponList/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/10_getCouponList/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5151515">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/12_getOrderList/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/12_getOrderList/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -569,14 +640,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/11_getGoodsCollect/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/11_getGoodsCollect/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22386225">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/13_getOrderDetail/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/13_getOrderDetail/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -589,35 +660,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/13_getOrderDetail/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/13_getOrderDetail/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1515152">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/8_addAddress/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/8_addAddress/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5151515">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/7_getAddressList/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/7_getAddressList/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/12_getOrderList/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/12_getOrderList/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.818182">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/14_cancelOrder/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/14_cancelOrder/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -630,7 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/15_send_sms_reg_code/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/15_send_sms_reg_code/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -643,21 +714,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/15_send_sms_reg_code/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/15_send_sms_reg_code/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12792128">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/14_cancelOrder/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/14_cancelOrder/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22386225">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/16_orderConfirm/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/16_orderConfirm/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -670,7 +741,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/17_add_comment/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/17_add_comment/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -684,14 +755,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/17_add_comment/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/17_add_comment/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5436654">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/16_orderConfirm/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/16_orderConfirm/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
@@ -699,7 +770,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/18_account/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/18_account/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -713,7 +784,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/18_account/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/18_account/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
@@ -721,7 +792,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/19_return_goods_list/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/19_return_goods_list/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -735,7 +806,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/21_return_goods_status/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/21_return_goods_status/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -749,7 +820,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/21_return_goods_status/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/21_return_goods_status/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1515152">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
@@ -757,7 +828,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/20_return_goods_info/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -771,7 +842,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/20_return_goods_info/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/20_return_goods_info/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1515152">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="15" />
@@ -779,7 +850,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/19_return_goods_list/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/19_return_goods_list/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5151515">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
@@ -787,7 +858,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/22_return_goods/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -801,7 +872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/22_return_goods/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/22_return_goods/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5151515">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="15" selection-end-column="7" />
@@ -809,7 +880,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/23_Home/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/23_Home/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -823,7 +894,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/23_Home/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/23_Home/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1515152">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="15" />
@@ -831,7 +902,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -845,7 +916,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/1_sqlApi/css/style.css">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/1_sqlApi/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7878788">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
@@ -853,7 +924,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/1_sqlApi/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/1_sqlApi/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -867,7 +938,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/1_sqlApi/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/1_sqlApi/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1515152">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="18" />
@@ -875,7 +946,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/2_allAddress/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/2_allAddress/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -889,7 +960,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/2_allAddress/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/2_allAddress/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.666667">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
@@ -897,7 +968,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/4_getServerTime/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/4_getServerTime/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -911,7 +982,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/6_getPluginConfig/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/6_getPluginConfig/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -925,7 +996,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/6_getPluginConfig/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/6_getPluginConfig/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1515152">
           <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="21" />
@@ -933,7 +1004,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/5_getConfig/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/5_getConfig/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1515152">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
@@ -941,7 +1012,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/5_getConfig/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/5_getConfig/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -955,7 +1026,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/1_login/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -969,7 +1040,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/1_login/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.7272725">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
@@ -977,7 +1048,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/1_login/getSign.php">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/1_login/getSign.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.666667">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="31" />
@@ -985,7 +1056,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/3_getSign/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/3_getSign/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.090909">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
@@ -993,25 +1064,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/pulic_interface/4_getServerTime/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.090909">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/tpshop/User_interface/readme.md">
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/3_User_interface/readme.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.76863754">
-            <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <first_editor vertical-scroll-proportion="0.36760926">
+            <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/1_pulic_interface/4_getServerTime/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.090909">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/2_goods_interface/1_goodsCategoryLis/images/show.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/2_goods_interface/1_goodsCategoryLis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3030305">
+          <caret line="8" column="93" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/tpshop/2_goods_interface/2_goodsList/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12807882">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

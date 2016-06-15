@@ -219,7 +219,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 	-webkit-box-shadow: 0 0 5px #aaa;
 	box-shadow: 0 0 5px #aaa;
 }
-/* Fades and background-images don't work well together in IE6, drop the image */
+/* Fades and background-images don't work well together in IE6, drop the images */
 * html .ui-tooltip {
 	background-image: none;
 }

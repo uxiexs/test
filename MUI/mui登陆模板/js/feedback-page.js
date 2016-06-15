@@ -9,7 +9,7 @@
 	var ui = {
 		question: get('question'),
 		contact: get('contact'),
-		imageList: get('image-list'),
+		imageList: get('images-list'),
 		submit: get('submit')
 	};
 	ui.clearForm = function() {
@@ -41,9 +41,9 @@
 		}
 		imageIndexIdNum++;
 		var placeholder = document.createElement('div');
-		placeholder.setAttribute('class', 'image-item space');
+		placeholder.setAttribute('class', 'images-item space');
 		var closeButton = document.createElement('div');
-		closeButton.setAttribute('class', 'image-close');
+		closeButton.setAttribute('class', 'images-close');
 		closeButton.innerHTML = 'X';
 		closeButton.addEventListener('click', function(event) {
 			event.stopPropagation();
@@ -55,8 +55,8 @@
 		}, false);
 		var fileInput = document.createElement('input');
 		fileInput.setAttribute('type', 'file');
-		fileInput.setAttribute('accept', 'image/*');
-		fileInput.setAttribute('id', 'image-' + imageIndexIdNum);
+		fileInput.setAttribute('accept', 'images/*');
+		fileInput.setAttribute('id', 'images-' + imageIndexIdNum);
 		fileInput.addEventListener('change', function(event) {
 			var file = fileInput.files[0];
 			if (file) {
@@ -64,7 +64,7 @@
 				reader.onload = function() {
 					//处理 android 4.1 兼容问题
 					var base64 = reader.result.split(',')[1];
-					var dataUrl = 'data:image/png;base64,' + base64;
+					var dataUrl = 'data:images/png;base64,' + base64;
 					//
 					placeholder.style.backgroundImage = 'url(' + dataUrl + ')';
 				}

@@ -338,7 +338,7 @@ $.fn.ajaxSubmit = function(options) {
  *
  * The advantages of using this method instead of ajaxSubmit() are:
  *
- * 1: This method will include coordinates for <input type="image" /> elements (if the element
+ * 1: This method will include coordinates for <input type="images" /> elements (if the element
  *    is used to submit the form).
  * 2. This method will include the submit element's name/value data (for the element that was
  *    used to submit the form).
@@ -354,7 +354,7 @@ $.fn.ajaxForm = function(options) {
         return false;
     }).each(function() {
         // store options in hash
-        $(":submit,input:image", this).bind('click.form-plugin',function(e) {
+        $(":submit,input:images", this).bind('click.form-plugin',function(e) {
             var form = this.form;
             form.clk = this;
             if (this.type == 'image') {
@@ -380,7 +380,7 @@ $.fn.ajaxForm = function(options) {
 $.fn.ajaxFormUnbind = function() {
     this.unbind('submit.form-plugin');
     return this.each(function() {
-        $(":submit,input:image", this).unbind('click.form-plugin');
+        $(":submit,input:images", this).unbind('click.form-plugin');
     });
 
 };
@@ -409,7 +409,7 @@ $.fn.formToArray = function(semantic) {
         if (!n) continue;
 
         if (semantic && form.clk && el.type == "image") {
-            // handle image inputs on the fly when semantic == true
+            // handle images inputs on the fly when semantic == true
             if(!el.disabled && form.clk == el)
                 a.push({name: n+'.x', value: form.clk_x}, {name: n+'.y', value: form.clk_y});
             continue;
@@ -425,7 +425,7 @@ $.fn.formToArray = function(semantic) {
     }
 
     if (!semantic && form.clk) {
-        // input type=='image' are not found in elements array! handle them here
+        // input type=='images' are not found in elements array! handle them here
         var inputs = form.getElementsByTagName("input");
         for(var i=0, max=inputs.length; i < max; i++) {
             var input = inputs[i];

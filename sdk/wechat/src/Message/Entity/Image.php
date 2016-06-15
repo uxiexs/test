@@ -34,6 +34,6 @@ class Image extends Entity
      */
     public function getType()
     {
-        return 'image';
+        return 'images';
     }
 }

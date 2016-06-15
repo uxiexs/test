@@ -435,7 +435,7 @@ $.extend($.validator, {
 			// workaround $Query([]).add until http://dev.jquery.com/ticket/2114 is solved
 			return $([]).add(this.currentForm.elements)
 			.filter(":input")
-			.not(":submit, :reset, :image, [disabled]")
+			.not(":submit, :reset, :images, [disabled]")
 			.not( this.settings.ignore )
 			.filter(function() {
 				!this.name && validator.settings.debug && window.console && console.error( "%o has no name assigned", this);

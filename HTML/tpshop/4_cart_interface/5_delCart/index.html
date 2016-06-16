@@ -5,6 +5,10 @@
     <title>Title</title>
 </head>
 <body>
-<a href="http://127.0.0.1/index.php?m=api&c=User&a=cancel_order&id=297">删除订单</a>
+<form action="http://127.0.0.1/index.php?m=Api&c=Cart&a=delCart" method="post">
+    <input type="text" name="ids" placeholder="要删除的购物车ID"><br>
+    <input type="text" name="unique_id" placeholder="唯一标识"><br>
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>

@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/JQuery/IMOOC/10-4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282eeec3-dba9-4db0-a6f2-204552d87fd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/2_goods_interface/8_collectGoods/images/show.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/tpshop/2_goods_interface/8_collectGoods/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="282eeec3-dba9-4db0-a6f2-204552d87fd6" name="Default" comment="" />
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />

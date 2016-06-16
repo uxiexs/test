@@ -1,0 +1,19 @@
+{
+	"plus/payment.html": {
+		"resources": [
+			"js/common.js"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"css/common.css",
+			"js/update.js",
+			"js/shortcut.js",
+			"js/immersed.js"
+		],
+		"refer": [
+			"plus/payment.html",
+			"plus/runtime.html"
+		]
+	}
+}

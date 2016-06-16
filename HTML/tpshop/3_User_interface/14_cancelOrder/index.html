@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>取消订单</title>
+    <title>删除购物车的商品</title>
 </head>
 <body>
-<form action="http://127.0.0.1/index.php?m=Api&c=User&a=cancelOrder" method="post">
-    <input type="text" name="user_id" placeholder="用户ID"><br />
-    <input type="text" name="order_id" placeholder="订单ID"><br />
+<form action="http://127.0.0.1/index.php?m=Api&c=Cart&a=delCart" method="post">
+    <input type="text" name="ids" placeholder="订单ID"><br />
+    <input type="text" name="unique_id" placeholder="唯一标识"><br />
     <input type="submit" value="提交">
 </form>
 </body>

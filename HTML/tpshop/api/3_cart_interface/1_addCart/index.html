@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>将商品加入购物车</title>
+</head>
+<body>
+<img src="images/show.png" alt="addCart"><br>
+<form action="http://127.0.0.1/index.php?m=Api&c=Cart&a=addCart" method="post">
+    <input type="text" name="goods_id" placeholder="必选 商品id"><br>
+    <input type="text" name="goods_num" placeholder="必选 购买的商品数量"><br>
+    <input type="text" name="goods_spec" placeholder="商品规格"><br>
+    <input type="text" name="unique_id" placeholder="手机端唯一标识"><br>
+    <input type="text" name="user_id" placeholder="用户id 当用户登录后必传"><br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

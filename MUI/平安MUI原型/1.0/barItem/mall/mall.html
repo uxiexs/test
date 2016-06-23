@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+   	<title>E3-demo</title>
+   	<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+   	<link rel="stylesheet" type="text/css" href="css/own.css"/>
+   	<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+   	<style type="text/css">
+		.mui-active .mui-icon,
+		.mui-active .mui-tab-label {
+			color: #41cea9;
+		}
+   	</style>
+</head>
+<body class="own-gray-color">
+	<header class="mui-bar mui-bar-nav own-main-background-color" style="height: 70px;">
+		<!--<h1 id="nav-title" class="mui-title">首页</h1>-->
+					<div class="mui-input-row mui-search" style="width:200px;margin-top:25px;float:right">
+					<input type="search" class="mui-input-clear" placeholder="日你妹啊" style="background-color:white">
+				</div>
+	</header>
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item mui-active" href="barItem/home.html">
+			<span class="mui-icon iconfont icon-Index"></span>
+			<span class="mui-tab-label">首页</span>
+		</a>
+		<a class="mui-tab-item" href="barItem/category.html">
+			<span class="mui-icon iconfont icon-Store"></span>
+			<span class="mui-tab-label">门店</span>
+		</a>
+		<a class="mui-tab-item" href="barItem/mall.html">
+			<span class="mui-icon iconfont icon-mall"></span>
+			<span class="mui-tab-label">商城</span>
+		</a>
+		<a class="mui-tab-item" href="barItem/mine.html">
+			<span class="mui-icon iconfont icon-mine"></span>
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	
+	<script src="js/mui.min.js" charset="UTF-8"></script>
+	<script type="text/javascript" charset="UTF-8">
+		mui.init({
+			swipeBack:false
+		});
+		
+		var navTitle;
+		var mainWebview;
+		var curBarItemWebview;
+		
+		var barItemWebviewArray = [];
+		var barItemArray = ['barItem/home.html','barItem/category.html','barItem/mall.html','barItem/mine.html'];
+		mui.plusReady(function(){
+			//获取当前title和当前webview
+			navTitle = document.querySelector('.mui-title');
+			mainWebview = plus.webview.currentWebview();
+			
+			plus.navigator.setStatusBarBackground( "#41cea9" );
+			
+			//设置只支持竖屏幕显示
+			plus.screen.lockOrientation("portrait-primary");
+			//初始化与index有关的页面
+			initIndexView();
+			
+			//检测是否需要显示导航页面todo
+			
+			//判断是否已经登陆,若没有登陆将预加载登陆页面
+			judgelogin();
+			
+			//预加载父子模版
+//			initTemplate();
+		});
+		
+		
+		//初始化
+		function initIndexView(){
+			//初始化所有bar页面
+			inittabitemWebviews();
+			//添加bar点击事件接受
+			tapBaritem();
+		}
+		
+		
+		//初始化所有bar页面
+		function inittabitemWebviews(){
+			for (var i = 0; i < barItemArray.length; i++) {
+				barItemWebviewArray[i] = mui.preload({
+					id:barItemArray[i],
+					url:barItemArray[i],
+					styles:{
+						top:'44px',
+						bottom: '51px',
+						left: '0px',
+						bounce: 'vertical',
+						bounceBackground: '#f8f8f8'
+					},
+					waiting:{
+						autoShow:false
+					}
+				});
+				barItemWebviewArray[i].hide();
+				mainWebview.append(barItemWebviewArray[i]);
+			}
+			barItemWebviewArray[0].show();
+			curBarItemWebview = barItemWebviewArray[0];
+		}
+		
+		
+		//添加点击事件
+		function tapBaritem(){
+			mui('.mui-bar-tab').on('tap','.mui-tab-item',function(){
+				var baritem = this;
+				var baritemurl = baritem.getAttribute('href'); 
+//				indexof()如果为false返回－1所以前面加上~
+				if (!~curBarItemWebview.getURL().indexOf(baritemurl)) {
+					for (var i = 0; i < barItemArray.length; i++) {
+						if (barItemArray[i] == baritemurl) {
+							//更改头部名字
+							navTitle.innerText = baritem.children[baritem.children.length-1].innerText;
+							//切换baritemwebview
+							barItemWebviewArray[i].show();
+							curBarItemWebview = barItemWebviewArray[i];
+							break;
+						}
+					}
+				}
+			});
+		}
+		
+		
+		//预加载template
+		function initTemplate(){
+			var webview =  mui.preload({
+				id:'template',
+				url:'template.html',
+				styles:{
+					top: '-1000px',
+				}
+			});
+			webview.show();
+		};
+		
+		function judgelogin() {
+			//测试语句
+			localStorage.removeItem('user');
+			//判断是否已经登录成功//localstorage在页面关闭的时候也同样存在，sessionstorage页面关闭数据不存在
+			if (!localStorage.getItem('user')) {
+				mui.preload({
+					url:'mine/login.html',
+					id:'mine/login.html',
+					styles:{
+						top:'0px',
+						bottom:'0px'
+					}
+				});
+			}
+		}
+		
+		
+	</script>
+</body>
+</html>

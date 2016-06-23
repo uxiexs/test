@@ -245,7 +245,12 @@
 				"resources": [
 					"img/bg.jpeg",
 					"fonts/mui.ttf",
-					"js/own.js"
+					"js/own.js",
+					"css/own.css",
+					"js/mui.min.js",
+					"css/iconfont.css",
+					"css/mui.min.css",
+					"mine/my-order-needtem.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -258,7 +263,11 @@
 					"template-main-first.html",
 					"Home/product-detail-needtem.html",
 					"mine/register-needtem.html",
-					"mall/product-detail-needtem.html"
+					"mall/product-detail-needtem.html",
+					"mine/login.html",
+					"mine/my-order-needtem.html",
+					"mine/service-order.html",
+					"mine/mall-order.html"
 				],
 				"priority": 0
 			},
@@ -281,7 +290,11 @@
 			"mine/login.html": {
 				"resources": [
 					"fonts/mui.ttf",
-					"js/own.js"
+					"js/own.js",
+					"css/own.css",
+					"js/mui.min.js",
+					"css/iconfont.css",
+					"css/mui.min.css"
 				],
 				"refer": [],
 				"priority": 0
@@ -388,6 +401,42 @@
 				],
 				"refer": [],
 				"priority": 0
+			},
+			"mine/my-order-needtem.html": {
+				"resources": [
+					"css/own.css",
+					"js/own.js",
+					"js/mui.min.js",
+					"css/iconfont.css",
+					"css/mui.min.css",
+					"img/tip/404.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"mine/service-order.html": {
+				"resources": [
+					"img/tip/404.png",
+					"css/own.css",
+					"js/own.js",
+					"js/mui.min.js",
+					"css/iconfont.css",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"mine/mall-order.html": {
+				"resources": [
+					"img/tip/404.png",
+					"css/own.css",
+					"js/own.js",
+					"js/mui.min.js",
+					"css/iconfont.css",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
 			}
 		},
 		"idle": {
@@ -398,7 +447,6 @@
 				"img/detail/6.jpg",
 				"img/detail/8.jpg",
 				"mine/change-psd-needtem.html",
-				"mine/my-order-needtem.html",
 				"css/mui.picker.min.css",
 				"js/mui.js",
 				"mine/change-email-needtem.html",

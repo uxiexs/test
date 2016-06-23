@@ -46,34 +46,50 @@
 				</div>
 			</div>
 
-			<ul class="mui-table-view" style="margin-top: 10px;">
+			<ul class="mui-table-view" style="margin-top: 6px;">
 				<li class="mui-table-view-cell">
-					<a class="mui-navigate-right" href="../mine/my-order-needtem.html">
-						<span class="mui-icon iconfont icon-wodedingdan"></span> 我的订单
+					<a class="mui-navigate-right" href="../mine/service-order.html">
+						<!--<span class="mui-icon iconfont icon-wodedingdan"></span>-->
+						服务订单
 					</a>
 				</li>
 				<li class="mui-table-view-cell">
-					<a id="changeaddress" class="mui-navigate-right" href="../mine/change-address-needtem.html">
-						<span class="mui-icon iconfont icon-dizhi"></span> 修改地址
-					</a>
-				</li>
-			</ul>
-			<ul class="mui-table-view" style="margin-top: 20px;">
-				<li class="mui-table-view-cell">
-					<a class="mui-navigate-right" href="../mine/change-email-needtem.html">
-						<span class="mui-icon mui-icon-email"></span> 修改邮箱
+					<a id="mall-orders" class="mui-navigate-right" href="../mine/mall-order.html">
+						<!--<span class="mui-icon iconfont icon-dizhi">--></span> 商城订单
 					</a>
 				</li>
 				<li class="mui-table-view-cell">
-					<a class="mui-navigate-right" href="../mine/change-psd-needtem.html">
-						<span class="mui-icon mui-icon-locked"></span> 修改密码
+					<a id="car-info" class="mui-navigate-right" href="../img/tip/404.png">
+						<!--<span class="mui-icon iconfont icon-dizhi">--></span>我的车辆信息
 					</a>
 				</li>
 			</ul>
-			<ul class="mui-table-view" style="margin-top: 20px;">
+			<ul class="mui-table-view" style="margin-top: 6px;">
 				<li class="mui-table-view-cell">
-					<a class="mui-navigate-right" href="../mine/feedback-needtem.html">
-						<span class="mui-icon iconfont icon-xiaolian"></span> 用户反馈
+					<a id="Integral" class="mui-navigate-right" href="../img/tip/404.png">
+						<!--<span class="mui-icon mui-icon-email"></span> -->我的积分
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right" href="../img/tip/404.png">
+						<!--<span class="mui-icon mui-icon-locked"></span>-->我的优惠券
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right" href="../img/tip/404.png">
+						<!--<span class="mui-icon mui-icon-locked"></span>-->我的优惠套餐
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view" style="margin-top: 6px;">
+				<li class="mui-table-view-cell">
+					<a id="Recommended" class="mui-navigate-right" href="../img/tip/404.png">
+						<!--<span class="mui-icon iconfont icon-xiaolian">--></span> 被推荐人消息
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right" href="../img/tip/404.png">
+						<!--<span class="mui-icon iconfont icon-xiaolian">--></span> 用户反馈
 					</a>
 				</li>
 			</ul>
@@ -131,11 +147,11 @@
 								touxiangword.style.color = 'indianred';
 								localStorage.removeItem('user');
 								mui.toast("退出登录")
-								//发出退出登录给wishlish和cart页面
+									//发出退出登录给wishlish和cart页面
 								var cartwebview = plus.webview.getWebviewById('barItem/cart.html');
 								var xinyuandanwebview = plus.webview.getWebviewById('barItem/wishList.html');
-								mui.fire(cartwebview,'logout',{});
-								mui.fire(xinyuandanwebview,'logout',{})
+								mui.fire(cartwebview, 'logout', {});
+								mui.fire(xinyuandanwebview, 'logout', {})
 							} else {
 								//取消
 							}

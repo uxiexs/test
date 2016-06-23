@@ -1,0 +1,171 @@
+{
+	"barItem/category.html": {
+		"resources": [
+			"img/category.png",
+			"img/tip/404.jpg",
+			"img/tip/404.png"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"css/own.css",
+			"js/mui.min.js",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"barItem/home.html",
+			"fonts/iconfont.ttf",
+			"fonts/mui.ttf"
+		],
+		"refer": [
+			"barItem/category.html",
+			"barItem/home.html",
+			"barItem/mine.html",
+			"template.html",
+			"barItem/cart.html",
+			"mine/login.html",
+			"barItem/wishList.html",
+			"barItem/mall.html",
+			"mall/index.html"
+		]
+	},
+	"barItem/home.html": {
+		"resources": [
+			"img/slider/slider2.jpg",
+			"js/own.js",
+			"img/1.jpg",
+			"img/slider/slider1.jpg",
+			"img/slider/slider3.jpg",
+			"img/slider/slider4.png",
+			"css/own.css",
+			"js/mui.min.js",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"img/tip/404.png"
+		]
+	},
+	"barItem/mine.html": {
+		"resources": [
+			"img/bg.jpeg",
+			"fonts/mui.ttf",
+			"js/own.js"
+		]
+	},
+	"template.html": {
+		"refer": [
+			"template-main-third.html",
+			"template-main-second.html",
+			"template-main-first.html",
+			"Home/product-detail-needtem.html",
+			"mine/register-needtem.html",
+			"mall/product-detail-needtem.html"
+		]
+	},
+	"Home/product-detail-needtem.html": {
+		"resources": [
+			"img/detail/2.jpg",
+			"img/detail/0.jpg",
+			"js/own.js",
+			"img/touxiang.jpg",
+			"img/bg.jpeg",
+			"fonts/mui.ttf",
+			"img/detail/1.jpg",
+			"img/detail/4.jpg",
+			"img/3.jpg",
+			"img/detail/3.jpg"
+		]
+	},
+	"mine/login.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"js/own.js"
+		]
+	},
+	"barItem/wishList.html": {
+		"resources": [
+			"js/own.js"
+		]
+	},
+	"barItem/cart.html": {
+		"resources": [
+			"js/own.js"
+		]
+	},
+	"mine/register-needtem.html": {
+		"resources": [
+			"Home/product-detail-needtem.html"
+		],
+		"refer": [
+			"Home/product-detail-needtem.html"
+		]
+	},
+	"barItem/mall.html": {
+		"resources": [
+			"css/own.css",
+			"img/slider/slider2.jpg",
+			"js/own.js",
+			"js/mui.min.js",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"img/slider/slider1.jpg",
+			"img/slider/slider3.jpg",
+			"img/slider/slider4.png",
+			"img/1.jpg"
+		]
+	},
+	"mall/product-detail-needtem.html": {
+		"resources": [
+			"img/detail/2.jpg",
+			"img/detail/0.jpg",
+			"img/touxiang.jpg",
+			"img/detail/1.jpg",
+			"img/detail/4.jpg",
+			"img/3.jpg",
+			"img/detail/3.jpg"
+		]
+	},
+	"mall/index.html": {
+		"resources": [
+			"mall/css/iconfont.css",
+			"mall/css/mui.min.css",
+			"mall/js/mui.min.js",
+			"mall/css/own.css",
+			"mall/fonts/iconfont.ttf",
+			"barItem/home.html"
+		],
+		"refer": [
+			"barItem/category.html",
+			"barItem/mine.html",
+			"mall/barItem/mall.html",
+			"barItem/home.html",
+			"mall/barItem/cart.html"
+		]
+	},
+	"mall/barItem/mall.html": {
+		"resources": [
+			"mall/img/slider/slider4.png",
+			"mall/img/1.jpg",
+			"mall/img/slider/slider3.jpg",
+			"mall/img/slider/slider1.jpg",
+			"mall/img/slider/slider2.jpg",
+			"mall/js/own.js"
+		]
+	},
+	"mall/barItem/cart.html": {
+		"resources": [
+			"mall/js/own.js"
+		]
+	},
+	"template-main-third.html": {
+		"resources": [
+			"css/own.css",
+			"js/mui.min.js",
+			"css/iconfont.css",
+			"css/mui.min.css"
+		]
+	},
+	"template-main-second.html": {
+		"resources": [
+			"fonts/mui.ttf"
+		]
+	}
+}

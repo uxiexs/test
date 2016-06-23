@@ -1,0 +1,117 @@
+<include file="Public/min-header"/>
+<div class="wrapper">
+    <!-- Content Header (Page header) -->
+   <include file="Public/breadcrumb"/>
+    <section class="content">
+    <!-- Main content -->
+    <!--<div class="container-fluid">-->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-list"></i> 用户信息</h3>
+            </div>
+            <div class="panel-body">
+                <form action="" method="post" onsubmit="return checkUserUpdate(this);">
+                    <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td>会员昵称:</td>
+                        <td><input type="text" class="form-control" name="nickname" value="{$user.nickname}"></td>
+                    </tr>
+                    <tr>
+                        <td>消费积分:</td>
+                        <td>{$user.pay_points}</td>
+                    </tr>
+
+                    <tr>
+                        <td>邮件地址:</td>
+                        <td><input type="text" class="form-control" name="email" value="{$user.email}"></td>
+                    </tr>
+                    <tr>
+                        <td>新密码:</td>
+                        <td><input type="password" class="form-control" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td>确认密码:</td>
+                        <td><input type="password" class="form-control" name="password2"></td>
+                    </tr>
+                    <!--<tr>-->
+                        <!--<td>会员等级:</td>-->
+                        <!--<td>{$user.user_rank}</td>-->
+                    <!--</tr>-->
+                    <tr>
+                        <td>性别:</td>
+                        <td id="order-status">
+                            <input name="sex" type="radio" value="0" <if condition="$user['sex'] eq 0">checked</if> >保密
+                            <input name="sex" type="radio" value="1" <if condition="$user['sex'] eq 1">checked</if> >男
+                            <input name="sex" type="radio" value="2" <if condition="$user['sex'] eq 2">checked</if> >女
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>QQ:</td>
+                        <td>
+                            <input class="form-control" type="text" name="qq" value="{$user.qq}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>手机:</td>
+                        <td>
+                            <input type="text" class="form-control" name="mobile" value="{$user.mobile}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>注册时间:</td>
+                        <td>
+                            {$user.reg_time|date='Y-m-d H:i',###}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit" class="btn btn-info">
+                                <i class="ace-icon fa fa-check bigger-110"></i> 保存
+                            </button>
+                            <a href="javascript:history.go(-1)" data-toggle="tooltip" title="" class="btn btn-default pull-right" data-original-title="返回"><i class="fa fa-reply"></i></a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </form>
+
+            </div>
+        </div>
+ 	  </div> 
+    </div>    <!-- /.content -->
+   </section>
+</div>
+<script>
+    function checkUserUpdate(){
+        var email = $('input[name="email"]').val();
+        var mobile = $('input[name="mobile"]').val();
+        var password = $('input[name="password"]').val();
+        var password2 = $('input[name="password2"]').val();
+
+        var error ='';
+        if(password != password2){
+            error += "两次密码不一样\n";
+        }
+
+        if(!checkEmail(email)){
+            error += "邮箱地址有误\n";
+        }
+        if(!checkMobile(mobile)){
+            error += "手机号码填写有误\n";
+        }
+        if(error){
+            layer.alert(error, {icon: 2});  //alert(error);
+            return false;
+        }
+        return true;
+
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+select * from __PREFIX__order;

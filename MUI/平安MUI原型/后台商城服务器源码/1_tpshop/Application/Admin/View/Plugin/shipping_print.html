@@ -1,0 +1,95 @@
+<include file="Public/min-header"/>
+<div class="wrapper">
+    <!-- Content Header (Page header) -->
+
+      <include file="Public/breadcrumb"/>
+
+    <section class="content">
+        <!-- Main content -->
+        <div class="container-fluid">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><i class="fa fa-list"></i> {$plugin.name}模板设置</h3>
+                </div>
+                <div class="panel-body">
+            	    <nav class="navbar navbar-default">	     
+				        <div class="collapse navbar-collapse">
+				          <form class="navbar-form form-inline" action="" method="post">   
+                                <div class="form-group">
+                                    <select class="form-control" id="cat_id" name="cat_id" onchange="select_tag(this)">
+                                        <option value="">请选择标签</option>
+                                        <!--<option value="shop-province">网店-省份</option>-->
+                                        <!--<option value="shop-city">网店-城市</option>-->
+                                        <!--<option value="shop-district">网店-区/县</option>-->
+                                        <option value="100">网店-名称</option>
+                                        <option value="130">网店-联系电话</option>
+                                        <option value="100">网店-地址</option>
+                                        <option value="120">收件人-省份</option>
+                                        <option value="120">收件人-城市</option>
+                                        <option value="120">收件人-区/县</option>
+                                        <option value="120">收件人-手机</option>
+                                        <option value="120">收件人-邮编</option>
+                                        <option value="120">收件人-地址</option>
+                                        <option value="150">收件人-详细地址</option>
+                                        <option value="120">收件人-姓名</option>
+                                        <option value="60">年份</option>
+                                        <option value="60">月份</option>
+                                        <option value="60">日期</option>
+                                        <option value="120">订单-订单号</option>
+                                        <option value="100">订单-备注</option>
+                                    </select>
+                                </div>
+                 				 <div class="input-group pull-right">
+					                <a href="javascript:history.go(-1)" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="返回"><i class="fa fa-reply"></i></a>
+					            </div>
+				          </form>		
+				      	</div>
+	    			</nav>      
+                    <!--表单数据-->
+                    <iframe id="edit_frame" src="{:U('Admin/Plugin/edit_shipping_print',array('code'=>$plugin['code']))}" frameborder="0" width="100%" style="height:600px"></iframe>
+                </div>
+                <div class="panel-footer">
+                	<button type="button" onclick="save_frame_content()" class="btn btn-primary">保存模板</button>
+                </div>
+            </div>
+        </div>    <!-- /.content -->
+    </section>
+</div>
+<script src="/Public/js/jquery-ui.min.js" type="text/javascript"></script>
+<script>
+    function save_frame_content(){
+        var frameObj = document.getElementById('edit_frame');
+        var frameContent = frameObj.contentWindow.document.body.outerHTML;
+//        alert(frameContent);return;
+        var url = "{:U('Admin/Plugin/edit_shipping_print',array('code'=>$plugin['code']))}";
+        $.post(url,{html:frameContent},function(data){
+            data = $.parseJSON(data);
+            if(data.status == 1){
+                layer.alert('保存成功', {icon: 2});  // alert('保存成功 ');
+            }else{
+                layer.alert('保存失败', {icon: 2});  // alert('保存失败');
+            }
+        });
+    }
+    //标签选择
+    function select_tag(t){
+        var v = $(t).val();
+		var text = $(t).find("option:selected").text();
+       // alert("div[id='"+id+"']");
+        if(!v){
+            return;
+        }else{
+            var frameObj = document.getElementById('edit_frame');
+            var frameContent = frameObj.contentWindow.document.body.outerHTML;
+            //$(frameObj.contentWindow.document).find("div[id='"+id+"']").show();
+			var del = "<i style='cursor:default' onclick='$(this).parent().remove();'>&nbsp;&nbsp;&nbsp;&nbsp;</i>";
+			var div = '<div class="tags ui-draggable ui-draggable-handle" style="position: relative; width:'+v+'px; right: auto; height: 22px; bottom: auto; left: 130px; top: -300px;">'+text+del+'</div>';
+			div = div + '\n';
+			$(frameObj.contentWindow.document).find('body').append(div);
+			$(frameObj.contentWindow.document).find(".tags").draggable();
+        }
+    }
+
+</script>
+</body>
+</html>

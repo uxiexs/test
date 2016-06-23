@@ -1,0 +1,862 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta name="Generator" content="TPshop v1.1" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>首页-tpshop｜thinkphp shop ｜tpshop 源码下载｜ thinkphp 商城 国内最强大的thinkphp shop b2c开源商城 tpshop是搜豹公司的一款产品</title>
+<meta http-equiv="keywords" content="tpshop｜thinkphp shop ｜tpshop 源码下载｜ thinkphp 商城 国内最强大的thinkphp shop b2c开源商城 tpshop是搜豹公司的一款产品" />
+<meta name="description" content="tpshop｜thinkphp shop ｜tpshop 源码下载｜ thinkphp 商城 国内最强大的thinkphp shop b2c开源商城 tpshop是搜豹公司的一款产品" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<link rel="stylesheet" type="text/css" href="/Template/mobile/new/Static/css/public.css"/>
+<link rel="stylesheet" type="text/css" href="/Template/mobile/new/Static/css/index.css"/>
+<script type="text/javascript" src="/Template/mobile/new/Static/js/jquery.js"></script>
+<script type="text/javascript" src="/Template/mobile/new/Static/js/TouchSlide.1.1.js"></script>
+<script type="text/javascript" src="/Template/mobile/new/Static/js/jquery.json.js"></script>
+<script type="text/javascript" src="/Template/mobile/new/Static/js/touchslider.dev.js"></script>
+<script type="text/javascript" src="/Template/mobile/new/Static/js/layer.js" ></script>
+<script type="text/javascript" src="/Template/mobile/new/Static/js/common.js"></script>
+
+</head>
+<body>
+<div id="page" class="showpage">
+<div>
+<!--<header id="header"> -->
+<!--<a href="/index.php/Mobile/Goods/categoryList.html" class="top_bt"></a><a href="/index.php/Mobile/Cart/cart.html" class='user_btn'></a>-->
+<!--<span href="javascript:void(0)" class="logo">TPshop商城</span> -->
+<!--</header>-->
+
+<div id="scrollimg" class="scrollimg">
+  <div class="bd">
+	 <ul>
+	 	<li><a href="/index.php?m=Home&amp;c=Goods&amp;a=goodsInfo&amp;id=1"  ><img src="/Public/upload/banner/2015/11-04/563a014600063.jpg" title=""width="100%" style=""/></a></li><li><a href="/index.php?m=Home&amp;c=Goods&amp;a=goodsInfo&amp;id=1"  ><img src="/Public/upload/banner/2015/11-04/563a01ccb5dc9.jpg" title=""width="100%" style=""/></a></li>                        
+     </ul>
+  </div>
+  <div class="hd">
+	<ul></ul>
+  </div>
+</div>
+<script type="text/javascript">
+	TouchSlide({ 
+		slideCell:"#scrollimg",
+		titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+		mainCell:".bd ul", 
+		effect:"leftLoop", 
+		autoPage:true,//自动分页
+		autoPlay:true //自动播放
+	});
+</script> 
+<div id="fake-search" class="index_search">
+  <div class="index_search_mid">
+  <span><img src="/Template/mobile/new/Static/images/xin/icosousuo.png"></span>
+    <input  type="text" id="search_text" class="search_text" value="请输入您所搜索的商品"/>
+  </div>
+</div>
+<div class="entry-list clearfix">
+	<nav>
+		<ul>
+			<li>
+				<a href="/index.php/Mobile/Goods/categoryList.html">
+					<img alt="全部分类" src="/Template/mobile/new/Static/images/1440437165699930301.png" />
+					<span>全部分类</span>
+				</a>
+			</li>		 
+			<li>
+				<a href="/index.php/Mobile/User/order_list.html">
+					<img alt="我的订单" src="/Template/mobile/new/Static/images/1440439318451279676.png" />
+					<span>我的订单</span>
+				</a>
+			</li>
+			<li>
+				<a href="/index.php/Mobile/Cart/cart.html">
+					<img alt="购物车" src="/Template/mobile/new/Static/images/1440439353048484531.png" />
+					<span>购物车</span>
+				</a>
+			</li>
+			<li>
+				<a href="/index.php/Mobile/User/index.html">
+					<img alt="个人中心" src="/Template/mobile/new/Static/images/1440439367001464442.png" />
+					<span>个人中心</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+ 
+<div class="floor_images">
+	  <dl>
+	    <dt><a href="javascript:void(0);"><img src="/Template/mobile/new/Static/images/jmpic/1442452784680942491.jpg" width="1" height="1" border="0"></a> </dt><dd> 
+	    <span class="Edge"><a href="javascript:void(0);"><img src="/Template/mobile/new/Static/images/jmpic/1442452795423958325.jpg" width="1" height="1" border="0"></a> </span> 
+		<span><a href="javascript:void(0);"><img src="/Template/mobile/new/Static/images/jmpic/1442452805449188441.jpg" width="1" height="1" border="0"></a> </span> </dd>
+	  </dl>
+	  <ul>
+	    <li class="brom"><a href="javascript:void(0);"><img src="/Template/mobile/new/Static/images/jmpic/1442452825847922639.jpg" width="1" height="1" border="0"></a></li>
+	    <li><a href="javascript:void(0);"><img src="/Template/mobile/new/Static/images/jmpic/1442452879563390604.jpg" width="1" height="1" border="0"></a></li>
+	  </ul>
+</div>
+<script>
+/* 
+var Tday = new Array();
+var daysms = 24 * 60 * 60 * 1000
+var hoursms = 60 * 60 * 1000
+var Secondms = 60 * 1000
+var microsecond = 1000
+var DifferHour = -1
+var DifferMinute = -1
+var DifferSecond = -1
+function clock(key)
+{
+   var time = new Date()
+   var hour = time.getHours()
+   var minute = time.getMinutes()
+   var second = time.getSeconds()
+   var timevalue = ""+((hour > 12) ? hour-12:hour)
+   timevalue +=((minute < 10) ? ":0":":")+minute
+   timevalue +=((second < 10) ? ":0":":")+second
+   timevalue +=((hour >12 ) ? " PM":" AM")
+   var convertHour = DifferHour
+   var convertMinute = DifferMinute
+   var convertSecond = DifferSecond
+   var Diffms = Tday[key].getTime() - time.getTime()
+   DifferHour = Math.floor(Diffms / daysms)
+   Diffms -= DifferHour * daysms
+   DifferMinute = Math.floor(Diffms / hoursms)
+   Diffms -= DifferMinute * hoursms
+   DifferSecond = Math.floor(Diffms / Secondms)
+   Diffms -= DifferSecond * Secondms
+   var dSecs = Math.floor(Diffms / microsecond)
+  
+   if(convertHour != DifferHour) a=DifferHour+":";
+   if(convertMinute != DifferMinute) b=DifferMinute+":";
+   if(convertSecond != DifferSecond) c=DifferSecond+"分"
+     d=dSecs
+     if (DifferHour>0) {a=a}
+     else {a=''}
+   document.getElementById("jstimerBox"+key).innerHTML = a + b + c ; //显示倒计时信息
+}
+*/
+ 
+ 
+	// 倒计时
+	function GetRTime2(){
+		//var text = GetRTime('2016/02/27 17:34:00');
+	   var text119 = GetRTime('2016/06/30 00:00:00');								
+		$("#surplus_text119").text(text119);var text141 = GetRTime('2019/05/03 00:00:00');								
+		$("#surplus_text141").text(text141);var text136 = GetRTime('2019/05/27 00:00:00');								
+		$("#surplus_text136").text(text136);	}
+	setInterval(GetRTime2,1000);
+</script>
+<section class="index_floor_lou">
+	  <div class="floor_body">
+	    <h2>
+	      <em></em>促销商品<div class="geng"><a href="/index.php/Mobile/Goods/search/q/%E4%BF%83%E9%94%80.html">更多</a><span></span></div>
+	    </h2>
+	    <div id="scroll_promotion">
+	        <ul>
+	         <li>
+	            <a href="/index.php/Mobile/Goods/goodsInfo/id/136.html" title="小米旗舰店正品手机平板通用迷你充电宝 移动电源10000毫安大容量"></a>
+	            <div class="index_pro">
+		            <a href="/index.php/Mobile/Goods/goodsInfo/id/119.html" title="小米旗舰店正品手机平板通用迷你充电宝 移动电源10000毫安大容量"> 
+		              <div class="products_kuang">
+		              	<div class="timerBox" id="surplus_text119">1时 59分 59秒</div>
+		                <img src="/Public/upload/goods/thumb/119/goods_thumb_119_400_400.jpeg">
+		              </div>
+		              <div class="goods_name">小米旗舰店正品手机平板通用迷你充电宝 移动电源10000毫安大容量</div>
+		            </a>
+		              <div class="price">
+                      <a href="javascript:AjaxAddCart(119,1,0);" class="btns">
+		                  <img src="/Template/mobile/new/Static/images/index_flow.png">
+                      </a>
+		                <span class="price_pro">￥49.00元</span>
+		              </div>
+				</div>
+	          </li><li>
+	            <a href="/index.php/Mobile/Goods/goodsInfo/id/136.html" title="三星 Galaxy A9高配版 (A9100) 精灵黑 全网通4G手机 双卡双待"></a>
+	            <div class="index_pro">
+		            <a href="/index.php/Mobile/Goods/goodsInfo/id/141.html" title="三星 Galaxy A9高配版 (A9100) 精灵黑 全网通4G手机 双卡双待"> 
+		              <div class="products_kuang">
+		              	<div class="timerBox" id="surplus_text141">1时 59分 59秒</div>
+		                <img src="/Public/upload/goods/thumb/141/goods_thumb_141_400_400.jpeg">
+		              </div>
+		              <div class="goods_name">三星 Galaxy A9高配版 (A9100) 精灵黑 全网通4G手机 双卡双待</div>
+		            </a>
+		              <div class="price">
+                      <a href="javascript:AjaxAddCart(141,1,0);" class="btns">
+		                  <img src="/Template/mobile/new/Static/images/index_flow.png">
+                      </a>
+		                <span class="price_pro">￥3400.00元</span>
+		              </div>
+				</div>
+	          </li><li>
+	            <a href="/index.php/Mobile/Goods/goodsInfo/id/136.html" title="靓号0元送广东联通4G/3G手机卡上网卡大流量套餐全国无漫游选号"></a>
+	            <div class="index_pro">
+		            <a href="/index.php/Mobile/Goods/goodsInfo/id/136.html" title="靓号0元送广东联通4G/3G手机卡上网卡大流量套餐全国无漫游选号"> 
+		              <div class="products_kuang">
+		              	<div class="timerBox" id="surplus_text136">1时 59分 59秒</div>
+		                <img src="/Public/upload/goods/thumb/136/goods_thumb_136_400_400.jpeg">
+		              </div>
+		              <div class="goods_name">靓号0元送广东联通4G/3G手机卡上网卡大流量套餐全国无漫游选号</div>
+		            </a>
+		              <div class="price">
+                      <a href="javascript:AjaxAddCart(136,1,0);" class="btns">
+		                  <img src="/Template/mobile/new/Static/images/index_flow.png">
+                      </a>
+		                <span class="price_pro">￥50.00元</span>
+		              </div>
+				</div>
+	          </li>	        </ul>
+	    </div>
+	</div>
+</section>
+  
+<div class="floor_images">
+	  <dl>
+        <dt><a href="javascript:void(0);" ><img src="/Template/mobile/new/Static/images/jmpic/1442452886830104584.jpg" width="1" height="1" border="0"></a> </dt><dd> 
+        <span class="Edge"><a href="javascript:void(0);" ><img src="/Template/mobile/new/Static/images/jmpic/1442452895055966978.jpg" width="1" height="1" border="0"></a> </span> 
+        <span><a href="javascript:void(0);" ><img src="/Template/mobile/new/Static/images/jmpic/1442452904186438097.jpg" width="1" height="1" border="0"></a> </span> </dd> 
+      </dl>
+	<strong> <a href="javascript:void(0);" ><img src="/Template/mobile/new/Static/images/jmpic/1442451951800521976.jpg" width="1" height="1" border="0"></a> </strong>
+</div>
+ 
+<section class="index_floor">
+  <div class="floor_body1">
+    <h2><em></em>精品推荐<div class="geng"> <a href="/index.php/Mobile/Goods/search/q/%E7%B2%BE%E5%93%81.html">更多</a> <span></span></div></h2>
+    <div id="scroll_best" class="scroll_hot">
+      <div class="bd">
+        <ul>
+                 <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/66.html" title="迎馨家纺全棉斜纹印花双人四件套邂逅 AB版纯棉，亲肤透气">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/66/goods_thumb_66_400_400.jpeg"></div>
+	              <div class="goods_name">迎馨家纺全棉斜纹印花双人四件套邂逅 AB版纯棉，亲肤透气</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(66,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/66.html" class="price_pro">￥110.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/39.html" title="华为（HUAWEI） M2 10.0 平板电脑 WiFi 月光银">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/39/goods_thumb_39_400_400.jpeg"></div>
+	              <div class="goods_name">华为（HUAWEI） M2 10.0 平板电脑 WiFi 月光银</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(39,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/39.html" class="price_pro">￥2288.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/40.html" title="荣耀X2 标准版 双卡双待双通 移动/联通双4G 16GB ROM（月光银）">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/40/goods_thumb_40_400_400.jpeg"></div>
+	              <div class="goods_name">荣耀X2 标准版 双卡双待双通 移动/联通双4G 16GB ROM（月光银）</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(40,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/40.html" class="price_pro">￥1999.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           </ul><ul><li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/41.html" title="华为（HUAWEI） M2 8英寸平板电脑（1920×1200 IPS屏 海思麒麟930 16GB WiFi）香槟金">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/41/goods_thumb_41_400_400.jpeg"></div>
+	              <div class="goods_name">华为（HUAWEI） M2 8英寸平板电脑（1920×1200 IPS屏 海思麒麟930 16GB WiFi）香槟金</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(41,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/41.html" class="price_pro">￥1588.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/42.html" title="Teclast/台电 X80 Plus WIFI 32GB Win10平板电脑双系统8英寸">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/42/goods_thumb_42_400_400.png"></div>
+	              <div class="goods_name">Teclast/台电 X80 Plus WIFI 32GB Win10平板电脑双系统8英寸</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(42,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/42.html" class="price_pro">￥499.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/43.html" title="荣耀畅玩平板note 9.6英寸平板电脑 移动/联通双4G LTE版">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/43/goods_thumb_43_400_400.jpeg"></div>
+	              <div class="goods_name">荣耀畅玩平板note 9.6英寸平板电脑 移动/联通双4G LTE版</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(43,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/43.html" class="price_pro">￥1499.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           </ul><ul><li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/44.html" title="荣耀平板 8.0英寸平板电脑（Wi-Fi版 四核1.2GHz处理器 1GB内存 8GB存储）">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/44/goods_thumb_44_400_400.jpeg"></div>
+	              <div class="goods_name">荣耀平板 8.0英寸平板电脑（Wi-Fi版 四核1.2GHz处理器 1GB内存 8GB存储）</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(44,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/44.html" class="price_pro">￥799.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/45.html" title="华为 HUAWEI C199S 麦芒3S 电信4G智能手机FDD-LTE /TD-LTE/CDMA2000/GSM（麦芒金）">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/45/goods_thumb_45_400_400.jpeg"></div>
+	              <div class="goods_name">华为 HUAWEI C199S 麦芒3S 电信4G智能手机FDD-LTE /TD-LTE/CDMA2000/GSM（麦芒金）</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(45,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/45.html" class="price_pro">￥1999.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/46.html" title="【北京移动老用户专享 话费六折】荣耀畅玩5X 双卡双待 移动版 智能手机（破晓银）">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/46/goods_thumb_46_400_400.jpeg"></div>
+	              <div class="goods_name">【北京移动老用户专享 话费六折】荣耀畅玩5X 双卡双待 移动版 智能手机（破晓银）</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(46,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/46.html" class="price_pro">￥999.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+                      </ul>
+       </div>
+       <div class="hd">
+          <ul></ul>
+       </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+    TouchSlide({ 
+      slideCell:"#scroll_best",
+      titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+      effect:"leftLoop", 
+      autoPage:true, //自动分页
+      //switchLoad:"_src" //切换加载，真实图片路径为"_src" 
+    });
+  </script>
+<section class="index_floor">
+  <div class="floor_body1" >
+    <h2>
+      <em></em>
+      新品上市      <div class="geng"><a href="/index.php/Mobile/Goods/search/q/%E6%96%B0%E5%93%81.html" >更多</a> <span></span></div>
+    </h2>
+    <div id="scroll_new" class="scroll_hot">
+      <div class="bd">
+        <ul>
+                 <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/66.html" title="迎馨家纺全棉斜纹印花双人四件套邂逅 AB版纯棉，亲肤透气">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/66/goods_thumb_66_400_400.jpeg"></div>
+	              <div class="goods_name">迎馨家纺全棉斜纹印花双人四件套邂逅 AB版纯棉，亲肤透气</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(66,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/66.html" class="price_pro">￥110.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/67.html" title="迎馨家纺 全棉斜纹印花双人四件套 约定 桔色 1.5米床">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/67/goods_thumb_67_400_400.jpeg"></div>
+	              <div class="goods_name">迎馨家纺 全棉斜纹印花双人四件套 约定 桔色 1.5米床</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(67,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/67.html" class="price_pro">￥100.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/76.html" title="韩文2015冬装新款女装红色双排扣配腰带毛呢大衣.">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/76/goods_thumb_76_400_400.jpeg"></div>
+	              <div class="goods_name">韩文2015冬装新款女装红色双排扣配腰带毛呢大衣.</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(76,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/76.html" class="price_pro">￥0.01元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           </ul><ul><li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/77.html" title="红衣主角2015冬装新款走秀款大气简约黄色羊毛呢大衣.">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/77/goods_thumb_77_400_400.jpeg"></div>
+	              <div class="goods_name">红衣主角2015冬装新款走秀款大气简约黄色羊毛呢大衣.</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(77,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/77.html" class="price_pro">￥399.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/103.html" title="珂兰钻石 18K金90分效果群镶钻石戒指 倾城 需定制">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/103/goods_thumb_103_400_400.jpeg"></div>
+	              <div class="goods_name">珂兰钻石 18K金90分效果群镶钻石戒指 倾城 需定制</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(103,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/103.html" class="price_pro">￥1999.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/104.html" title="小米手机5,十余项黑科技，很轻狠快">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/104/goods_thumb_104_400_400.jpeg"></div>
+	              <div class="goods_name">小米手机5,十余项黑科技，很轻狠快</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(104,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/104.html" class="price_pro">￥1999.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           </ul><ul><li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/1.html" title="Apple iPhone 6s Plus 16G 玫瑰金 移动联通电信4G手机">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/1/goods_thumb_1_400_400.jpeg"></div>
+	              <div class="goods_name">Apple iPhone 6s Plus 16G 玫瑰金 移动联通电信4G手机</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(1,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/1.html" class="price_pro">￥6000.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           </ul>
+        </div>
+        <div class="hd">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+    TouchSlide({ 
+      slideCell:"#scroll_new",
+      titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+      effect:"leftLoop", 
+      autoPage:true, //自动分页
+      //switchLoad:"_src" //切换加载，真实图片路径为"_src" 
+    });
+  </script>
+<section class="index_floor">
+  <div class="floor_body1" >
+    <h2><em></em>热销商品<div class="geng"><a href="/index.php/Mobile/Goods/search/q/%E7%83%AD%E9%94%80.html" >更多</a> <span></span></div></h2>
+    <div id="scroll_hot" class="scroll_hot">
+      <div class="bd">
+        <ul>
+                 <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/66.html" title="迎馨家纺全棉斜纹印花双人四件套邂逅 AB版纯棉，亲肤透气">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/66/goods_thumb_66_400_400.jpeg"></div>
+	              <div class="goods_name">迎馨家纺全棉斜纹印花双人四件套邂逅 AB版纯棉，亲肤透气</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(66,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/66.html" class="price_pro">￥110.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/39.html" title="华为（HUAWEI） M2 10.0 平板电脑 WiFi 月光银">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/39/goods_thumb_39_400_400.jpeg"></div>
+	              <div class="goods_name">华为（HUAWEI） M2 10.0 平板电脑 WiFi 月光银</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(39,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/39.html" class="price_pro">￥2288.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/40.html" title="荣耀X2 标准版 双卡双待双通 移动/联通双4G 16GB ROM（月光银）">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/40/goods_thumb_40_400_400.jpeg"></div>
+	              <div class="goods_name">荣耀X2 标准版 双卡双待双通 移动/联通双4G 16GB ROM（月光银）</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(40,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/40.html" class="price_pro">￥1999.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           </ul><ul><li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/41.html" title="华为（HUAWEI） M2 8英寸平板电脑（1920×1200 IPS屏 海思麒麟930 16GB WiFi）香槟金">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/41/goods_thumb_41_400_400.jpeg"></div>
+	              <div class="goods_name">华为（HUAWEI） M2 8英寸平板电脑（1920×1200 IPS屏 海思麒麟930 16GB WiFi）香槟金</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(41,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/41.html" class="price_pro">￥1588.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/42.html" title="Teclast/台电 X80 Plus WIFI 32GB Win10平板电脑双系统8英寸">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/42/goods_thumb_42_400_400.png"></div>
+	              <div class="goods_name">Teclast/台电 X80 Plus WIFI 32GB Win10平板电脑双系统8英寸</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(42,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/42.html" class="price_pro">￥499.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/43.html" title="荣耀畅玩平板note 9.6英寸平板电脑 移动/联通双4G LTE版">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/43/goods_thumb_43_400_400.jpeg"></div>
+	              <div class="goods_name">荣耀畅玩平板note 9.6英寸平板电脑 移动/联通双4G LTE版</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(43,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/43.html" class="price_pro">￥1499.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           </ul><ul><li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/44.html" title="荣耀平板 8.0英寸平板电脑（Wi-Fi版 四核1.2GHz处理器 1GB内存 8GB存储）">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/44/goods_thumb_44_400_400.jpeg"></div>
+	              <div class="goods_name">荣耀平板 8.0英寸平板电脑（Wi-Fi版 四核1.2GHz处理器 1GB内存 8GB存储）</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(44,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/44.html" class="price_pro">￥799.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/45.html" title="华为 HUAWEI C199S 麦芒3S 电信4G智能手机FDD-LTE /TD-LTE/CDMA2000/GSM（麦芒金）">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/45/goods_thumb_45_400_400.jpeg"></div>
+	              <div class="goods_name">华为 HUAWEI C199S 麦芒3S 电信4G智能手机FDD-LTE /TD-LTE/CDMA2000/GSM（麦芒金）</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(45,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/45.html" class="price_pro">￥1999.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           <li>
+            <a href="/index.php/Mobile/Goods/goodsInfo/id/46.html" title="【北京移动老用户专享 话费六折】荣耀畅玩5X 双卡双待 移动版 智能手机（破晓银）">
+             <div class="index_pro"> 
+	              <div class="products_kuang">
+	                <img src="/Public/upload/goods/thumb/46/goods_thumb_46_400_400.jpeg"></div>
+	              <div class="goods_name">【北京移动老用户专享 话费六折】荣耀畅玩5X 双卡双待 移动版 智能手机（破晓银）</div>
+	              <div class="price">
+	                 <a href="javascript:AjaxAddCart(46,1,0);" class="btns">
+	                    <img src="/Template/mobile/new/Static/images/index_flow.png">
+	                 </a>
+	                 <span href="/index.php/Mobile/Goods/goodsInfo/id/46.html" class="price_pro">￥999.00元</span>
+	              </div>
+              </div>
+            </a>
+           </li>
+           </ul>
+          </div>
+        <div class="hd">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+    TouchSlide({ 
+      slideCell:"#scroll_hot",
+      titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+      effect:"leftLoop", 
+      autoPage:true, //自动分页
+      //switchLoad:"_src" //切换加载，真实图片路径为"_src" 
+    });
+  </script>
+ 
+ 
+<section class="index_floor_lou">
+    <div class="floor_body ">
+        <h2>
+            <em></em><div class="geng"><a href="javascript:void(0);" >更多</a> <span></span></div>
+         </h2>
+        <ul>
+         </ul>
+    </div>
+</section> 
+ 
+<div id="index_banner" class="index_banner">
+	<div class="bd">
+		<ul>
+	       <li><a href="javascript:void(0);"><img src="/Template/mobile/new/Static/images/jmpic/1442452784680942491.jpg" width="100%" /></a></li>
+           <li><a href="javascript:void(0);"><img src="/Template/mobile/new/Static/images/jmpic/1442452886830104584.jpg" width="100%" /></a></li>           
+	    </ul>
+	</div>
+	<div class="hd">
+		<ul>         
+        </ul>
+	</div>
+</div>
+<script type="text/javascript">
+	TouchSlide({ 
+		slideCell:"#index_banner",
+		titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+		mainCell:".bd ul", 
+		effect:"leftLoop", 
+		autoPage:true,//自动分页
+		autoPlay:true //自动播放
+	});
+</script>
+   
+<script type="text/javascript">
+var url = "index.php?m=Mobile&c=Index&a=ajaxGetMore";
+$(function(){
+	//$('#J_ItemList').more({'address': url});
+	getGoodsList();
+});
+
+var page = 1;
+function getGoodsList(){
+	$('.get_more').show();
+	$.ajax({
+		type : "get",
+		url:"/index.php?m=Mobile&c=Index&a=ajaxGetMore&p="+page,
+		dataType:'html',
+		success: function(data)
+		{
+			if(data){
+				$("#J_ItemList>ul").append(data);
+				page++;
+				$('.get_more').hide();
+			}else{
+				$('.get_more').hide();
+				$('#getmore').remove();
+			}
+		}
+	}); 
+}
+</script> 
+<div class="floor_body2" >
+  <h2>————&nbsp;猜你喜欢&nbsp;————</h2>
+  <div id="J_ItemList">
+    <ul class="product single_item info">
+    </ul>
+    <a href="javascript:;" class="get_more" style="text-align:center; display:block;"> 
+    <img src='/Template/mobile/new/Static/images/category/loader.gif' width="12" height="12"> </a> 
+  </div>
+  <div id="getmore" style="font-size:.24rem;text-align: center;color:#888;padding:.25rem .24rem .4rem;">
+  	<a href="javascript:void(0)" onClick="getGoodsList()">点击加载更多</a>
+  </div>
+</div>
+<div class="footer" >
+	      <div class="links"  id="TP_MEMBERZONE"> 
+	      			      		<a href="/index.php/Mobile/User/login.html"><span>登录</span></a><a href="/index.php/Mobile/User/reg.html"><span>注册</span></a>	      		<a href="#"><span>反馈</span></a><a href="javascript:window.scrollTo(0,0);"><span>回顶部</span></a>
+		  </div>
+	      <!--<ul class="linkss" >-->
+		      <!--<li>-->
+		        <!--<a href="#">-->
+		        <!--<i class="footerimg_1"></i>-->
+		        <!--<span>客户端</span></a></li>-->
+		      <!--<li>-->
+		      <!--<a href="javascript:;"><i class="footerimg_2"></i><span class="gl">触屏版</span></a></li>-->
+		      <!--<li><a href="/index.php/Home/Index/index.html" class="goDesktop"><i class="footerimg_3"></i><span>电脑版</span></a></li>-->
+	      <!--</ul>-->
+	  	 <!--<p class="mf_o4">备案号:粤00-86140485号<br/>&copy; 2005-2016 TPshop多商户V1.2 版权所有，并保留所有权利。</p>-->
+</div>
+<script>
+function goTop(){
+	$('html,body').animate({'scrollTop':0},600);
+}
+</script>
+<a href="javascript:goTop();" class="gotop"><img src="/Template/mobile/new/Static/images/topup.png"></a> 
+</div>
+ 
+ 
+ <div id="search_hide" class="search_hide">
+ <h2> <span class="close"><img src="/Template/mobile/new/Static/images/close.png"></span>关键搜索</h2>
+ <div id="mallSearch" class="search_mid">
+        <div id="search_tips" style="display:none;"></div>
+          <ul class="search-type">
+          	<li  class="cur"  num="0">宝贝</li>
+          	<!--<li  num="1">店铺</li>-->
+          </ul>	
+          <div class="searchdotm"> 
+          <form class="set_ip"name="sourch_form" id="sourch_form" method="post" action="/index.php/Mobile/Goods/search.html">
+              <div class="mallSearch-input">
+                <div id="s-combobox-135">
+                    <input class="s-combobox-input" name="q" id="q"  placeholder="请输入关键词"  type="text" value="" />
+                </div>                                                
+                <input type="button" value="" class="button"  onclick="if($.trim($('#q').val()) != '') $('#sourch_form').submit();" />
+              </div>
+          </form>
+         </div> 
+        </div>
+ 		<!--
+		<div class="search_body">
+		<div class="search_box">
+		<form action="search.php" method="post" id="searchForm" name="searchForm">
+		<div>
+		<select id='search_type' name="search_type" style="width:15%;">
+			<option value='search'>宝贝</option>
+			<option value='stores'>店铺</option>
+		</select>
+		     <input class="text" type="search" name="keywords" id="keywordBox" autofocus>
+		     <button type="submit" value="搜 索" ></button>
+		</div>
+		</form>
+	    </div>
+		</div>
+       -->              
+    	<section class="mix_recently_search"><h3>热门搜索</h3>
+	     <ul>
+            <li><a href="/index.php/Mobile/Goods/search/q/%E6%89%8B%E6%9C%BA.html" class="ht">手机</a></li><li><a href="/index.php/Mobile/Goods/search/q/%E5%B0%8F%E7%B1%B3.html" >小米</a></li><li><a href="/index.php/Mobile/Goods/search/q/iphone.html" >iphone</a></li><li><a href="/index.php/Mobile/Goods/search/q/%E4%B8%89%E6%98%9F.html" >三星</a></li><li><a href="/index.php/Mobile/Goods/search/q/%E5%8D%8E%E4%B8%BA.html" >华为</a></li>         
+	      </ul>
+        </section>
+    </div>
+                                             
+</div>
+<div style="height:50px; line-height:50px; clear:both;"></div>
+<div class="v_nav">
+	<div class="vf_nav">
+		<ul>
+			<li> <a href="/index.php/Mobile/Index/index.html">
+			    <i class="vf_1"></i>
+			    <span>首页</span></a></li>
+			<li><a href="tel:15871376283">
+			    <i class="vf_2"></i>
+			    <span>客服</span></a></li>
+			<li><a href="/index.php/Mobile/Goods/categoryList.html">
+			    <i class="vf_3"></i>
+			    <span>分类</span></a></li>
+			<li>
+			<a href="/index.php/Mobile/Cart/cart.html">
+			   <em class="global-nav__nav-shop-cart-num" id="ECS_CARTINFO" style="right:9px;"> 0 </em>
+			   <i class="vf_4"></i>
+			   <span>购物车</span>
+			   </a>
+			</li>
+			<li><a href="/index.php/Mobile/User/index.html">
+			    <i class="vf_5"></i>
+			    <span>我的</span></a>
+			</li>
+		</ul>
+	</div>
+</div> 
+ 
+<script type="text/javascript">
+$(function() {
+    $('#search_text').click(function(){
+        $(".showpage").children('div').hide();
+        $("#search_hide").css('position','fixed').css('top','0px').css('width','100%').css('z-index','999').show();
+    })
+    $('#get_search_box').click(function(){
+        $(".showpage").children('div').hide();
+        $("#search_hide").css('position','fixed').css('top','0px').css('width','100%').css('z-index','999').show();
+    })
+    $("#search_hide .close").click(function(){
+        $(".showpage").children('div').show();
+        $("#search_hide").hide();
+    })
+});
+</script>
+<script>
+$('.search-type li').click(function() {
+    $(this).addClass('cur').siblings().removeClass('cur');
+    $('#searchtype').val($(this).attr('num'));
+});
+$('#searchtype').val($(this).attr('0'));
+</script>
+</body>
+</html>

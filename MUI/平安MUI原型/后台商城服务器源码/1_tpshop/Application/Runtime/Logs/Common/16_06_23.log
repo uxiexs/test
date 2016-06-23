@@ -1,0 +1,84 @@
+[ 2016-06-23T11:46:36+08:00 ] 127.0.0.1 /Template/mobile/new/Static/css/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T11:54:32+08:00 ] 127.0.0.1 /Template/mobile/new/Static/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T11:54:32+08:00 ] 127.0.0.1 /Template/mobile/new/Static/css/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T11:59:02+08:00 ] 127.0.0.1 /Template/mobile/new/Static/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T11:59:03+08:00 ] 127.0.0.1 /Template/mobile/new/Static/css/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T11:59:10+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-06-23T12:05:27+08:00 ] 127.0.0.1 /Template/mobile/new/Static/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T12:05:28+08:00 ] 127.0.0.1 /Template/mobile/new/Static/css/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T12:06:54+08:00 ] 127.0.0.1 /Template/mobile/new/Static/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T12:06:54+08:00 ] 127.0.0.1 /Template/mobile/new/Static/css/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T12:08:13+08:00 ] 127.0.0.1 /Template/mobile/new/Static/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T12:08:13+08:00 ] 127.0.0.1 /Template/mobile/new/Static/css/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T12:08:18+08:00 ] 127.0.0.1 /Template/mobile/new/Static/css/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:Template
+
+[ 2016-06-23T12:08:24+08:00 ] 127.0.0.1 /Template/mobile/new/Static/css/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:Template
+

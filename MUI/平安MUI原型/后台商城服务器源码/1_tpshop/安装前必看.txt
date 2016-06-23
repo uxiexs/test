@@ -1,0 +1,20 @@
+必须安装在域名根目录下, 不能圈套圈套在某个目录下 否则会路径出错
+
+安装需要host一个域名根目录下安装. apache配置一个虚拟主机 不能圈套在某个目录下
+示例:
+ http://www.xxx.com/index.php   正确
+  
+ http://www.xxx.com/TPshop/index.php   错误 (很多路径出错)
+ 
+
+ 
+  
+nginx下安装 路径出问题,参考  http://www.nginx.cn/426.html
+nginx 配置文件可参考 根目录下 tpshop.conf 文件  
+
+
+TPshop安装视频教程地址   http://www.99soubao.com/tpshop_video/video.php
+
+
+
+手机访问目录 http://www.xxx.com/index.php/Mobile  最好用手机或手机浏览器打开测试 PC端浏览器会有兼容问题

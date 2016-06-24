@@ -11,13 +11,13 @@
 		<style type="text/css">
 			.headImg {
 				padding: 8% 0px 13% 0px;
-				background: url(../img/bg.jpeg);
+				/*background: url(../img/bg.jpeg);*/
 				background-position: center center;
 				background-size: 100% auto;
 			}
 			
 			.touxiang {
-				text-align: center;
+				text-align: left;
 			}
 			
 			.touxiang div {
@@ -25,27 +25,49 @@
 				height: 4em;
 				padding: 0px;
 				border-radius: 50%;
-				border: 2px solid white;
+				border: 2px solid gray;
 				color: gray;
-				margin: 0px auto;
+				/*margin: 0px auto;*/
+				margin-left: 5px;
+				margin-top: 2px;
 				margin-bottom: 5px;
+			}
+			#pay-info{
+				
 			}
 		</style>
 	</head>
 
 	<body>
 		<div class="mui-content">
-
 			<div class="headImg">
 				<div class="touxiang">
-					<div>
+					<div style="width:70px;height: 70px;">
 						<span id="touxiangimg" class="mui-icon mui-icon-person" style="font-size: 3.8em; color: white;"></span>
 						<img id="trueimg" src="../img/bg.jpeg" style="width: 100%; height: 100%; border-radius: 50%;" />
 					</div>
-					<span id="touxiangword">请登录</span>
+					<span id="touxiangword" style="float: left; margin-left:90px;margin-top: -50px;">请登录</span>
+
 				</div>
 			</div>
-
+					<div id= 'list-info'  class="mui-pay-view"  id="pay-info">
+						<a class="mui-navigate-right" href="../mine/order/pay.html">
+							<!--<span class="mui-icon iconfont icon-pay"></span>-->
+							待付款
+						</a>
+						<a class="mui-navigate-right" href="../mine/order/sure.html">
+							<!--<span class="mui-icon iconfont icon-sure"></span>-->
+							待确认
+						</a>
+						<a class="mui-navigate-right" href="../mine/order/comment.html">
+							<!--<span class="mui-icon iconfont icon-comment"></span>-->
+							待评价
+						</a>
+						<a class="mui-navigate-right" href="../mine/order/refund.html">
+							<!--<span class="mui-icon iconfont icon-refund"></span>-->
+							退款
+						</a>
+					</div>
 			<ul class="mui-table-view" style="margin-top: 6px;">
 				<li class="mui-table-view-cell">
 					<a class="mui-navigate-right" href="../mine/service-order.html">
@@ -59,42 +81,42 @@
 					</a>
 				</li>
 				<li class="mui-table-view-cell">
-					<a id="car-info" class="mui-navigate-right" href="../img/tip/404.png">
+					<a id="car-info" class="mui-navigate-right" href="../mine/car-info.html">
 						<!--<span class="mui-icon iconfont icon-dizhi">--></span>我的车辆信息
 					</a>
 				</li>
 			</ul>
 			<ul class="mui-table-view" style="margin-top: 6px;">
 				<li class="mui-table-view-cell">
-					<a id="Integral" class="mui-navigate-right" href="../img/tip/404.png">
+					<a id="Integral" class="mui-navigate-right" href="../mine/Integral.html">
 						<!--<span class="mui-icon mui-icon-email"></span> -->我的积分
 					</a>
 				</li>
 				<li class="mui-table-view-cell">
-					<a class="mui-navigate-right" href="../img/tip/404.png">
+					<a id="coupon" class="mui-navigate-right" href="../mine/coupon.html">
 						<!--<span class="mui-icon mui-icon-locked"></span>-->我的优惠券
 					</a>
 				</li>
 				<li class="mui-table-view-cell">
-					<a class="mui-navigate-right" href="../img/tip/404.png">
+					<a id="package" class="mui-navigate-right" href="../mine/package.html">
 						<!--<span class="mui-icon mui-icon-locked"></span>-->我的优惠套餐
 					</a>
 				</li>
 			</ul>
 			<ul class="mui-table-view" style="margin-top: 6px;">
 				<li class="mui-table-view-cell">
-					<a id="Recommended" class="mui-navigate-right" href="../img/tip/404.png">
+					<a id="recommended" class="mui-navigate-right" href="../mine/recommended.html">
 						<!--<span class="mui-icon iconfont icon-xiaolian">--></span> 被推荐人消息
 					</a>
 				</li>
-				<li class="mui-table-view-cell">
+				<!--<li class="mui-table-view-cell">
 					<a class="mui-navigate-right" href="../img/tip/404.png">
-						<!--<span class="mui-icon iconfont icon-xiaolian">--></span> 用户反馈
+						<span class="mui-icon iconfont icon-xiaolian"></span> 用户反馈
 					</a>
-				</li>
+				</li>-->
 			</ul>
 
-			<ul id="logoutBtn" class="mui-table-view" style="margin-top: 20px;margin-bottom: 20px;">
+			<ul id="logoutBtn" class="mui-table-view" style="margin-top: 6px;margin-bottom: 20px;">
 				<li class="mui-table-view-cell" style="text-align: center;">
 					<span style="color: indianred;">退出登录</span>
 				</li>
@@ -118,11 +140,13 @@
 					logoutBtn = document.getElementById('logoutBtn');
 					trueimg = document.getElementById('trueimg');
 					touxiangword = document.getElementById('touxiangword');
+					listinfo = document.getElementById('list-info');
 					//检测是否已经登录
 					trueimg.style.display = 'none';
-					logoutBtn.style.display = 'none'
-					touxiangimg.style.display = 'inline'
-					touxiangword.style.color = 'indianred'
+					logoutBtn.style.display = 'none';
+					listinfo.style.display = 'none';
+					touxiangimg.style.display = 'inline';
+					touxiangword.style.color = 'indianred';
 						//注册列表的点击事件
 					addListevent();
 					//点击头像事件
@@ -133,8 +157,9 @@
 						logoutBtn.style.display = 'block';
 						touxiangimg.style.display = 'none';
 						trueimg.style.display = 'inline';
-						touxiangword.innerText = "测试号";
+						touxiangword.innerText = "少女卷轴";
 						touxiangword.style.color = 'black';
+						listinfo.style.display = 'block';
 					}, false);
 					logoutBtn.addEventListener('tap', function() {
 						var btnArray = ['否', '是'];
@@ -144,7 +169,9 @@
 								trueimg.style.display = 'none';
 								logoutBtn.style.display = 'none';
 								touxiangimg.style.display = 'inline';
+								listinfo.style.display = 'none';
 								touxiangword.style.color = 'indianred';
+								touxiangword.innerText = "未登陆";
 								localStorage.removeItem('user');
 								mui.toast("退出登录")
 									//发出退出登录给wishlish和cart页面
@@ -196,6 +223,24 @@
 						isBars = true;
 						barsIcon = 'mui-icon iconfont icon-tianjia';
 					}
+					pushWebView({
+						webType: 'newWebview_First',
+						id: id,
+						href: href,
+						aniShow: aniShow,
+						title: title,
+						isBars: isBars,
+						barsIcon: barsIcon,
+						extendOptions: {}
+					})
+				});
+					mui('.mui-pay-view').on('tap', 'a', function() {
+					var id = this.getAttribute('href');
+					var href = this.href;
+					var title = this.innerText;
+					var isBars = false;
+					var barsIcon = '';
+					var aniShow = getaniShow();
 					pushWebView({
 						webType: 'newWebview_First',
 						id: id,

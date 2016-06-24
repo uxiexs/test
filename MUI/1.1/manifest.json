@@ -250,9 +250,17 @@
 					"js/mui.min.js",
 					"css/iconfont.css",
 					"css/mui.min.css",
-					"mine/my-order-needtem.html"
+					"mine/my-order-needtem.html",
+					"mine/car-info.html",
+					"mine/service-order.html",
+					"fonts/iconfont.ttf",
+					"mine/pay.html"
 				],
-				"refer": [],
+				"refer": [
+					"mine/recommended.html",
+					"mine/order/pay.html",
+					"mine/order/comment.html"
+				],
 				"priority": 0
 			},
 			"template.html": {
@@ -267,7 +275,18 @@
 					"mine/login.html",
 					"mine/my-order-needtem.html",
 					"mine/service-order.html",
-					"mine/mall-order.html"
+					"mine/mall-order.html",
+					"mine/car-info.html",
+					"mine/coupon.html",
+					"mine/Integral.html",
+					"mine/package.html",
+					"mine/recommended.html",
+					"mine/forget-psd-needtem.html",
+					"mine/pay.html",
+					"mine/order/pay.html",
+					"mine/order/sure.html",
+					"mine/order/comment.html",
+					"mine/order/refund.html"
 				],
 				"priority": 0
 			},
@@ -315,7 +334,8 @@
 			},
 			"mine/register-needtem.html": {
 				"resources": [
-					"Home/product-detail-needtem.html"
+					"Home/product-detail-needtem.html",
+					"js/own.js"
 				],
 				"refer": [],
 				"priority": 0
@@ -362,7 +382,8 @@
 					"barItem/category.html",
 					"barItem/mine.html",
 					"mall/barItem/mall.html",
-					"mall/barItem/cart.html"
+					"mall/barItem/cart.html",
+					"mall/mine/login.html"
 				],
 				"priority": 0
 			},
@@ -421,7 +442,8 @@
 					"js/own.js",
 					"js/mui.min.js",
 					"css/iconfont.css",
-					"css/mui.min.css"
+					"css/mui.min.css",
+					"fonts/mui.ttf"
 				],
 				"refer": [],
 				"priority": 0
@@ -437,11 +459,92 @@
 				],
 				"refer": [],
 				"priority": 0
+			},
+			"mine/car-info.html": {
+				"resources": [
+					"img/tip/404.png",
+					"css/own.css",
+					"js/own.js",
+					"js/mui.min.js",
+					"css/iconfont.css",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"mall/mine/login.html": {
+				"resources": [
+					"mall/css/iconfont.css",
+					"mall/css/mui.min.css",
+					"mall/css/own.css",
+					"mall/fonts/mui.ttf",
+					"mall/js/own.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"mine/forget-psd-needtem.html": {
+				"resources": [
+					"js/mui.min.js",
+					"css/own.css",
+					"js/own.js",
+					"css/iconfont.css",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"template-main-first.html": {
+				"resources": [
+					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"mine/order/comment.html": {
+				"resources": [
+					"img/tip/404.png",
+					"js/own.js",
+					"js/mui.min.js",
+					"css/own.css",
+					"fonts/mui.ttf",
+					"css/iconfont.css",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"mine/pay.html": {
+				"resources": [
+					"js/own.js",
+					"js/mui.min.js",
+					"img/tip/404.png",
+					"css/own.css",
+					"fonts/mui.ttf",
+					"css/iconfont.css",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"mine/order/pay.html": {
+				"resources": [
+					"js/own.js",
+					"js/mui.min.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"mine/order/sure.html": {
+				"resources": [
+					"js/mui.min.js"
+				],
+				"refer": [],
+				"priority": 0
 			}
 		},
 		"idle": {
 			"resources": [
-				"mine/forget-psd-needtem.html",
 				"js/mui.picker.min.js",
 				"img/detail/5.jpg",
 				"img/detail/6.jpg",

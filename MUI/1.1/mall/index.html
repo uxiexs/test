@@ -106,32 +106,32 @@
 		
 		
 		//预加载template
-//		function initTemplate(){
-//			var webview =  mui.preload({
-//				id:'template',
-//				url:'template.html',
-//				styles:{
-//					top: '-1000px',
-//				}
-//			});
-//			webview.show();
-//		};
+		function initTemplate(){
+			var webview =  mui.preload({
+				id:'template',
+				url:'template.html',
+				styles:{
+					top: '-1000px',
+				}
+			});
+			webview.show();
+		};
 		
-//		function judgelogin() {
+		function judgelogin() {
 //			//测试语句
-//			localStorage.removeItem('user');
-//			//判断是否已经登录成功//localstorage在页面关闭的时候也同样存在，sessionstorage页面关闭数据不存在
-//			if (!localStorage.getItem('user')) {
-//				mui.preload({
-//					url:'mine/login.html',
-//					id:'mine/login.html',
-//					styles:{
-//						top:'0px',
-//						bottom:'0px'
-//					}
-//				});
-//			}
-//		}
+			localStorage.removeItem('user');
+			//判断是否已经登录成功//localstorage在页面关闭的时候也同样存在，sessionstorage页面关闭数据不存在
+			if (!localStorage.getItem('user')) {
+				mui.preload({
+					url:'mine/login.html',
+					id:'mine/login.html',
+					styles:{
+						top:'0px',
+						bottom:'0px'
+					}
+				});
+			}
+		}
 		
 		
 	</script>

@@ -19,6 +19,13 @@
 			.mui-input-row label~input {
 				width: 80%;
 			}
+			.mui-bar-top{
+				margin-top: 10px;
+				color:white;
+			}
+			#mui-bar-top-loginbtn{
+				float: right;
+			}
 		</style>
 	</head>
 
@@ -27,24 +34,30 @@
 		<header class="mui-bar mui-bar-nav own-main-background-color">
 			<button type="button" class="mui-action-back mui-btn  mui-btn-link mui-pull-left own-button">
 			<!--<span class="mui-action-back mui-icon mui-icon-left-nav own-left-nav-color"></span>-->
-			<span class="own-left-nav-color">取消</span>
+			<!--<span class="own-left-nav-color">取消</span>-->
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="margin-top: 7px;"></a>
 		</button>
-			<h1 class="mui-title">登录</h1>
+			<!--<h1 class="mui-title">登录</h1>-->
+			<div class="mui-bar-top">
+				<span id="mui-bar-top-pass">跳过登陆</span>
+				<!--<span id="mui-bar-top-loginbtn">快速注册</span>-->
+			</div>
 		</header>
 
 		<div class="mui-content">
 			<div style="margin-top: 30px; text-align: center;">
-				<span class="mui-icon mui-icon-person" style="font-size: 4em; border: 2px solid gray; border-radius: 50%; color: gray;"></span>
+				<span class="mui-icon mui-icon-appName" style="font-size: 30px; color: #E36B1D;">宜车之家</span>
 			</div>
 			<div class="mui-card" style="margin-top: 20px;">
 				<form class="mui-input-group">
 					<div class="mui-input-row">
 						<label><span class="mui-icon iconfont icon-zhanghao"></span></label>
-						<input type="text" class="mui-input-clear" value="13881111755" placeholder="请输入手机号或邮箱" />
+						<!--<span class="mui-icon iconfont icon-Mine"></span>-->
+						<input type="text" id="user" name="user"value="" placeholder="手机号/用户名"/>
 					</div>
 					<div class="mui-input-row">
 						<label><span class="mui-icon iconfont icon-mimaxiugai"></span></label>
-						<input type="password" class="mui-input-clear" value="123456" placeholder="请输入密码" />
+						<input type="password" id="user" name="user" class="mui-input-clear" value="" placeholder="密码" />
 					</div>
 				</form>
 			</div>

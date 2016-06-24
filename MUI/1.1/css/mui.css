@@ -1876,7 +1876,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     height: 0;
 }
 
-.mui-card .mui-table-view
+.mui-card .mui-table-view 
 {
     margin-bottom: 0;
 

@@ -25,7 +25,7 @@
 				<span class="mui-icon iconfont icon-Home"></span>
 				<span class="mui-tab-label">首页</span>
 			</a>
-			<a class="mui-tab-item" href="barItem/category.html">
+			<a class="mui-tab-item" href="barItem/shop.html">
 				<span class="mui-icon iconfont icon-Store"></span>
 				<span class="mui-tab-label">门店</span>
 			</a>
@@ -50,7 +50,7 @@
 			var curBarItemWebview;
 
 			var barItemWebviewArray = [];
-			var barItemArray = ['barItem/home.html', 'barItem/category.html', 'mall/index.html', 'barItem/mine.html'];
+			var barItemArray = ['barItem/home.html', 'barItem/shop.html', 'mall/index.html', 'barItem/mine.html'];
 			mui.plusReady(function() {
 				//获取当前title和当前webview
 				navTitle = document.querySelector('.mui-title');
@@ -117,6 +117,9 @@
 								navTitle.innerText = baritem.children[baritem.children.length - 1].innerText;
 								if (barItemArray[i] == 'barItem/mine.html') {
 									navTitle.innerText = '个人中心';
+								}
+								if(barItemArray[i] == 'barItem/shop.html'){
+									navTitle.innerText = '全部门店';
 								}
 								//切换baritemwebview
 								barItemWebviewArray[i].show();

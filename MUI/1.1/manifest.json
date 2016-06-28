@@ -220,7 +220,8 @@
 					"mine/login.html",
 					"barItem/wishList.html",
 					"barItem/mall.html",
-					"mall/index.html"
+					"mall/index.html",
+					"barItem/shop.html"
 				],
 				"priority": 0
 			},
@@ -530,7 +531,8 @@
 			"mine/order/pay.html": {
 				"resources": [
 					"js/own.js",
-					"js/mui.min.js"
+					"js/mui.min.js",
+					"img/tip/404.png"
 				],
 				"refer": [],
 				"priority": 0
@@ -538,6 +540,19 @@
 			"mine/order/sure.html": {
 				"resources": [
 					"js/mui.min.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"barItem/shop.html": {
+				"resources": [
+					"img/tip/404.png",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"css/own.css",
+					"css/iconfont.css",
+					"css/app.css"
 				],
 				"refer": [],
 				"priority": 0

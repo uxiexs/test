@@ -1,0 +1,1 @@
+# 两种方式打印出 hello, python.print('Hello Python'),print('Hello','Python'),

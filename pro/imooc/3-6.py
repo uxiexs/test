@@ -1,0 +1,1 @@
+str1 = r'\(~_~)/ \(~_~)/'str2 = r'''"To be, or not to be": that is the question.Whether it's nobler in the mind to suffer.'''print(str2)

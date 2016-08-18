@@ -1,0 +1,1 @@
+print(45678+0x12fd2),print('Learn Python imooc'),print(100<99),print(0xff==255),print('xiexu')

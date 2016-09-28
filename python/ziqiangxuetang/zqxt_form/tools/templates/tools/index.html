@@ -1,0 +1,17 @@
+{% extends 'tools/base.html'%}
+
+{% block title %}Django表单{% endblock %}
+
+{% block content %}
+<form method='post' target="_blank">
+    {% csrf_token %}<br>
+    <!--{{ form }}-->
+    {% for field in form %}
+    <div class='fieldWrapper' style="padding: 10px">
+        {{field.label_tag}} {{field}}
+        {{field.errors}}
+    </div>
+    {% endfor %}
+    <input type="submit" value="提交" style="margin-left:50px ">
+</form>
+{% endblock %}
